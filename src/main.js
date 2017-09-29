@@ -1,88 +1,31 @@
-// The Vue build version to load with the `import` command
-// (runtime-only or standalone) has been set in webpack.base.conf with an alias.
+// 用于加载的Vue构建版本 `import` 命令
+// (runtime-only or standalone) 已经设置在webpack.base中。配置有一个别名
+
+//import Router from 'vue-router'
+//Vue.use(Router)
+
+//import Arshow from './components/Show'
+
 import Vue from 'vue'
 import App from './App'
-//import router from './router'
-import VueRouter from 'vue-router';
-import Resource from 'vue-resource';
-Vue.use(VueRouter);
-Vue.use(Resource);
+import router from './router'
 
-
-import Artadd from './components/article/Add';
-import Artedit from './components/article/edit';
-import Arttypography from './components/admin/typography';
-import Artelements from './components/admin/elements';
-import Buttons from './components/admin/Buttons';
-import treeview from './components/admin/treeview';
-import Jquery from './components/admin/Jquery';
-import nestablelist from './components/admin/nestablelist';
-import tables from './components/admin/tables';
-import Login from './components/admin/Login';
-import formelements from './components/admin/formelements';
-
-
-Vue.config.productionTip = false
-
-/* eslint-disable no-new */
-
-var router = new VueRouter({
-	routes: [
-	   {
-	    path: '/article/add',
-	    component: Artadd,
-	  },
-	  {
-	  	path: '/admin/formelements',
-	  	component:formelements,
-	  },
-	  {
-	  	path: '/admin/Login',
-	  	component:Login,
-	  },
-	  {
-	    path: '/admin/tables',
-	    component: tables,
-	  },
-	  {
-	    path: '/admin/Jqueryui',
-	    component: Jquery,
-	  },
-	   {
-	    path: '/admin/Jqueryui',
-	    component: Jquery,
-	  },
-	  {
-	    path: '/admin/nestablelist',
-	    component: nestablelist,
-	  },
-	  {
-	    path: '/admin/typography',
-	    component: Arttypography,
-	  },
-	   {
-	    path: '/admin/treeview',
-	    component: treeview,
-	  },
-	  {
-	    path: '/admin/Buttons',
-	    component: Buttons,
-	  },
-	  {
-	    path: '/admin/elements',
-	    component: Artelements,
-	  },
-	   {
-	    path: '/article/edit',
-	    component: Artedit,
-	  },
-	  
-	]
-})
-
+Vue.config.productionTip = true
 new Vue({
   el: '#app',
   router,
   template: '<App/>',
   components: { App }
 })
+
+/*
+var router = new Router({
+	routes: [
+		{
+			path:'/',
+			components: Arshow,
+		}
+	]
+})*/
+
+/* eslint-disable no-new */
