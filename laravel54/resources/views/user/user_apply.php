@@ -18,7 +18,7 @@
         <div class="panel-head"><strong class="icon-reorder"> 内容列表</strong> <a href="" style="float:right; display:none;">添加字段</a></div>
         <div class="padding border-bottom">
             <ul class="search" style="padding-left:10px;">
-                <li> <a class="button border-main icon-plus-square-o" href="/admin/add"> 添加内容</a> </li>
+<!--                <li> <a class="button border-main icon-plus-square-o" href="/admin/add"> 添加内容</a> </li>-->
                 </if>
                 <li>
                     <input type="text" placeholder="请输入搜索关键字" name="keywords" class="input" style="width:250px; line-height:17px;display:inline-block" />
@@ -40,19 +40,23 @@
         <table class="table table-hover text-center">
             <tr>
                 <th width="100" style="text-align:left; padding-left:20px;">ID</th>
-                <th width="10%">排序</th>
-                <th>用户名</th>
-                <th>密码</th>
-                <th width="10%">更新时间</th>
-                <th width="310">操作</th>
+                <th width="10%" style="padding-left:70px;">排序</th>
+                <th width="10%" style="padding-left:70px;">主播昵称</th>
+                <th width="10%" style="padding-left:70px;">主播性别</th>
+                <th width="10%" style="padding-left:70px;">主播年龄</th>
+                <th width="10%" style="padding-left:60px;">加入时间</th>
+                <th width="10%" style="padding-left:60px;">更新时间</th>
+                <th width="310" style="padding-left:250px;">操作</th>
             </tr>
             <volist name="list" id="vo">
                 <tr>
                     <td style="text-align:left; padding-left:20px;"><input type="checkbox" name="id[]" value="" />
                         1</td>
                     <td><input type="text" name="sort[1]" value="1" style="width:50px; text-align:center; border:1px solid #ddd; padding:7px 0;" /></td>
-                    <td>admin</td>
-                    <td>admin</td>
+                    <td>大傻乐</td>
+                    <td>女</td>
+                    <td>24</td>
+                    <td>2016-05-06</td>
                     <td>2016-07-01</td>
                     <td><div class="button-group"> <a class="button border-main" href="add.html"><span class="icon-edit"></span> 修改</a> <a class="button border-red" href="javascript:void(0)" onclick="return del(1,1,1)"><span class="icon-trash-o"></span> 删除</a> </div></td>
                 </tr>
