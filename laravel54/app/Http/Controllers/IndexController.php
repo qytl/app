@@ -30,9 +30,13 @@ class IndexController extends Controller{
     public function backend(){
         return view("/user/user_backend");
     }
-   //分类
+   //用户分类
     public function classe(){
         return view("/user/user_class");
+    }
+    //直播分类 
+    public function type(){
+        return view("/index/fenlei");
     }
 
 }
