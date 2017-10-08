@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+       		<meta charset="UTF-8">
+			<meta name="x5-orientation" content="portrait | landscape" />
+			<meta name="screen-orientation" content="portrait">
+			<meta name="x5-fullscreen" content="true" />
+			<meta name="full-screen" content="yes">
+			<meta name="format-detection" content="telephone=no, email=no" /><meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-sacle=1.0,user-scalable=0">
+			<link rel="stylesheet" href="../css/fri-a-1.css">	
+			<script src="../js/rem.js"></script>
+
+    </head>
+    <body>
+    <!-- 更多设置界面 -->
+    	<div class="fri-a-top">
+    		<div class="con">
+    			<a href="fri-c.html"></a>
+    			<h3>更多设置</h3>
+    			<a href=""></a>
+    		</div>
+    	</div>
+        <div class="fri-a-zhong">
+           <div class="hei">
+               <div class="con">
+                    <div>
+                        <div class="left"></div>
+                        <div class="zhong">
+                              <h3>更改备注名称</h3>
+                              <h2>在此处可更改其备用名称以便认识</h2>
+                        </div>
+                        <a class="right"></a>
+                    </div>
+                   <div>
+                        <div class="left"></div>
+                        <div class="zhong">
+                            <h3>设为特殊关注</h3>
+                        <h2>在此处可关注你喜欢的人</h2>
+                        </div>
+                         <div class="right r2"><div class="fu fu2"></div>
+                         </div>
+                         
+                   </div>
+                   <div>
+                        <div class="left"></div>
+                        <div class="zhong"> <h3>加入黑名单</h3>
+                        <h2>在此处可拉黑你不喜欢的人</h2>
+                        </div>
+                         <div class="right r1"><div class="fu fu1"></div>
+                         </div>
+                      
+                   </div>
+                   <script>
+                   	var  r1=document.querySelector('.r1')
+                   	var  r2=document.querySelector('.r2')
+                   	var  f1=document.querySelector('.fu1')
+                   	var  f2=document.querySelector('.fu2')
+                   	var flag=true;
+                 r2.addEventListener('touchstart',function(){
+                 	if(flag){
+                 	f2.style.right=".4rem"
+                 	flag=false;
+                 	r2.style.background="#434343"
+                 	}else{
+                 	f2.style.right="-1px"
+          			r2.style.background="#31AF27"
+                 	flag=true;
+                 	}
+                 		
+                 })
+                 var ff=true;
+                 r1.addEventListener('touchstart',function(){
+                 	if(ff){
+                 	f1.style.left=".4rem"
+          			r1.style.background="#31AF27"
+                 	ff=false;
+                 	}else{
+                 	f1.style.left="-1px"
+                 	r1.style.background="#434343"
+                 	ff=true;
+                 	}
+                 		
+                 })
+                   </script>
+               </div>
+           </div>
+          <div class="bottom">
+          <a href="fri-c.html">
+            <span>删除联系人</span>
+          </a>
+          </div>
+        </div>
+    	
+        <!-- 更多设置界面结束 -->
+    	
+    </body>
+</html>

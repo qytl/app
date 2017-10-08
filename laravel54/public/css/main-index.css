@@ -1,0 +1,475 @@
+/*
+* @Author: Administrator
+* @Date:   2017-04-11 19:15:14
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-04-14 10:26:36
+*/
+*{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-appearance: none;
+	-webkit-text-size-adjust:100%;
+	-webkit-user-select:none;
+	-webkit-overflow-scrolling:touch;
+	-webkit-user-select:none;user-select:none;
+	-webkit-tap-highlight-color:rgba(255,255,255,0);
+	-webkit-text-size-adjust: 100%;
+  	text-size-adjust: 100%;
+	/* -webkit-transform: translate3d(0, 0, 0);transform: translate3d(0, 0, 0); */
+}
+body{
+	-webkit-overflow-scrolling:touch; 
+	overflow-scrolling: touch;
+}
+a{
+	text-decoration: none;
+}
+img{
+	display: block;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+body{
+	overflow: scroll;
+	font-family: "苹方", "San Francisco";
+}
+/* 头部开始 */
+.mai-header{
+	width: 100%;
+	height: .88rem;
+	background: #3B74E8;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 9;
+}
+.mai-header .xq{
+	float: left;
+	margin: 0 auto;
+	margin-top: .15rem;
+	margin-left: 3.06rem;
+}
+.mai-header .xq .zw{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: .26rem;
+}
+.mai-header .xq .zw span{
+	margin: 0 .17rem;
+}
+.mai-header .xq .zw h3{
+	width: .06rem;
+	height: .06rem;
+	border-radius: 50%;
+	background: white;
+}
+.mai-header .xq .yw{
+	width: 1.5rem;
+	height: .2rem;
+	margin: 0 auto;
+}
+.mai-header a{
+	display: block;
+	width: .44rem;
+	height: .44rem;
+	border-radius: 50%;
+	background: white;
+	float: right;
+	margin-right: .24rem;
+	margin-top: .23rem;
+	background-image: url('../img/sy33-1_25 (14).png');
+	background-position: center;
+	background-size: .3rem .3rem;
+	background-repeat: no-repeat;	
+}
+
+/* 头部结束 */
+
+
+/* swiper开始 */
+ .swiper-container {
+    width: 100%;
+    height: auto;
+}
+.swiper-slide {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.mai-banner1{
+	width: 100%;
+	height: 3.72rem;
+	background: url(../img/sy_02.png) no-repeat center center/cover;
+}
+.mai-banner2{
+	width: 100%;
+	height: 3.72rem;
+	background: url(../img/main_2.png) no-repeat center center/cover;
+}
+.mai-banner3{
+	width: 100%;
+	height: 3.72rem;
+	background: url(../img/main.png) no-repeat center center/cover;
+}
+
+.banner{
+	width: 100%;
+	margin-top: .88rem;	
+	height: 3.72rem;
+}
+
+
+/* swiper结束 */
+
+
+
+
+
+
+
+/* 热门主播开始 */
+.mai-zhu{
+	width: 7.02rem;
+	margin: 0 auto;
+	margin-top: .35rem;
+}
+.gy p{
+	font-size: .3rem;
+	font-weight: bold;
+}
+.gy p:nth-child(2){
+	margin-top: -.1rem;
+}
+.gy p span:nth-child(1){
+	color: #3B74E8;
+	font-size: .24rem;
+}
+.gy p span:nth-child(2){
+	color: #888;
+	font-size: .24rem;
+}
+.mai-zhu a{
+	display: block;
+}
+.mai-zhu .kk{
+	width: 100%;
+	height: 1.75rem;
+	margin-top: .12rem;
+	background: white;
+	border-radius: .1rem;
+	padding: .2rem .35rem .15rem;
+	box-sizing: border-box;
+	display: flex;
+	box-shadow: 0 .02rem .05rem .03rem #F1F1F1;
+	margin-bottom: .15rem;	
+}
+.mai-zhu .kk .left h3{
+	color: #121212;
+	font-size: .24rem;
+	font-weight: bold;
+}
+.mai-zhu .kk .left .dxian{
+	width: 100%;
+
+	display: flex;
+	margin-top: .12rem; 
+}
+.mai-zhu .kk .left .xian{
+	width: 2.4rem;
+	height: .02rem;
+	background: #BFBFBF;
+	margin-top: .02rem;
+	margin-right: .05rem;
+	
+}
+/* .mai-zhu .kk .left .xian .d img{
+
+}
+ */
+.mai-zhu .kk .tuzan{
+	margin-top: .2rem;
+	margin-left: .08rem;
+	display: flex;
+}
+.mai-zhu .kk .tuzan .chri{
+	margin-left: .15rem;
+}
+.mai-zhu .kk .tuzan .chri .zi{
+	width: 2.9rem;
+	font-size: 12px;
+	display: flex;
+}
+.mai-zhu .kk .tuzan .yuan{
+	width: .64rem;
+	height: .64rem;
+	border-radius: 50%;
+	background-image: url('../img/sy33-1_25 (3).png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	box-shadow: 0 .02rem .01rem .01rem #EDEDED;	
+}
+.mai-zhu .kk1 .tuzan .yuan{
+	background-image: url('../img/sy33-1_25 (8).png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.mai-zhu .kk1 .tuzan .tu img{
+	margin-left: .1rem;
+	margin-top: -.04rem;
+}
+.mai-zhu .kk .tuzan .chri span{
+	color: #949494;
+	font-size: .2rem;
+	font-weight: 900;
+	margin-right: .12rem;
+	letter-spacing: 1.2px;
+}
+.mai-zhu .kk1 .tuzan .chri span{
+	margin-right: 0;
+}
+.mai-zhu .kk .tuzan .chri .zi .tu{
+	width: 1.08rem;
+	height: .18rem;
+	margin-top: .06rem;
+}
+.mai-zhu .kk .tuzan .chri .zan{
+	display: flex;
+	margin-top: .12rem;
+}
+.mai-zhu .kk .tuzan .chri .yan{
+	width: .3rem;
+	height: .3rem;
+	border-radius: 50%;
+	margin-right: .15rem;
+}
+.mai-zhu .kk .tuzan .chri .pink{
+	background: #FF0A89;
+}
+.mai-zhu .kk .tuzan .chri .lan{
+	background: #3B74E8;
+}
+
+.mai-zhu .kk .tuzan .chri .zan img{
+	width: .2rem;
+	height: .2rem;
+	margin: 0 auto;
+	margin-top: .04rem;
+}
+.mai-zhu .kk .tuzan .chri .lan img{
+	margin-top: .06rem;
+}
+.mai-zhu .kk .tuzan .chri .zan h6{
+	font-size: .2rem;
+	font-weight: bold;
+	color: #C4C4C4;
+	margin-right: .4rem;
+	margin-top: .05rem;
+}
+.mai-zhu .kk .right{
+	width: 1.05rem;
+	height: 1.06rem;
+	margin-left: 1.5rem;
+	margin-top: .2rem;
+}
+/* 热门主播结束 */
+
+/* 热门直播开始 */
+.mai-zhi{
+	width: 7.02rem;
+	margin: 0 auto;
+	margin-top: .3rem;
+	padding-bottom: 1.2rem;
+}
+.mai-zhi .ta{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: .12rem;
+	flex-wrap: wrap;
+}
+.mai-zhi .ta .tam{
+	width: 3.39rem;
+	height: 4.81rem;
+	border-radius: .1rem;
+	background-image: url('../img/sy33-1_25 (15).png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: .12rem;	
+	box-sizing: border-box;
+	margin-bottom: .2rem;
+	box-shadow: 0 .02rem .05rem .02rem #E6E6E6;
+}
+.mai-zhi .ta .tam .t2{
+	background-image: url('../img/sy33-1_25 (5).png');
+}
+.mai-zhi .ta .tam .t3{
+	background-image: url('../img/sy33-1_25 (6).png');
+}
+.mai-zhi .ta .tam .t4{
+	background-image: url('../img/sy33-1_25 (7).png');
+}
+.mai-zhi .ta .tam .tu{
+	/* width: 3.18rem; */
+	height: 2.8rem;
+	border-radius: .1rem;
+	margin: 0 auto;
+	background-image: url('../img/sy33-1_25 (4).png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;	
+}
+.mai-zhi .ta .tam .t2{
+	background-image: url('../img/sy33-1_25 (5).png');
+}
+.mai-zhi .ta .tam .t3{
+	background-image: url('../img/sy33-1_25 (6).png');
+}
+.mai-zhi .ta .tam .t4{
+	background-image: url('../img/sy33-1_25 (7).png');
+}
+.mai-zhi .ta .tam h3{
+	color: #131419;
+	font-size: .2rem;
+	font-weight: bold;
+	margin-top: .15rem;
+	margin-bottom: .03rem;
+}
+.mai-zhi .ta .tam .er{
+	overflow: hidden;
+}
+.mai-zhi .ta .tam .er .shi{
+	font-size: .24rem;
+	color: #A7A7A7;
+	float: left;
+}
+.mai-zhi .ta .tam .er .xin{
+	height: .24rem;
+	float: left;
+	color: #A7A7A7;
+	font-size: .24rem;
+	display: flex;
+	margin-left: 1.3rem;
+	
+}
+.mai-zhi .ta .tam .er .xin img{
+	width: .22rem;
+	height: .22rem;
+	margin-top: .04rem;
+	margin-right: .04rem;
+}
+.mai-zhi .ta .tam .dx{
+	width: 2.8rem;
+	margin: 0 auto;
+	display: flex;
+	margin-top: .2rem;
+}
+.mai-zhi .ta .tam .dian{
+	width: .1rem;
+	height: .1rem;
+	border-radius: 50%;
+	background: #535353;
+}
+.mai-zhi .ta .tam .xian{
+	width: 2.68rem;
+	height: .02rem;
+	background: #535353;
+	margin-top: .04rem;
+}
+
+.mai-zhi .tam .zan{
+	display: flex;
+	margin-left: .3rem;
+	margin-top: .15rem;
+}
+.mai-zhi .tam .yan{
+	width: .34rem;
+	height: .34rem;
+	border-radius: 50%;
+	margin-right: .1rem;
+}
+.mai-zhi .tam .pink{
+	background: #FF0A89;
+}
+.mai-zhi .tam .lan{
+	background: #3B74E8;
+}
+
+.mai-zhi .tam .zan img{
+	width: .2rem;
+	height: .2rem;
+	margin: 0 auto;
+	margin-top: .05rem;
+}
+.mai-zhi .tam .lan img{
+	margin-top: .08rem;
+}
+.mai-zhi .tam .zan h6{
+	font-size: .2rem;
+	font-weight: bold;
+	color: #C4C4C4;
+	margin-right: .4rem;
+	margin-top: .08rem;
+}
+/* 热门直播结束 */
+
+/* foot开始 */
+.mai-foot{
+	width: 100%;
+	height: 1rem;
+	background: #363636;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	font-size: 12px;
+	display: flex;
+}
+.mai-foot .mm{
+	width: 33.3%;
+	padding-left: 1rem;
+	box-sizing: border-box;
+	margin-top: .15rem;
+}
+.mai-foot .mm img{
+	width: .4rem;
+	height: .4rem;
+	margin-left: .03rem;
+}
+.mai-foot .mm span{
+	font-size: .24rem;
+	color: white;
+}
+.mai-foot .left .tu{
+	width: 1.65rem;
+	height: 1.1rem; 
+	background-image: url('../img/sy-f_03.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;	
+	margin-top: -.25rem;
+	padding-left: .58rem;
+	padding-top: .15rem;
+	box-sizing: border-box;
+}
+.mai-foot .left{
+	padding-left: .28rem;
+}
+/* foot结束 */

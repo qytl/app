@@ -1,0 +1,207 @@
+/*
+* @Author: Administrator
+* @Date:   2017-03-31 14:55:17
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-04-13 17:54:57
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 12px;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-appearance: none;
+	-webkit-text-size-adjust:100%;
+	-webkit-user-select:none; 
+	-webkit-overflow-scrolling:touch;
+	-webkit-user-select:none;user-select:none;
+	-webkit-tap-highlight-color:rgba(255,255,255,0);
+	-webkit-text-size-adjust: 100%;
+     text-size-adjust: 100%;
+}
+
+<a href="tel:110">请拨打电话110</a>
+<a href="mailto:qq@.com">请发送邮件qq@.com</a>
+ 
+body{font-family:Helvetica;}
+body {-webkit-overflow-scrolling:touch; overflow-scrolling: touch;}
+p{max-height:9999999px}
+ html, body, form, fieldset, p, div, h1, h2, h3, h4, h5, h6 {-webkit-text-size-adjust:none;}
+
+a{
+	display:block;
+	text-decoration: none;
+}
+img{
+	display: block;
+}
+body{
+	overflow: scroll;
+	font-family: "苹方", "San Francisco";
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+body{
+	overflow: scroll;
+}
+
+/* 头部开始 */
+.wd-2header{
+	width: 100%;
+	height: .88rem;
+	background: #3B74E8;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.wd-2header .con{
+	width: 7.02rem;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.wd-2header .con .left a{
+	width: .44rem;
+	height: .44rem;
+	background: url(../img/wd-2-01.png)	center center no-repeat;
+	background-size: 100%;
+
+}
+.wd-2header .con a{
+	display: block;
+}
+.wd-2header .con .right a{
+	width: .44rem;
+	height: .44rem;
+	background: url(../img/wd-2-02.png)	center center no-repeat;
+	background-size: 100%;
+}
+
+/* 头部结束 */
+
+/* 中间图标列表开始 */
+.wd-2list{
+	width: 100%;
+	height: 12.9rem;
+	background: #3B74E8;
+	overflow: hidden;
+	padding-top: .88rem;
+}
+.wd-2list .con{
+	width: 7.02rem;
+	height: 11.35rem;
+	margin: 0 auto;
+	margin-top: .2rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;	
+}
+.wd-2list .con>div{
+	width: 1.3rem;
+	height: 1.3rem;	
+	background: #fff;
+	border-radius: 10px;	
+}
+.wd-2list .con>div:nth-child(1){	
+	background: url(../img/wd-2-03.png)	center center no-repeat;
+	background-size: 120%;
+}
+.wd-2list .con>div:nth-child(4){	
+	background: url(../img/wd-2-04.png)	center center no-repeat;
+	background-size: 120%;
+}
+.wd-2list .con>div:nth-child(7){	
+	background: url(../img/wd-2-05.png)	center center no-repeat;
+	background-size: 120%;
+}
+.wd-2list .con>div:nth-child(14){	
+	background: url(../img/wd-2-06.png)	center center no-repeat;
+	background-size: 120%;4
+}
+.wd-2list .con>div:nth-child(17){	
+	background: url(../img/wd-2-07.png)	center center no-repeat;
+	background-size: 120%;
+}
+.wd-2list .con>div:nth-child(25){	
+	background: url(../img/wd-2-08.png)	center center no-repeat;
+	background-size: 120%;
+}
+.wd-2list .con>div:nth-child(27){	
+	background: url(../img/wd-2-09.png)	center center no-repeat;
+	background-size: 120%;4
+}
+.wd-2list .con>div:nth-child(34){	
+	background: url(../img/wd-2-10.png)	center center no-repeat;
+	background-size: 120%;
+}
+.wd-2list .con>div:nth-child(36){	
+	background: url(../img/wd-2-11.png)	center center no-repeat;
+	background-size: 120%;
+		overflow: hidden;
+}
+
+/* 中间结束 */
+/* 底部开始 */
+.wd-2bottom{
+	width: 100%;
+	height: auto;
+	background: #FFCB2D;
+	overflow: hidden;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.wd-2bottom .con{
+	width: 7.04rem;
+	height: .98rem;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.wd-2bottom .con .left a{
+	width: .5rem;
+	height: .3rem;
+	float: left;
+	display: block;
+	margin-top: .34rem;
+    text-align: center;
+    line-height: .3rem;
+}
+.wd-2bottom .con .left span{
+	font-size: .15rem; 
+	color: #131419;
+}
+.wd-2bottom .con .right a{
+	width: .92rem;
+	height: .38rem;
+	border-radius: 20px;
+	float: right;
+	background: #3B74E8;
+	margin-top:.3rem;
+	display: block;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.wd-2bottom .con .right div:nth-child(1){
+	width: .05rem;
+	height: .05rem;
+	border-radius: 50%;
+	background: #fff;		 
+}
+.wd-2bottom .con .right div:nth-child(2){	
+	color: #fff; 
+	font-size: .12rem;
+}
+.wd-2bottom .con .right div:nth-child(3){
+	width: .05rem;
+	height: .05rem;
+	border-radius: 50%;
+	background: #fff;
+		 
+}
+/* 底部结束 */

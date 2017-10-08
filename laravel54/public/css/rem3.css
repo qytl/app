@@ -1,0 +1,380 @@
+﻿/*
+* @Author: Administrator
+* @Date:   2017-04-12 09:14:44
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-04-13 16:55:12
+*/
+*{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-appearance: none;
+	-webkit-text-size-adjust:100%;
+	-webkit-user-select:none;
+	-webkit-overflow-scrolling: touch;
+	/* -webkit-transform: translate3d(0, 0, 0);transform: translate3d(0, 0, 0); */
+	max-height:9999999px;
+	-webkit-text-size-adjust:none;
+	-webkit-overflow-scrolling:touch; overflow-scrolling: touch;
+}
+body{
+	-webkit-overflow-scrolling:touch; 
+	overflow-scrolling: touch;
+}
+a{
+	text-decoration: none;
+}
+img{
+	display: block;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+body{
+	font-family: "苹方", "San Francisco";
+}
+img{
+	display: block;
+}
+/* 头部开始 */
+.wd1-nav{
+	width: 100%;
+	height: .88rem;
+	background: #3B74E8;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 0 .24rem;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	z-index: 2;
+}
+.wd1-nav a{
+	display: block;
+}
+.wd1-nav .nav1{
+	width: .4rem;
+	height: .4rem;
+}
+.wd1-nav .nav2{
+	margin-left: 2rem;
+}
+.wd1-nav .nav2 div{
+	color: #fff;
+	font-weight: 300;
+}
+.wd1-nav .nav2 div:nth-child(1){
+	font-size: .34rem;
+	margin: 0 auto;
+	text-align: center;
+}
+.wd1-nav .nav2 div:nth-child(2){
+	font-size: .24rem;
+	margin-top: -.12rem;
+	letter-spacing: 1px;
+}
+/* 头部结束 */
+
+/* banner开始 */
+.wd1-banner{
+	margin-top: .88rem;
+	width: 100%;
+	/* height: 15rem; */
+	background-image: url('../img/wd-banner.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;	
+	box-sizing: border-box;
+}
+.wd1-banner .hui{
+	width: 100%;
+	height: 15rem;
+	background: rgba(56, 57, 64, 0.7);
+}
+.wd1-banner a{
+	display: block;
+}
+
+/* 头像开始 */
+.wd1-tx{
+	padding: .56rem .24rem;
+	box-sizing: border-box;
+}
+.wd1-tx .tx1{
+	width: 100%;
+	display: flex;	
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: .2rem;
+}
+.wd1-tx .tx1 .gg{
+	width: .66rem;
+	height: .66rem;
+	background: #fff;
+	border-radius: 50%;
+	padding: .12rem;
+	box-sizing: border-box;
+}
+.wd1-tx .tx1 .left img{
+	margin-top: .04rem;
+}
+.wd1-tx .tx1 .mid{
+	width: 2rem;
+	height: 2rem;
+	line-height: 1.8rem;
+	background: #BFBFBF;
+	border-radius: 50%;
+	border: .08rem solid #fff;
+	text-align: center;
+	font-size: .32rem;
+	color: #3A3A3A;
+	box-sizing: border-box;
+	background: url(../img/2017-04-11_190805.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.wd1-tx h4{
+	font-size: .3rem;
+	text-align: center;
+	color: #fff;
+	font-weight: 300;
+	letter-spacing: 1px;
+	margin-bottom: .06rem;
+}
+.wd1-tx h4:nth-child(1){
+	font-size: .34rem;
+}
+.wd1-tx>img{
+	width: 2.2rem;
+	height: .34rem;
+	margin: 0 auto;
+}
+/* 头像结束 */
+
+/* 白框开始 */
+.wd1-bai{
+	width: 7.04rem;
+	height: 5.04rem;
+	background: #fff;
+	border-radius: 10px;
+	padding: .3rem .3rem 0;
+	box-sizing: border-box;	
+	margin: 0 auto;
+}
+.wd1-bai .ss{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.wd1-bai .ss .ssm{
+	display: flex;
+}
+.wd1-bai .ss .ssm .tu{
+	display: flex;
+}
+.wd1-bai .ss .ssm .tuleft{
+	width: .58rem;
+	height: .58rem;
+	border-radius: 50%;
+	border: .02rem solid #B9B9B9;
+	box-sizing: border-box;
+	padding: .08rem;
+	margin-top: .08rem;
+	margin-right: .1rem;
+}
+.wd1-bai .ss .ts .tuleft img{
+	margin-top: .04rem;
+}
+.wd1-bai .ss .ssm .turight .gy{
+	font-weight: 400;
+	color: #646464;
+}
+.wd1-bai .ss .ssm .turight h4{
+	font-size: .26rem;
+}
+.wd1-bai .ss .ssm .turight h6{
+	width: .64rem;
+	font-size: .28rem;
+	border-top: .02rem dotted #646464;
+}
+.wd1-bai .ss>h4{
+	width: .02rem;
+	height: .4rem;
+	background: #E4E4E4;
+}
+.wd1-bai .xx{
+	margin-top: .3rem;
+}
+.wd1-bai .xx .xx1{
+	display: flex;
+}
+.wd1-bai .xx .xx1 div{
+	margin-right: .15rem;
+}
+.wd1-bai .xx .xx1 .tul{
+	width: .35rem;
+	height: .4rem;
+}
+.wd1-bai .xx .xx1 .yy{
+	color: #505050;
+}
+.wd1-bai .xx .xx1 .mziz{
+	font-size: .28rem;
+}
+.wd1-bai .xx .xx1 .mziy{
+	font-size: .24rem;
+	margin-top: .04rem;
+}
+.wd1-bai .xx .xx1 .tur{
+	width: .35rem;
+	height: .4rem;
+}
+.wd1-bai .xx .xx1 .te img{
+	margin-top: .08rem;
+}
+.wd1-bai .xx p{
+	width: 100%;
+	height: .02rem;
+	background: #E6E6E6;
+}
+.wd1-bai .xx>div{
+	margin-bottom: .15rem;
+}
+.wd1-bai .xx p{
+	margin-bottom: .35rem;
+}
+.wd1-bai .xx .xx1 .tur1{
+	width: .8rem;
+	height: .4rem;
+	margin-left: 2rem;
+}
+.wd1-bai .xx .xx1 .tur2{
+	margin-left: 1.75rem;
+}
+.wd1-bai .xx .xx1 .tur3{
+	margin-left: 2.45rem;
+}
+.wd1-bai .xx .xx1 .tur4{
+	margin-left: 2.55rem;
+}
+
+/* 白框结束 */
+.wd1-banner .shou .left{
+	width: .54rem;
+	height: .54rem;
+	border-radius: 50%;
+	float: left;
+	margin-top: .05rem;
+	margin-right: .05rem;
+}
+.wd1-banner .shou{
+	margin-top: .12rem;
+}
+.wd1-banner .shou .ti{
+	width: 7.04rem;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.wd1-banner .shou .zi{
+	float: left;
+}
+.wd1-banner .shou .zi h4{
+	font-size: .24rem;
+	color: #FEFEFE;
+	font-weight: 300;
+	letter-spacing: .5px;
+	margin-bottom: -.06rem;
+}
+.wd1-banner .shou .zi .ge{
+	font-size: .32rem;
+}
+.wd1-banner .shou .right{
+	float: right;
+	width: .6rem;
+	height: .3rem;
+	border: .02rem solid #595959;
+	background: #F8F8F8;
+	border-radius: 20px;
+	margin-top: .15rem;
+	color: #4B4B4B;
+	text-align: center;
+	line-height: .05rem;
+	font-size: .48rem;
+}
+.wd1-banner .shou .san{
+	margin-top: .3rem;
+	display: flex;
+	padding-left: .24rem;
+}
+.wd1-banner .shou .san1{
+	width: 2.6rem;
+	height: 2.8rem;
+	border-radius: 10px;
+	margin-right: .15rem;
+	background-image: url('../img/wd-7.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;	
+}
+.wd1-banner .shou .s2{
+	background-image: url('../img/wd-8.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.wd1-banner .shou .s3{
+	background-image: url('../img/wd-9.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-right: 0;
+}
+
+
+
+
+
+/* banner结束 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

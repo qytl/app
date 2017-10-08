@@ -1,0 +1,369 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+html,
+body {
+  height: 100%;
+  font-size: 16px;
+}
+body {
+  background: #EDEDED;
+  font-family: "苹方", "San Francisco";
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+}
+a,
+button {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+img,
+input {
+  border: none;
+}
+.lxf-dingdan {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.lxf-dingdan header {
+  width: 100%;
+  height: .88rem;
+  font-size: .34rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #3B74E8;
+  padding: .24rem;
+  box-sizing: border-box;
+}
+.lxf-dingdan header .left {
+  display: inline-block;
+  float: left;
+  width: .4rem;
+  height: 100%;
+}
+.lxf-dingdan header .left img {
+  width: 100%;
+}
+.lxf-dingdan header span {
+  display: block;
+  width: 1.5rem;
+  height: 100%;
+  line-height: .5rem;
+  text-align: center;
+  color: #fff;
+  margin: 0 auto;
+}
+.lxf-dingdan .top-blue {
+  width: 100%;
+  height: 3.1rem;
+  background: #3B74E8;
+  margin-top: .88rem;
+}
+.lxf-dingdan .top-blue .main-box {
+  width: 6.4rem;
+  height: 4.35rem;
+  margin: .2rem auto;
+  background: url("../img/lxf-beijng1_14.png") no-repeat center center / cover;
+  padding: .11rem .6rem;
+  box-sizing: border-box;
+}
+.lxf-dingdan .top-blue .main-box .main {
+  width: 100%;
+  height: 1.36rem;
+  padding: .31rem 0;
+  box-sizing: border-box;
+}
+.lxf-dingdan .top-blue .main-box .main > div {
+  float: left;
+}
+.lxf-dingdan .top-blue .main-box .main .left {
+  width: .72rem;
+  height: 100%;
+  border: 1px solid #E2E1E1;
+  border-radius: 7px;
+  box-shadow: 1px 1px 3px #999;
+  padding-top: .1rem;
+  box-sizing: border-box;
+}
+.lxf-dingdan .top-blue .main-box .main .left p {
+  font-size: .2rem;
+  color: #131419;
+  line-height: .3rem;
+  text-align: center;
+}
+.lxf-dingdan .top-blue .main-box .main .center {
+  width: 3.65rem;
+  height: 100%;
+  padding: 0 0 0 .15rem;
+  box-sizing: border-box;
+  border-right: 1px solid #C7C7C7;
+  font-size: .18rem;
+}
+.lxf-dingdan .top-blue .main-box .main .center .cen-top {
+  width: 100%;
+  height: 50%;
+  box-sizing: border-box;
+  line-height: .37rem;
+}
+.lxf-dingdan .top-blue .main-box .main .center .cen-top > * {
+  display: inline-block;
+  float: left;
+}
+.lxf-dingdan .top-blue .main-box .main .center .cen-top p {
+  font-family: 黑体;
+  font-weight: bold;
+}
+.lxf-dingdan .top-blue .main-box .main .center .cen-top span {
+  color: #969696;
+  font-weight: bolder;
+}
+.lxf-dingdan .top-blue .main-box .main .center .cen-top img {
+  width: .2rem;
+  margin-left: .03rem;
+}
+.lxf-dingdan .top-blue .main-box .main .center .cen-botom {
+  width: 100%;
+  height: 50%;
+  line-height: .37rem;
+}
+.lxf-dingdan .top-blue .main-box .main .center .cen-botom > * {
+  display: inline-block;
+  float: left;
+}
+.lxf-dingdan .top-blue .main-box .main .center .cen-botom .rect {
+  width: .89rem;
+  height: .28rem;
+  border-radius: .14rem;
+  background: #ee1818;
+  line-height: .28rem!important;
+  text-align: center;
+  margin-top: .04rem;
+  color: #fff;
+}
+.lxf-dingdan .top-blue .main-box .main .center .cen-botom p {
+  font-weight: bold;
+  font-size: .24rem;
+  color: #555658;
+}
+.lxf-dingdan .top-blue .main-box .main .center .cen-botom span {
+  color: #919192;
+  font-size: .2rem;
+  font-weight: bolder;
+}
+.lxf-dingdan .top-blue .main-box .main .right {
+  width: .8rem;
+  height: 100%;
+  float: right;
+  padding: .1rem;
+  box-sizing: border-box;
+  line-height: .3rem;
+}
+.lxf-dingdan .top-blue .main-box .main .right p:first-child {
+  font-size: .24rem;
+  font-weight: bolder;
+  color: #969696;
+}
+.lxf-dingdan .top-blue .main-box .main .right p:last-child {
+  font-weight: bolder;
+  font-size: .28rem;
+  color: #ee1818;
+}
+.lxf-dingdan .top-blue .main:nth-child(2) {
+  border-top: 1px solid #C5C5C5;
+}
+.lxf-dingdan .top-blue .main:nth-child(3) {
+  border-top: 1px solid #C5C5C5;
+}
+.lxf-dingdan .pay-box {
+  width: 6.29rem;
+  height: 2.12rem;
+  border-bottom: 1px solid #969696;
+  margin: 1.22rem auto 0;
+  padding-top: 1px;
+  position: relative;
+}
+.lxf-dingdan .pay-box .pay {
+  width: 1.8rem;
+  height: .71rem;
+  margin: .7rem auto;
+}
+.lxf-dingdan .pay-box .pay img {
+  width: .71rem;
+  display: block;
+  float: left;
+}
+.lxf-dingdan .pay-box .pay .right {
+  float: left;
+  width: 1rem;
+  margin-left: .09rem;
+  line-height: .35rem;
+}
+.lxf-dingdan .pay-box .pay .right p:first-child {
+  display: block;
+  width: auto;
+  font-size: .2rem;
+  color: #969696;
+  border-bottom: 1px solid #969696;
+}
+.lxf-dingdan .pay-box .pay .right p:last-child {
+  font-weight: bolder;
+  font-size: .24rem;
+  color: #ee1818;
+}
+.lxf-dingdan .pay-box .dian1 {
+  width: 4px;
+  height: 4px;
+  background: #969696;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  z-index: 2;
+}
+.lxf-dingdan .pay-box .dian2 {
+  width: 4px;
+  height: 4px;
+  background: #969696;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  bottom: -2px;
+  z-index: 2;
+}
+.lxf-dingdan .coupon-box {
+  margin-top: 0;
+}
+.lxf-dingdan .coupon-box .coupon {
+  width: 2.8rem;
+  height: .71rem;
+  margin: .7rem auto;
+}
+.lxf-dingdan .coupon-box .coupon > div {
+  width: .95rem;
+  height: .41rem;
+  line-height: .41rem;
+  background: #f6c222;
+  text-align: center;
+  font-size: .2rem;
+  color: #fff;
+  float: left;
+  position: relative;
+  border-radius: .2rem;
+}
+.lxf-dingdan .coupon-box .coupon > div > span {
+  display: block;
+  width: .95rem;
+  height: .3rem;
+  line-height: .3rem;
+  font-size: .24rem;
+  text-align: center;
+  color: #969696;
+  position: absolute;
+  left: 0;
+  top: -0.3rem;
+}
+.lxf-dingdan .coupon-box .coupon > span {
+  display: block;
+  float: left;
+  width: 1.6rem;
+  height: 100%;
+  line-height: .7rem;
+  font-size: .36rem;
+  color: #ee1818;
+  font-weight: bolder;
+  margin-top: -0.2rem;
+  margin-left: .1rem;
+}
+.lxf-dingdan .explain-box {
+  width: 3.7rem;
+  height: .5rem;
+  line-height: .5rem;
+  text-align: center;
+  margin: 0 auto;
+  font-size: .24rem;
+}
+.lxf-dingdan .explain-box span {
+  display: inline-block;
+  width: .1rem;
+  height: .1rem;
+  background: #F5C530;
+  border-radius: 50%;
+  float: left;
+  margin-top: .2rem;
+  margin-right: .1rem;
+}
+.lxf-dingdan .explain-box span:nth-child(2) {
+  background: #3B74E8;
+}
+.lxf-dingdan footer {
+  width: 100%;
+  height: 1rem;
+  text-align: center;
+  background: #31AF27;
+  padding: .25rem;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.lxf-dingdan footer .fot-box {
+  width: 2rem;
+  height: 100%;
+  margin: 0 auto;
+}
+.lxf-dingdan footer .fot-box > img {
+  width: .5rem;
+  height: .5rem;
+  display: block;
+  float: left;
+}
+.lxf-dingdan footer .fot-box .foot {
+  float: left;
+  width: auto;
+  height: 100%;
+  line-height: .25rem;
+  margin-left: .1rem;
+}
+.lxf-dingdan footer .fot-box .foot p {
+  font-size: .2rem;
+  color: #fff;
+  text-align: left;
+}
+.swiper-container {
+  width: 100%;
+  height: auto;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  height: 3rem;
+  width: 250px!important;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-slide:nth-child(2n) {
+  width: 40%;
+}
+.swiper-slide:nth-child(3n) {
+  width: 20%;
+}
