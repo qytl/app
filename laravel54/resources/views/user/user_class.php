@@ -8,7 +8,6 @@
 <script type="text/javascript">
     function del(id,mid){
         if(confirm("您确定要删除吗?")){
-
         }
     }
 </script>
