@@ -23,7 +23,7 @@
 						<div class="nav-search" id="nav-search">
 							<form class="form-search">
 								<span class="input-icon">
-									<input type="text" placeholder="Search ..." class="nav-search-input" id="nav-search-input" autocomplete="off" />
+									<input type="text" placeholder="Search ..." class="nav-search-input" id="nav-search-input" autocomplete="off" @blur="modalshow()" v-model="search" />
 									<i class="icon-search nav-search-icon"></i>
 								</span>
 							</form>
@@ -85,7 +85,7 @@
 
 														<td>
 															<div class="visible-md visible-lg hidden-sm hidden-xs btn-group">
-																<button class="btn btn-xs btn-success">
+																<button class="btn btn-xs btn-success" v-on:click="xiangqing(respon)">
 																	<i class="icon-ok bigger-120"></i>
 																</button>
 
@@ -158,10 +158,12 @@
 						</div><!-- /.row -->
 					</div><!-- /.page-content -->
 				</div><!-- /.main-content -->
-				 <button v-on:click="count -= 1">上一页</button>
-				  		 
-				 <button v-on:click="count += 1">下一页</button>
-				 当前页面是{{ count }} 页
+				<button v-on:click="cpage('frist')">首页</button>
+				 <button v-on:click="cpage('prev')">上一页</button>
+        		 
+				 <button v-on:click="cpage('next')">下一页</button>
+				 <button v-on:click="cpage('last')">尾页</button>
+				 当前页面是{{ page }} 页
 
 </div>
 </template>
@@ -169,18 +171,34 @@
 
 <script>
 export default {
+ 	
+ 	data () {
+    return {
+      	search:'',
+    }
 
+ 	},
   		
   
 
 	methods: {
 	upd: function (message) {
-  		alert(message.id)
+  		//alert(message.id)
+  		window.location.href='#/admin/useredit/'+message.id
   	},
-    del: function (message) {
+  	cpage:function(message){
+  		if (message==='prev') {
+  			this.page-=1
+			this.page>0 ? '' :this.page=1;
+  		}else if(message==='next'){
+  			this.page+=1
+  		}else if(message==='last'){
 
+  		}else if(message==='frist'){
+  			this.page=1
+  		}
 
-      		this.$http.jsonp(url+'?r=type/del&id='+message.id, {}, {
+  		this.$http.jsonp(url+'?r=type&p='+this.page, {}, {
 	        emulateJSON: true
 	    }).then(function(response) {
 	    	
@@ -191,19 +209,51 @@ export default {
 	        console.log(response)
 	        this.result = response.body
 	    });
+
+
+
+  	},
+    del: function (message) {
+    		if (!confirm('你确定要删除吗？')) {return};
+       
+      		this.$http.jsonp(url+'?r=type/del&id='+message.id, {}, {
+	        emulateJSON: true
+	    }).then(function(response) {
+	    	alert('删除成功')	
+	    	console.log(response)
+	 	    this.result = response.body 
+	    }, function(response) {
+	    	
+	        console.log(response)
+	        this.result = response.body
+	    });
     },
-   	}, 
+    xiangqing: function(message){
+    	alert('去做详情')
+    },
+    modalshow: function(){
+
+    	 	this.$http.jsonp(url+'?r=type/search&search='+this.search, {}, {
+	        emulateJSON: true
+	    }).then(function(response) {
+	    	 this.result=response.body
+	    }, function(response) {
+	    	 alert('错误')
+	    });
+    },
+   	},
   	
   	data () {
     return {
       result: ['id','ff'],
-      count: 0,
+      page: 1,
       sites: [
       { name: 'id' },
       { name: '用户名' },
       { name: '密码' },
       { name: '注册时间' },
       { name: '是否有效' },
+      { name: '操作' },
 
      
     ]

@@ -159,6 +159,30 @@
                 </li>
               </ul>
             </li>
+             <li>
+              <a href="#" class="dropdown-toggle">
+                <i class="icon-list"></i>
+                <span class="menu-text"> 礼品管理 </span>
+
+                <b class="arrow icon-angle-down"></b>
+              </a>
+
+              <ul class="submenu">
+                <li>
+                  <a href="#/admin/tables">
+                    <i class="icon-double-angle-right"></i>
+                    礼品展示
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#/admin/giftadd">
+                    <i class="icon-double-angle-right"></i>
+                    礼品添加
+                  </a>
+                </li>
+              </ul>
+            </li>
 
           <!--   <li>
             <a href="#" class="dropdown-toggle">
