@@ -12,7 +12,7 @@ class IndexController extends Controller{
     public function Login(){
         return view("/index/index");
     }
-    //展示
+    //展示列表
     public function user(){
         return view("/user/user_center");
     }
