@@ -5,6 +5,7 @@
  * IT的时代领航 | come on
  * Stick to your dream
  */
+
 namespace App\Http\Controllers;
 
 class IndexController extends Controller{
