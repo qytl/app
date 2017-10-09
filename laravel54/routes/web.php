@@ -10,6 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+
 //配置路由规则
 $ROUTES=isset($_GET['r'])?$_GET['r']:false;
 if($ROUTES)
@@ -27,9 +28,5 @@ else
         //Route::any('/'.$uri[2], ucfirst($uri[2]).'Controller@index');
         Route::any('/', 'LoginController@homepage');
     }
-
-    /*Route::get('/', function () {
-        return view('welcome');
-    });*/
 }
 

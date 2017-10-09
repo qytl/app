@@ -10,13 +10,18 @@ namespace App\Http\Controllers;
 use Illuminate\Support\Facades\Db;
 class GiftController extends Controller{
 
+    //主播礼物收入
+    public  function  profileGiftIncome(){
+        return view('/gift/profileGiftIncome');
+    }
+
     //礼物清单
     public  function profileGiftList(){
         $res = DB::select("select * from bo_gift ");
         //转换为数组
         $res = json_decode(json_encode($res),true);
         //print_r($res);die;
-        return view('user/profileGiftList',['res'=>$res]);
+        return view('gift/profileGiftList',['res'=>$res]);
 
     }
 
