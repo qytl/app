@@ -50,7 +50,7 @@ class LoginController extends Controller
                 echo "登录成功！";
                 // 存储数据到session...
                 session(['user' => $log]);
-                var_dump(session('user') );
+               // var_dump(session('user') );
                 return view('Login.log');
                 //return redirect('路由')->send();
             }
@@ -72,16 +72,19 @@ class LoginController extends Controller
         $user=DB::table('user')->where(['user_name'=>$user_msg['name']])->first();
         if($user)
         {
-            return view('Login/sub');
+            echo"<script>alert('Sorry,该用户名已存在!')</script>";
+            return view('Login/log');die;
         }
         $res=DB::table('user')->insert(['user_name'=>$user_msg['name'],'user_pwd'=>$user_msg['pwd']]);
         if($res)
         {
-            echo "注册成功";
+            echo"<script>alert('欢迎加入BOBO!')</script>";
+            return view('Login.log');
         }
         else
         {
-            echo "注册失败";
+            echo"<script>alert('服务器开小差了,请稍后注册!')</script>";
+            return view('Login.log');
         }
     }
 }
