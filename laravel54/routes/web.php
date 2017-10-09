@@ -21,15 +21,14 @@ else
 {
     $uri=$_SERVER['REQUEST_URI'];
     $uri=explode('/', $uri);
-    if(isset($uri[3])){
-        Route::any('/'.$uri[2].'/'.$uri[3], ucfirst($uri[2]).'Controller@'.$uri[3]);
+    if(isset($uri[5])){
+        Route::any('/'.$uri[4].'/'.$uri[5], ucfirst($uri[4]).'Controller@'.$uri[5]);
     }else{
         //Route::any('/'.$uri[2], ucfirst($uri[2]).'Controller@index');
-        Route::any('/', 'LoginController@homepage');
+        Route::any('/', 'IndexController@index');
     }
 
     /*Route::get('/', function () {
         return view('welcome');
     });*/
 }
-

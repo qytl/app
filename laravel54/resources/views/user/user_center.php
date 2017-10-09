@@ -631,10 +631,7 @@
                 <!-- <span class="line line-income"></span> -->
             </div>
             <!-- 手机未认证 -->
-
             <!-- 手机已认证 -->
-
-
             <div class="account_num_list">
                 <div class="password"></div>
                 <div class="msg">
@@ -653,7 +650,7 @@
                     <p class="msg_1">维护中...</p>
                     <p class="msg_2">当前功能不开放,请查看其它功能</p>
                 </div>
-                <a class="result" href="#"></a>
+                <a class="result" href="<?=url('center/maintain')?>"></a>
             </div>
         </div>
     </div>
