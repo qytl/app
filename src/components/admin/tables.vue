@@ -1,8 +1,7 @@
 <template>
 
 <div>
-	
-	
+
 
 <div class="main-content">
 					<div class="breadcrumbs" id="breadcrumbs">
@@ -23,7 +22,7 @@
 						<div class="nav-search" id="nav-search">
 							<form class="form-search">
 								<span class="input-icon">
-									<input type="text" placeholder="Search ..." class="nav-search-input" id="nav-search-input" autocomplete="off" @blur="modalshow()" v-model="search" />
+									<input type="text" placeholder="Search ..." class="nav-search-input" id="nav-search-input" autocomplete="off" />
 									<i class="icon-search nav-search-icon"></i>
 								</span>
 							</form>
@@ -80,24 +79,12 @@
 														<td>{{respon.create_time}}</td>
 
 														<td class="hidden-480">
-															<span class="label label-sm label-warning">{{ fruit = respon.is_online}}</span>
-														</td>
-														<td>
-
-			<select v-model="fruit"    @change="chooseMedicine(respon.id)">
-			
-			<option v-for="ff in status" v-bind:value="ff.status" >
-
-			{{ff.x}}
-			</option>
-
-			</select>
-		
+															<span class="label label-sm label-warning">{{respon.is_online}}</span>
 														</td>
 
 														<td>
 															<div class="visible-md visible-lg hidden-sm hidden-xs btn-group">
-																<button class="btn btn-xs btn-success" v-on:click="xiangqing(respon)">
+																<button class="btn btn-xs btn-success">
 																	<i class="icon-ok bigger-120"></i>
 																</button>
 
@@ -183,34 +170,13 @@
 
 <script>
 export default {
- 	
- 		data () {
-    return {
-      result: ['id','ff'],
-      search:'',
-      page: 1,
-      sites: [
-      { name: 'id' },
-      { name: '用户名' },
-      { name: '密码' },
-      { name: '注册时间' },
-      { name: '是否有效' },
-      { name: '操作' },
 
-     
-    ],
-     status: [
-      { status: '0' ,'x' :'审核中'},
-      { status: '1' ,'x' :'审核通过'},
-    ]
-    }    
-  },
+  		
   
 
 	methods: {
 	upd: function (message) {
-  		//alert(message.id)
-  		window.location.href='#/admin/useredit/'+message.id
+  		alert(message.id)
   	},
   	cpage:function(message){
   		if (message==='prev') {
@@ -224,7 +190,7 @@ export default {
   			this.page=1
   		}
 
-  		this.$http.jsonp(url+'?r=type/search&p='+this.page+'&search='+this.search, {}, {
+  		this.$http.jsonp(url+'?r=type&p='+this.page, {}, {
 	        emulateJSON: true
 	    }).then(function(response) {
 	    	
@@ -235,28 +201,6 @@ export default {
 	        console.log(response)
 	        this.result = response.body
 	    });
-
-
-
-  	},
-  	chooseMedicine: function(id){
-  			
-
-  		this.$http.jsonp(url+'?r=type/status&id='+id+'&is_online='+this.fruit, {}, {
-	        emulateJSON: true
-	    }).then(function(response) {
-	    	alert('修改成功')
-	    	this.fruit = this.fruit
-	
-	    }, function(response) {
-	    	
-	    
-	    });
-
-
-
-
-
 
 
 
@@ -276,23 +220,24 @@ export default {
 	        this.result = response.body
 	    });
     },
-    xiangqing: function(message){
-    	alert('去做详情')
-    },
-    modalshow: function(){
-
-    	 	this.$http.jsonp(url+'?r=type/search&search='+this.search, {}, {
-	        emulateJSON: true
-	    }).then(function(response) {
-	    	 this.result=response.body
-	    	 this.page = 1
-	    }, function(response) {
-	    	 alert('错误')
-	    });
-    },
    	},
   	
-  
+  	data () {
+    return {
+      result: ['id','ff'],
+      page: 1,
+      sites: [
+      { name: 'id' },
+      { name: '用户名' },
+      { name: '密码' },
+      { name: '注册时间' },
+      { name: '是否有效' },
+      { name: '操作' },
+
+     
+    ]
+    }    
+  },
 
     mounted: function () {
 		this.$http.jsonp(url+'?r=type', {}, {
