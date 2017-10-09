@@ -22,8 +22,8 @@ import Login from './components/admin/Login';
 import formelements from './components/admin/formelements';
 import type from './components/admin/type';
 import Add from './components/admin/Add';
-import useredit from './components/admin/useredit';
-import giftadd from './components/admin/giftadd';
+import Type_add from './components/admin/type_add';
+import Type_list from './components/admin/type_list';
 
 
 Vue.config.productionTip = false
@@ -32,22 +32,21 @@ Vue.config.productionTip = false
 
 var router = new VueRouter({
 	routes: [
+        {
+            path: '/admin/type_add',
+            component: Type_add,
+        },
+        {
+            path: '/admin/type_list',
+            component: Type_list,
+        },
 	   {
 	    path: '/article/add',
 	    component: Artadd,
 	  },
-	   {
-	    path: '/admin/giftadd',
-	    component: giftadd,
-	  },
-	  
 	  {
 	  	path: '/admin/formelements',
 	  	component:formelements,
-	  },
-	  {
-	  	path: '/admin/useredit/:id',
-	  	component:useredit,
 	  },
 	  {
 	  	path: '/admin/add',
