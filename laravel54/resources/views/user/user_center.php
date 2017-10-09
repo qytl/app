@@ -631,10 +631,7 @@
                 <!-- <span class="line line-income"></span> -->
             </div>
             <!-- 手机未认证 -->
-
             <!-- 手机已认证 -->
-
-
             <div class="account_num_list">
                 <div class="password"></div>
                 <div class="msg">
