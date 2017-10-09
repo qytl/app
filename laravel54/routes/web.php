@@ -28,5 +28,14 @@ else
         //Route::any('/'.$uri[2], ucfirst($uri[2]).'Controller@index');
         Route::any('/', 'LoginController@homepage');
     }
+<<<<<<< HEAD
+=======
+
+
+
+    /*Route::get('/', function () {
+        return view('welcome');
+    });*/
+>>>>>>> 03e4cefba2d6f8b388c04839af32dad0aa8436c7
 }
 
