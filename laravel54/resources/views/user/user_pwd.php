@@ -9,7 +9,7 @@
 </head>
 <body>
 <div>
-    <div><strong><span></span> 修改会员密码</strong></div>
+    <div><strong><span></span>修改主播密码</strong></div>
     <div>
         <form method="post" class="form-x" action="">
             <div>
@@ -59,9 +59,6 @@
             </div>
 
             <div>
-<!--                <div class="label">-->
-<!--                    <label></label>-->
-<!--                </div>-->
                 <div>
                     <button type="submit"> 提交</button>
                 </div>
@@ -70,6 +67,10 @@
     </div>
 </div>
 </body></html>
+
+
+
+
 
 
 
