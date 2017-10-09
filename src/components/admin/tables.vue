@@ -80,7 +80,19 @@
 														<td>{{respon.create_time}}</td>
 
 														<td class="hidden-480">
-															<span class="label label-sm label-warning">{{respon.is_online}}</span>
+															<span class="label label-sm label-warning">{{ fruit = respon.is_online}}</span>
+														</td>
+														<td>
+
+			<select v-model="fruit"    @change="chooseMedicine(respon.id)">
+			
+			<option v-for="ff in status" v-bind:value="ff.status" >
+
+			{{ff.x}}
+			</option>
+
+			</select>
+		
 														</td>
 
 														<td>
@@ -172,13 +184,27 @@
 <script>
 export default {
  	
- 	data () {
+ 		data () {
     return {
-      	search:'',
-    }
+      result: ['id','ff'],
+      search:'',
+      page: 1,
+      sites: [
+      { name: 'id' },
+      { name: '用户名' },
+      { name: '密码' },
+      { name: '注册时间' },
+      { name: '是否有效' },
+      { name: '操作' },
 
- 	},
-  		
+     
+    ],
+     status: [
+      { status: '0' ,'x' :'审核中'},
+      { status: '1' ,'x' :'审核通过'},
+    ]
+    }    
+  },
   
 
 	methods: {
@@ -198,7 +224,7 @@ export default {
   			this.page=1
   		}
 
-  		this.$http.jsonp(url+'?r=type&p='+this.page, {}, {
+  		this.$http.jsonp(url+'?r=type/search&p='+this.page+'&search='+this.search, {}, {
 	        emulateJSON: true
 	    }).then(function(response) {
 	    	
@@ -209,6 +235,28 @@ export default {
 	        console.log(response)
 	        this.result = response.body
 	    });
+
+
+
+  	},
+  	chooseMedicine: function(id){
+  			
+
+  		this.$http.jsonp(url+'?r=type/status&id='+id+'&is_online='+this.fruit, {}, {
+	        emulateJSON: true
+	    }).then(function(response) {
+	    	alert('修改成功')
+	    	this.fruit = this.fruit
+	
+	    }, function(response) {
+	    	
+	    
+	    });
+
+
+
+
+
 
 
 
@@ -237,28 +285,14 @@ export default {
 	        emulateJSON: true
 	    }).then(function(response) {
 	    	 this.result=response.body
+	    	 this.page = 1
 	    }, function(response) {
 	    	 alert('错误')
 	    });
     },
    	},
   	
-  	data () {
-    return {
-      result: ['id','ff'],
-      page: 1,
-      sites: [
-      { name: 'id' },
-      { name: '用户名' },
-      { name: '密码' },
-      { name: '注册时间' },
-      { name: '是否有效' },
-      { name: '操作' },
-
-     
-    ]
-    }    
-  },
+  
 
     mounted: function () {
 		this.$http.jsonp(url+'?r=type', {}, {
