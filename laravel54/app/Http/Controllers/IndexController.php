@@ -9,8 +9,13 @@
 namespace App\Http\Controllers;
 
 class IndexController extends Controller{
-    
-    public function Login(){
+    //登录
+    public  function login(){
+        return view("/index/login");
+    }
+
+    //首页
+    public function index(){
         return view("/index/index");
     }
     //展示列表
@@ -38,5 +43,37 @@ class IndexController extends Controller{
     public function type(){
         return view("/index/fenlei");
     }
+
+    //主播信息
+    public  function ProfileInfo(){
+        return view("/user/ProfileInfo");
+    }
+
+     //违规查询
+    public  function ProfileFreezeAppeal(){
+        return view("/user/ProfileFreezeAppeal");
+    }
+
+    //主播收入
+    public  function MyAccount(){
+        return view("/user/MyAccount");
+    }
+
+    //礼物清单
+    public  function profileGiftList(){
+        return view("/user/profileGiftList");
+    }
+
+    //签约申请
+    public  function ProfileSign(){
+        return view("/user/ProfileSign");
+    }
+
+    //我的粉丝
+    public  function ProfileFans(){
+        return view("/user/ProfileFans");
+    }
+
+
 
 }
