@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="../js/rem.js"></script>
+    <link rel="stylesheet" href="../css/swiper.min.css">
+    <link rel="stylesheet" href="../css/lxf-bank.css">
+    <title>银行卡选择</title>
+</head>
+<body>
+<div class="lxf-bank">
+    <!--头部开始-->
+    <header>
+        <a href="lxf-ka.html" class="left">
+            <img src="../img/lxf-back-fff_03.png" alt="">
+        </a>
+        <span>选择支付方式</span>
+        <!--<a href="" class="right">编辑</a>-->
+    </header>
+    <!--头部结束-->
+    <!--主体开始-->
+    <section class="main-box">
+        <div class="swiper-container banner1">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background: url(../img/lxf-yinhangk_03.png) no-repeat center center/cover"></div>
+                <div class="swiper-slide" style="background: url(../img/lxf-yinhangk_03.png) no-repeat center center/cover"></div>
+                <div class="swiper-slide" style="background: url(../img/lxf-yinhangk_03.png) no-repeat center center/cover"></div>
+                <div class="swiper-slide" style="background: url(../img/lxf-yinhangk_03.png) no-repeat center center/cover"></div>
+
+            </div>
+        </div>
+        <!-- 指纹支付开始 -->
+    <div class="zhifu">
+        <div class="zhifu1">
+        	<a href="zhibojian1.html">
+        		  <img src="../img/zf_27.png" alt="">
+        	</a>
+          
+            <p>Touch ID</p>
+            <p>您可以通过指纹识别完成支付</p>
+        </div>
+        <div class="zhifu2">
+            <div class="zhifu2-1">
+                <div class="dian"></div>
+                <div class="xian"></div>
+                <div class="dian"></div>
+            </div>
+            <p>ZHIWENSHIBIEWANCHENGZHIFU</p>
+            <div class="zhifu2-1">
+                <div class="dian"></div>
+                <div class="xian"></div>
+                <div class="dian"></div>
+            </div>
+        </div>
+        <div class="zhifu3">
+            <p>150.00</p>
+            <p>RMB</p>
+            <!--<p>切换到支付密码</p>-->
+            <!--<p><a href="zhibojian.html" style="color: #09BB07">返回到直播间</a></p>-->
+            <div class="xian2"></div>
+        </div>
+    </div>
+    </section>
+    <!--主体结束-->
+    
+
+    <!-- 指纹支付结束 -->
+    <!--底部开始-->
+    <!--<footer>-->
+        <!--<div class="fot-box">-->
+            <!--<img src="../img/zf_18.png" alt="">-->
+            <!--<a class="foot" href="">-->
+                <!--<p>确认订单</p>-->
+                <!--<p>ONLINE PAY</p>-->
+            <!--</a>-->
+        <!--</div>-->
+    <!--</footer>-->
+    <!--底部结束-->
+</div>
+</body>
+<script src="../js/swiper.min.js"></script>
+<script>
+    var swiper = new Swiper('.banner1', {
+        pagination: '.swiper-pagination',
+        slidesPerView: 'auto',
+        centeredSlides: true,
+        paginationClickable: true,
+        spaceBetween: 20
+    });
+</script>
+
+</html>

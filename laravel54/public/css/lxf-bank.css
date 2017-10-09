@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+html,
+body {
+  height: 100%;
+  font-size: 16px;
+}
+body {
+  background: #EDEDED;
+  font-family: "苹方", "San Francisco";
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+}
+a,
+button {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+img {
+  border: none;
+}
+input {
+  border: none;
+  outline: none;
+}
+.lxf-bank {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.lxf-bank header {
+  width: 100%;
+  height: .88rem;
+  font-size: .34rem;
+  text-align: center;
+  line-height: .5rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #fff;
+  padding: .19rem .24rem;
+  box-sizing: border-box;
+}
+.lxf-bank header .left {
+  display: block;
+  float: left;
+  width: .5rem;
+  height: 100%;
+}
+.lxf-bank header .left img {
+  width: 100%;
+}
+.lxf-bank header span {
+  display: inline-block;
+  min-width: 1.5rem;
+  height: 100%;
+  line-height: .5rem;
+  text-align: center;
+  margin: 0 auto;
+}
+.lxf-bank header .right {
+  display: block;
+  float: right;
+  width: .6rem;
+  height: 100%;
+  color: #555658;
+  font-size: .28rem;
+}
+.lxf-bank .main-box {
+  width: 100%;
+  height: 100%;
+  padding: .88rem .24rem .1rem .24rem;
+  box-sizing: border-box;
+  background: #fff;
+}
+.lxf-bank .swiper-container {
+  width: 100%;
+  height: auto;
+}
+.lxf-bank .swiper-slide {
+  border-radius: 10px;
+  text-align: center;
+  background: #ccc;
+  height: 3.08rem;
+  width: 75%;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.lxf-bank footer {
+  width: 100%;
+  height: 1rem;
+  text-align: center;
+  background: #31AF27;
+  padding: .25rem;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.lxf-bank footer .fot-box {
+  width: 2rem;
+  height: 100%;
+  margin: 0 auto;
+}
+.lxf-bank footer .fot-box > img {
+  width: .5rem;
+  height: .5rem;
+  display: block;
+  float: left;
+}
+.lxf-bank footer .fot-box .foot {
+  float: left;
+  width: auto;
+  height: 100%;
+  line-height: .25rem;
+  margin-left: .1rem;
+}
+.lxf-bank footer .fot-box .foot p {
+  font-size: .2rem;
+  color: #fff;
+  text-align: left;
+}
+/* 指纹支付开始 */
+.lxf-bank .zhifu {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-top: 1.84rem;
+}
+.lxf-bank .zhifu1 {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+.lxf-bank .zhifu1  img {
+  width: 1.3rem;
+  height: 1.3rem;
+  margin: 0 auto;
+  margin-bottom: 0.26rem;
+}
+.lxf-bank .zhifu1 > p {
+  font-size: 0.28rem;
+  color: #1E7EDE;
+  font-weight: 900;
+  margin: 0 auto;
+  line-height: 0.28rem;
+}
+.lxf-bank .zhifu1 > p:last-child {
+  font-size: 0.22rem;
+  color: #636363;
+  font-weight: 500;
+  line-height: 0.22rem;
+  margin-top: 0.14rem;
+}
+.lxf-bank .zhifu2 {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+  margin-top: 0.04rem;
+}
+.lxf-bank .zhifu2-1 {
+  width: 0.7rem;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.lxf-bank .dian {
+  width: 0.06rem;
+  height: 0.06rem;
+  border-radius: 50%;
+  background: #BFBFBF;
+  float: left;
+}
+.lxf-bank .xian {
+  width: 0.48rem;
+  height: auto;
+  margin-top: 0.02rem;
+  border: 1px solid #BFBFBF;
+  float: left;
+}
+.lxf-bank .zhifu2 > p {
+  font-size: 0.18rem;
+  color: #BABABA;
+  line-height: 0.18rem;
+  margin-top: 0.06rem;
+  margin-bottom: 0.06rem;
+}
+.lxf-bank .zhifu3 {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+  margin-top: 0.3rem;
+}
+.lxf-bank .zhifu3 > p {
+  font-size: 0.36rem;
+  color: #1E7EDE;
+  font-weight: 700;
+  line-height: 0.36rem;
+}
+.lxf-bank .zhifu3 > p:nth-child(2) {
+  font-size: 0.2rem;
+  line-height: 0.2rem;
+  margin-top: 0.06rem;
+}
+.lxf-bank .zhifu3 > p:nth-child(3) {
+  font-size: 0.28rem;
+  line-height: 0.28rem;
+  color: #202020;
+  font-weight: 400;
+  margin-top: 1.06rem;
+}
+.lxf-bank .xian2 {
+  width: 1.37rem;
+  height: auto;
+  border: 1px solid #BABABA;
+  margin: 0 auto;
+  margin-top: 0.1rem;
+}

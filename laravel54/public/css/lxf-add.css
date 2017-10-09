@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+html,
+body {
+  height: 100%;
+  font-size: 16px;
+}
+body {
+  background: #EDEDED;
+  font-family: "苹方", "San Francisco";
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+}
+a,
+button {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+img,
+input {
+  border: none;
+}
+input {
+  outline: none;
+}
+.lxf-add {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.lxf-add header {
+  width: 100%;
+  height: .88rem;
+  font-size: .34rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #3B74E8;
+  padding: .24rem;
+  box-sizing: border-box;
+  text-align: center;
+}
+.lxf-add header .left {
+  display: block;
+  float: left;
+  width: .4rem;
+  height: 100%;
+}
+.lxf-add header .left img {
+  width: 100%;
+}
+.lxf-add header span {
+  font-family: 微软雅黑;
+  display: inline-block;
+  min-width: 1.5rem;
+  height: 100%;
+  line-height: .5rem;
+  text-align: center;
+  color: #fff;
+  margin: 0 auto;
+}
+.lxf-add header .right {
+  display: block;
+  float: right;
+  width: .4rem;
+  height: 100%;
+}
+.lxf-add header .right img {
+  width: 100%;
+}
+.lxf-add .main-box {
+  width: 100%;
+  height: 100%;
+  padding-top: .87rem;
+  box-sizing: border-box;
+  background: #EDEDED;
+}
+.lxf-add .main-box li {
+  display: block;
+  width: 100%;
+  height: .88rem;
+  margin-top: .25rem;
+  background: #fff;
+  padding-left: .65rem;
+  box-sizing: border-box;
+  line-height: .88rem;
+}
+.lxf-add .main-box li input {
+  width: 5rem;
+  background: rgba(0, 0, 0, 0);
+  height: 100%;
+  outline: none;
+  border: none;
+}
+.lxf-add .main-box li:nth-child(3) {
+  margin-top: 0;
+  border-top: 1px solid #ccc;
+}
+.lxf-add .main-box p {
+  display: block;
+  height: .88rem;
+  width: 100%;
+  line-height: .88rem;
+  padding-top: 1px;
+  padding-left: .2rem ;
+}
+.lxf-add .main-box p #radio {
+  width: .3rem;
+  height: .3rem;
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid #ccc!important;
+}
+.lxf-add .main-box p a span {
+  color: #969696;
+}
+.lxf-add .main-box #btn {
+  width: 6.5rem;
+  height: .9rem;
+  background: #ccc;
+  text-align: center;
+  line-height: .9rem;
+  color: #171717;
+  font-size: .4rem;
+  border-radius: 10px;
+  margin: .2rem auto;
+  display: block;
+}

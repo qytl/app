@@ -1,0 +1,433 @@
+/*
+* @Author: Administrator
+* @Date:   2017-04-12 17:48:48
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-04-14 09:21:12
+*/
+
+*{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-appearance: none;
+	-webkit-text-size-adjust:100%;
+	-webkit-user-select:none;
+	-webkit-overflow-scrolling: touch;
+	/* -webkit-transform: translate3d(0, 0, 0);transform: translate3d(0, 0, 0); */
+	max-height:9999999px;
+	-webkit-text-size-adjust:none;
+	-webkit-overflow-scrolling:touch; overflow-scrolling: touch;
+}
+body{
+	-webkit-overflow-scrolling:touch; 
+	overflow-scrolling: touch;
+}
+*{
+	text-decoration: none;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+body{
+	font-family: "苹方", "San Francisco";
+	overflow: hidden;
+	position: relative;
+}
+
+html,body{
+	height: 100%;
+	overflow: hidden!important;
+}
+
+.banner{
+	width: 100%;
+	 height: 100%; 
+	 /*position: absolute;*/
+	 /*left: 0;*/
+	 /*top:0;*/
+	 /*z-index: -3;*/
+	
+}
+.banner .beijing{
+	display: block;
+	width: 100%;
+	 height: 100%; 
+	position: absolute;
+	z-index: -1;
+}
+
+
+.tou{
+	padding-top: .5rem;
+}
+
+.tou .a{
+	width: .77rem;
+	height: .77rem;
+	background: red;
+	border-radius: 50%;
+	float: left;
+	margin-left: -.2rem;
+}
+.tou .a1{
+	width: .77rem;
+	height: .77rem;
+	border-radius: 50%;
+	margin-left: .3rem;
+	float: left;
+}
+.tou .a1{
+	background-image: url(../img/tu1_03.png);
+	background-size: cover;
+}
+.tou .a2{
+	background-image: url(../img/tu2_04.png);
+	background-size: cover;
+}
+.tou .a3{
+	background-image: url(../img/tu3_05.png);
+	background-size: cover;
+}
+.tou .a4{
+	background-image: url(../img/tu4_03.png);
+	background-size: cover;
+}
+.tou .a5{
+	background-image: url(../img/tu5_07.png);
+	background-size: cover;
+}
+.tou .a6{
+	background: #4E4C4C;
+	border: 1px solid #fff;
+	color: #E4DB3D;
+	font-size: .2rem;
+	line-height: .77rem;
+	text-align: center;
+}
+
+
+
+
+.right{
+	width: 2.61rem;
+	height: 1.3rem;
+	background: #F3ECEC;
+	float: right;
+	margin-right: .24rem;
+	border-radius: .1rem;
+}
+.right .a{
+	width: .63rem;
+	height: .63rem;
+	display: block;
+	border-radius: 50%;
+	background-image: url(../img/tu6_06.png);
+	background-size: cover;
+	margin-top: .08rem;
+	margin-left: .08rem;
+	float: left;
+}
+.right .a1{
+	float: left;
+
+}
+.right .a1 .b1{
+	font-size: .24rem;
+	font-weight: bold;
+	margin-top: .08rem;
+}
+.right .a1 .b2{
+	font-size: .2rem;
+}
+.right .xian{
+	width: 2.37rem;
+	height: 1px;
+	background: #D2D0D0;
+	margin: 0 auto;
+	margin-top: .8rem;
+}
+.right .wu{
+	float: left;
+}
+.right .wu img{
+	display: block;
+	margin-left: .08rem;
+	width: 1.15rem;
+	margin-top: .1rem;
+}
+.right .m{
+	width: .63rem;
+	height: .26rem;
+	background: #fff;
+	border-radius: .2rem;
+	float: right;
+	font-size: .2rem;
+	line-height: .26rem;
+	text-align: center;
+	margin-top: .1rem;
+	margin-right: .1rem;
+	color: #F34747;
+}
+
+
+
+.wei{
+	width: 100%;
+	height: 4.8rem;
+	background: rgba(33, 43, 61, 0.3);
+	/*margin-top: 8rem;*/
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.wei .a1{
+	width: 100%;
+	height: 1.6rem;
+}
+.wei .a1 .b1{
+	width: .56rem;
+	height: .29rem;
+	margin-left: .24rem;
+	padding-top: .1rem;
+	float: left;
+}
+.wei .a1 .b1 img{
+	display: block;
+	width: .56rem;
+	height: .29rem;
+	margin-bottom: .1rem;
+}
+.wei .a1 .b2{
+	float: left;
+	width: auto;
+}
+.wei .a1 .b2 .c1{
+	width: auto;
+	margin-top: .1rem;
+	margin-left: .1rem;
+}
+.wei .a1 .b2 .c1 .d1{
+	font-size: .24rem;
+	float: left;
+	color: #f1bA26;
+}
+.wei .a1 .b2 .c1 .d2{
+	font-size: .24rem;
+	float: left;
+	margin-left: .08rem;
+	color: #fff;
+}
+.wei .a1 .b2 .c1 .d3{
+	width: 1rem;
+	height: .2rem;
+	background-image: url(../img/aixin_03_03.png);
+	background-size: cover;
+	margin-left: 1.6rem;
+}
+.wei .a1 .b2 .c2{
+	width: auto;
+	margin-top: .1rem;
+	margin-left: .1rem;
+}
+.wei .a1 .b2 .c2 .d1{
+	font-size: .24rem;
+	float: left;
+	color: #f1bA26;
+}
+.wei .a1 .b2 .c2 .d2{
+	font-size: .24rem;
+	float: left;
+	margin-left: .08rem;
+	color: #fff;
+}
+.wei .a1 .b2 .c3{
+	width: auto;
+	margin-top: .1rem;
+	margin-left: .1rem;
+}
+.wei .a1 .b2 .c3 .d1{
+	font-size: .24rem;
+	float: left;
+	color: #f1bA26;
+}
+.wei .a1 .b2 .c3 .d2{
+	font-size: .24rem;
+	float: left;
+	margin-left: .08rem;
+	color: #fff;
+	padding-right: .2rem;
+}
+.wei .a1 .b2 .c4{
+	width: auto;
+	margin-top: .1rem;
+	margin-left: .1rem;
+}
+.wei .a1 .b2 .c4 .d1{
+	font-size: .24rem;
+	float: left;
+	color: #f1bA26;
+}
+.wei .a1 .b2 .c4 .d2{
+	font-size: .24rem;
+	float: left;
+	margin-left: .08rem;
+	color: #fff;
+}
+.wei .a1 .b2 .c5 .d1{
+	color: rgba(237, 183, 40, .5)
+}
+.wei .a1 .b2 .c5 .d2{
+	color: rgba(255, 255, 255, .5)
+}
+
+
+.wei .a2{
+	width: 100%;
+	height: 2.25rem;
+}
+.wei .a2 .m{
+	width: 2.67rem;
+	height: .7rem;
+	background: #22292E;
+	border-radius: .4rem;
+	margin-left: .3rem;
+	border: 1px solid #fff;
+	margin-top: .1rem;
+}
+.wei .a2 .m .n1{
+	width: .52rem;
+	height: .52rem;
+	border-radius: 50%;
+	background: red;
+	margin-left: .08rem;
+	margin-top: .09rem;
+	background-image: url('../img/tu7_03_11.png');
+	background-size: cover;
+	float: left;
+}
+.wei .a2 .m .n2{
+	width: 2.2rem;
+	line-height: .7rem;
+	color: #fff;
+	font-size: .2rem;
+	margin-left: .2rem;
+}
+.wei .a2 .m .n3{
+	float: right;
+}
+.wei .a2 .m .n3 img{
+	display: block;
+	width: .3rem;
+	float: right;
+	margin-top: -.5rem;
+	margin-right: .2rem;
+}
+
+.wei .a2 .m1{
+	width: 2.67rem;
+	height: .7rem;
+	background: #22292E;
+	border-radius: .4rem;
+	margin-left: 3.7rem;
+	border: 1px solid #fff;
+	margin-top: -.6rem;
+
+}
+.wei .a2 .m1 .n1{
+	width: .52rem;
+	height: .52rem;
+	border-radius: 50%;
+	background: red;
+	margin-left: .08rem;
+	background-image: url('../img/tu8_03_17.png');
+	background-size: cover;
+	float: left;
+	margin-top: -.46rem;
+}
+.wei .a2 .m1 img{
+	display: block;
+	width: 1.6rem;
+	float: left;
+	margin-top: -.44rem;
+	margin-left: .2rem;
+}
+.wei .a2 .m2{
+	width: 2.67rem;
+	height: .7rem;
+	background: #22292E;
+	border-radius: .4rem;
+	margin-left: 1.7rem;
+	border: 1px solid #fff;
+	margin-top: .3rem;
+
+}
+.wei .a2 .m2 .n1{
+	width: .52rem;
+	height: .52rem;
+	border-radius: 50%;
+	background: red;
+	margin-left: .08rem;
+	background-image: url('../img/tu8_03_17.png');
+	background-size: cover;
+	float: left;
+	margin-top: .08rem;
+}
+.wei .a2 .m2 img{
+	display: block;
+	width: 1.6rem;
+	float: left;
+	margin-left: .2rem;
+	margin-top: .12rem;
+}
+.wei .a3{
+	width: 94%;
+	margin: 0 auto;
+	height: 1px;
+	background: #818181;
+	margin-top: -.05rem;
+}
+.wei .a4{
+	width: 94%;
+	margin: 0 auto;
+	height: .9rem;
+}
+.wei .a4 .left{
+	color: #fff;
+	font-size: .3rem;
+	line-height: .9rem;
+	float: left;
+}
+.wei .a4 .right1{
+	float: right;
+}
+.wei .a4 .right1 img{
+	display: block;
+	float: left;
+	width: .37rem;
+	height: .37rem;
+	padding-left: .66rem;
+	margin-top: .25rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
