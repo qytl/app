@@ -66,7 +66,7 @@
 
     </script>
 
-    <script src="js/jq_ud_mod_4de7709.js" data-fixed="true"></script>
+    <script src="../../js/jq_ud_mod_4de7709.../../js" data-fixed="true"></script>
 
 </head>
 
@@ -278,7 +278,7 @@
 
                         <div class="un-login-btn">
 
-                            <a class="clickstat" id="nav-login" href="#" eid="click/navi/sign" eid_desc="点击/导航/登录">登录</a>
+                            <a class="clickstat" id="nav-login" href="<?=url('login/homepage')?>" eid="click/navi/sign" eid_desc="点击/导航/登录">登录</a>
 
                             <i>|</i>
 
@@ -499,7 +499,7 @@
 
     <!-- S 播放器模块 -->
 
-    <div class="mod-index-main" id="js-main">
+    <div class="mod-index-main" id="../../js-main">
 
         <div class="main-hd">
 
@@ -599,7 +599,7 @@
 
     <script data-fixed="true">
 
-        var slides= [{"uid":"1346609715","weight":"100","isBluRay":"1","gameFullName":"\u82f1\u96c4\u8054\u76df","gameHostName":"lol","screenType":"0","title":"\u7b54\u9898","totalCount":"201784","isTop":"1","isPush":"0","liveChannel":"2559461593","bussType":"1","yyid":"1486578378","screenshot":"http:\/\/screenshot.msstatic.com\/yysnapshot\/b2a9cb9b82393bdce95fefa7ff2c169d7074c459","recommendSite":"1","pic":"http:\/\/livewebbs2.msstatic.com\/home_recommend_live_web_1506139195.jpg","liveSourceType":"1","vedioUrl":"http:\/\/webyylbs.yy.duowan.com\/s\/78941969\/2559461593\/jsscene.swf","privateHost":"s7","appPic":"http:\/\/livewebbs2.msstatic.com\/home_recommend_live_app_1506139195.jpg","nick":"S7\u82f1\u96c4\u8054\u76df\u5168\u7403\u603b\u51b3\u8d5b","avatar180":"http:\/\/huyaimg.msstatic.com\/avatar\/1042\/6f\/3626ef611e990cbbcefab8e1bbc561_180_135.jpg","gid":"1","bitRate":"5000","channel":"78941969","introduction":"S7\u8d5b\u524d\u8282\u76ee\u300a\u4f60\u7b54\u6211\u9001\u300b","h5_player":true,"flashVersion":"v3.2_17092101"},{"uid":"993484363","weight":"25","isBluRay":"1","gameFullName":"\u7edd\u5730\u6c42\u751f","gameHostName":"2793","screenType":"0","title":"\u54d3\u5f1f \u7edd\u5730\u6c42\u751f","totalCount":"18487","isTop":"0","isPush":"0","liveChannel":"2635054836","bussType":"1","yyid":"960435923","screenshot":"http:\/\/screenshot.msstatic.com\/yysnapshot\/687ee6f439bd083087ca7ce0a49da1c27fd5e0b0","recommendSite":"2","pic":"http:\/\/livewebbs2.msstatic.com\/home_recommend_live_web_1497924217.jpg","liveSourceType":"0","vedioUrl":"http:\/\/webyylbs.yy.duowan.com\/s\/57895512\/2635054836\/jsscene.swf","privateHost":"mgxiaodi","appPic":"http:\/\/livewebbs2.msstatic.com\/home_recommend_live_app_1497922855.jpg","nick":"\u8bdd\u793e-\u5c0f\u5f1f-CNXZ","avatar180":"http:\/\/huyaimg.msstatic.com\/avatar\/1054\/bf\/6d55e00d8daf5ccdae74235d9559c4_180_135.jpg","gid":"2793","bitRate":"6000","channel":"57895512","introduction":"XZT1:\u6211\u662f\u4e00\u53ea\u52e4\u52b3\u7684\u5c0f\u67aa\u624b","h5_player":true,"flashVersion":"v3.2_17092101"},{"uid":"1703883402","weight":"20","isBluRay":"1","gameFullName":"\u82f1\u96c4\u8054\u76df","gameHostName":"lol","screenType":"0","title":"LOL-\u53e4\u624b\u7fbd","totalCount":"36118","isTop":"0","isPush":"0","liveChannel":"2622305922","bussType":"1","yyid":"1942682643","screenshot":"http:\/\/screenshot.msstatic.com\/yysnapshot\/057382ecd10295511ee191caa0865b8bc71c64a7","recommendSite":"3","pic":"http:\/\/livewebbs2.msstatic.com\/home_recommend_live_web_1487229821.png","liveSourceType":"0","vedioUrl":"http:\/\/webyylbs.yy.duowan.com\/s\/77259038\/2622305922\/jsscene.swf","privateHost":"gushouyu","appPic":"http:\/\/livewebbs2.msstatic.com\/home_recommend_live_app_1487229821.png","nick":"\u7231\u62cd-\u53e4\u624b\u7fbd","avatar180":"http:\/\/huyaimg.msstatic.com\/avatar\/1087\/0e\/e70f70894f22e202bb5bd7f64235ad_180_135.jpg","gid":"1","bitRate":"3000","channel":"77259038","introduction":"\u97e9\u670d\u5927\u5e08\u738b\u8005\u5c40,\u4e00\u661f\u671f\u4e0d\u4e0a\u738b\u8005\u5241\u624b","h5_player":true,"flashVersion":"v3.2_17092101"},{"uid":"1631310875","weight":"16","isBluRay":"1","gameFullName":"\u661f\u79c0","gameHostName":"xingxiu","screenType":"0","title":"\u742a\u5427\u5566","totalCount":"932","isTop":"0","isPush":"0","liveChannel":"2563276169","bussType":"1","yyid":"1849735012","screenshot":"http:\/\/huyaimg.msstatic.com\/cdnimage\/anchorpost\/1089\/64\/74bede91b0b410425e100a8e5bf381_1663_1496805569.jpg","recommendSite":"4","pic":"http:\/\/livewebbs2.msstatic.com\/home_recommend_live_web_1481093568.jpg","liveSourceType":"0","vedioUrl":"http:\/\/webyylbs.yy.duowan.com\/s\/77690206\/2563276169\/jsscene.swf","privateHost":"1849735012","appPic":"http:\/\/livewebbs2.msstatic.com\/home_recommend_live_app_1481093568.jpg","nick":"RD\u742a\u5427\u5566","avatar180":"http:\/\/huyaimg.msstatic.com\/avatar\/1089\/64\/74bede91b0b410425e100a8e5bf381_180_135.jpg","gid":"1663","bitRate":"3000","channel":"77690206","introduction":"\u5173\u6ce826\u53f7\u665a9\u70b9\uff0cRD VS AzZ \u516c","h5_player":true,"flashVersion":"v3.2_17092101"},{"uid":"1591391630","weight":"20","isBluRay":"0","gameFullName":"\u4e61\u91ce","gameHostName":"2836","screenType":"1","title":"\u6237\u5916-\u6d41\u6d6a\u8005","totalCount":"12088","isTop":"0","isPush":"0","liveChannel":"58471506","bussType":"1","yyid":"1798213273","screenshot":"http:\/\/screenshot.msstatic.com\/yysnapshot\/8e9adf51cd8aba7ba52b7d1ae11ed6b7c62b9844","recommendSite":"5","pic":"http:\/\/livewebbs2.msstatic.com\/home_recommend_live_web_1494302026.jpg","liveSourceType":"6","vedioUrl":"http:\/\/webyylbs.yy.duowan.com\/s\/58471506\/58471506\/jsscene.swf","privateHost":"1798213273","appPic":"http:\/\/livewebbs2.msstatic.com\/home_recommend_live_app_1494302026.jpg","nick":"\u725b\u54e5\u8ffd\u68a6","avatar180":"http:\/\/huyaimg.msstatic.com\/avatar\/1066\/b9\/70482bc06a44e876440b44d95f2623_180_135.jpg","gid":"2836","bitRate":"1200","channel":"58471506","introduction":"\u7b49\u5f85\u6d41\u6d6a\u8005\u5bb6\u5c5e\u6765\u63a5\u4eba\uff0c\u7b2c25\u4e2a","h5_player":true,"flashVersion":"v3.2_17092101"},{"uid":"7110934","weight":"20","isBluRay":"1","gameFullName":"\u67aa\u706b\u6e38\u4fa0","gameHostName":"2602","screenType":"0","title":"\u67aa\u706b\u6e38\u4fa0-\u6668\u8f89","totalCount":"562","isTop":"0","isPush":"0","liveChannel":"2593619800","bussType":"1","yyid":"110567","screenshot":"http:\/\/screenshot.msstatic.com\/yysnapshot\/9c1231d6cfd29ccf399e153db7ff5c27e24cddda","recommendSite":"6","pic":"http:\/\/livewebbs2.msstatic.com\/home_recommend_live_web_1506298817.jpg","liveSourceType":"0","vedioUrl":"http:\/\/webyylbs.yy.duowan.com\/s\/37759532\/2593619800\/jsscene.swf","privateHost":"110567","appPic":"http:\/\/livewebbs2.msstatic.com\/home_recommend_live_app_1506298817.jpg","nick":"\u6668\u8f89","avatar180":"http:\/\/huyaimg.msstatic.com\/avatar\/1022\/ed\/f1a0efadde5929f28b99a94f6eedc3_180_135.jpg","gid":"2602","bitRate":"5000","channel":"37759532","introduction":"\u8be5\u6765\u7684\u603b\u4f1a\u6765\uff0c\u8be5\u8d70\u7684\u7559\u4e0d\u4f4f\uff01\uff01","h5_player":true,"flashVersion":"v3.2_17092101"}];
+        var slides= [{"uid":"1346609715","weight":"100","isBluRay":"1","gameFullName":"\u82f1\u96c4\u8054\u76df","gameHostName":"lol","screenType":"0","title":"\u7b54\u9898","totalCount":"201784","isTop":"1","isPush":"0","liveChannel":"2559461593","bussType":"1","yyid":"1486578378","screenshot":"http:\/\/screenshot.msstatic.com\/yysnapshot\/b2a9cb9b82393bdce95fefa7ff2c169d7074c459","recommendSite":"1","pic":"http:\/\/livewebbs2.msstatic.com\/home_recommend_live_web_1506139195.jpg","liveSourceType":"1","vedioUrl":"http:\/\/webyylbs.yy.duowan.com\/s\/78941969\/2559461593\/../../jsscene.swf","privateHost":"s7","appPic":"http:\/\/livewebbs2.msstatic.com\/home_recommend_live_app_1506139195.jpg","nick":"S7\u82f1\u96c4\u8054\u76df\u5168\u7403\u603b\u51b3\u8d5b","avatar180":"http:\/\/huyaimg.msstatic.com\/avatar\/1042\/6f\/3626ef611e990cbbcefab8e1bbc561_180_135.jpg","gid":"1","bitRate":"5000","channel":"78941969","introduction":"S7\u8d5b\u524d\u8282\u76ee\u300a\u4f60\u7b54\u6211\u9001\u300b","h5_player":true,"flashVersion":"v3.2_17092101"},{"uid":"993484363","weight":"25","isBluRay":"1","gameFullName":"\u7edd\u5730\u6c42\u751f","gameHostName":"2793","screenType":"0","title":"\u54d3\u5f1f \u7edd\u5730\u6c42\u751f","totalCount":"18487","isTop":"0","isPush":"0","liveChannel":"2635054836","bussType":"1","yyid":"960435923","screenshot":"http:\/\/screenshot.msstatic.com\/yysnapshot\/687ee6f439bd083087ca7ce0a49da1c27fd5e0b0","recommendSite":"2","pic":"http:\/\/livewebbs2.msstatic.com\/home_recommend_live_web_1497924217.jpg","liveSourceType":"0","vedioUrl":"http:\/\/webyylbs.yy.duowan.com\/s\/57895512\/2635054836\/../../jsscene.swf","privateHost":"mgxiaodi","appPic":"http:\/\/livewebbs2.msstatic.com\/home_recommend_live_app_1497922855.jpg","nick":"\u8bdd\u793e-\u5c0f\u5f1f-CNXZ","avatar180":"http:\/\/huyaimg.msstatic.com\/avatar\/1054\/bf\/6d55e00d8daf5ccdae74235d9559c4_180_135.jpg","gid":"2793","bitRate":"6000","channel":"57895512","introduction":"XZT1:\u6211\u662f\u4e00\u53ea\u52e4\u52b3\u7684\u5c0f\u67aa\u624b","h5_player":true,"flashVersion":"v3.2_17092101"},{"uid":"1703883402","weight":"20","isBluRay":"1","gameFullName":"\u82f1\u96c4\u8054\u76df","gameHostName":"lol","screenType":"0","title":"LOL-\u53e4\u624b\u7fbd","totalCount":"36118","isTop":"0","isPush":"0","liveChannel":"2622305922","bussType":"1","yyid":"1942682643","screenshot":"http:\/\/screenshot.msstatic.com\/yysnapshot\/057382ecd10295511ee191caa0865b8bc71c64a7","recommendSite":"3","pic":"http:\/\/livewebbs2.msstatic.com\/home_recommend_live_web_1487229821.png","liveSourceType":"0","vedioUrl":"http:\/\/webyylbs.yy.duowan.com\/s\/77259038\/2622305922\/../../jsscene.swf","privateHost":"gushouyu","appPic":"http:\/\/livewebbs2.msstatic.com\/home_recommend_live_app_1487229821.png","nick":"\u7231\u62cd-\u53e4\u624b\u7fbd","avatar180":"http:\/\/huyaimg.msstatic.com\/avatar\/1087\/0e\/e70f70894f22e202bb5bd7f64235ad_180_135.jpg","gid":"1","bitRate":"3000","channel":"77259038","introduction":"\u97e9\u670d\u5927\u5e08\u738b\u8005\u5c40,\u4e00\u661f\u671f\u4e0d\u4e0a\u738b\u8005\u5241\u624b","h5_player":true,"flashVersion":"v3.2_17092101"},{"uid":"1631310875","weight":"16","isBluRay":"1","gameFullName":"\u661f\u79c0","gameHostName":"xingxiu","screenType":"0","title":"\u742a\u5427\u5566","totalCount":"932","isTop":"0","isPush":"0","liveChannel":"2563276169","bussType":"1","yyid":"1849735012","screenshot":"http:\/\/huyaimg.msstatic.com\/cdnimage\/anchorpost\/1089\/64\/74bede91b0b410425e100a8e5bf381_1663_1496805569.jpg","recommendSite":"4","pic":"http:\/\/livewebbs2.msstatic.com\/home_recommend_live_web_1481093568.jpg","liveSourceType":"0","vedioUrl":"http:\/\/webyylbs.yy.duowan.com\/s\/77690206\/2563276169\/../../jsscene.swf","privateHost":"1849735012","appPic":"http:\/\/livewebbs2.msstatic.com\/home_recommend_live_app_1481093568.jpg","nick":"RD\u742a\u5427\u5566","avatar180":"http:\/\/huyaimg.msstatic.com\/avatar\/1089\/64\/74bede91b0b410425e100a8e5bf381_180_135.jpg","gid":"1663","bitRate":"3000","channel":"77690206","introduction":"\u5173\u6ce826\u53f7\u665a9\u70b9\uff0cRD VS AzZ \u516c","h5_player":true,"flashVersion":"v3.2_17092101"},{"uid":"1591391630","weight":"20","isBluRay":"0","gameFullName":"\u4e61\u91ce","gameHostName":"2836","screenType":"1","title":"\u6237\u5916-\u6d41\u6d6a\u8005","totalCount":"12088","isTop":"0","isPush":"0","liveChannel":"58471506","bussType":"1","yyid":"1798213273","screenshot":"http:\/\/screenshot.msstatic.com\/yysnapshot\/8e9adf51cd8aba7ba52b7d1ae11ed6b7c62b9844","recommendSite":"5","pic":"http:\/\/livewebbs2.msstatic.com\/home_recommend_live_web_1494302026.jpg","liveSourceType":"6","vedioUrl":"http:\/\/webyylbs.yy.duowan.com\/s\/58471506\/58471506\/../../jsscene.swf","privateHost":"1798213273","appPic":"http:\/\/livewebbs2.msstatic.com\/home_recommend_live_app_1494302026.jpg","nick":"\u725b\u54e5\u8ffd\u68a6","avatar180":"http:\/\/huyaimg.msstatic.com\/avatar\/1066\/b9\/70482bc06a44e876440b44d95f2623_180_135.jpg","gid":"2836","bitRate":"1200","channel":"58471506","introduction":"\u7b49\u5f85\u6d41\u6d6a\u8005\u5bb6\u5c5e\u6765\u63a5\u4eba\uff0c\u7b2c25\u4e2a","h5_player":true,"flashVersion":"v3.2_17092101"},{"uid":"7110934","weight":"20","isBluRay":"1","gameFullName":"\u67aa\u706b\u6e38\u4fa0","gameHostName":"2602","screenType":"0","title":"\u67aa\u706b\u6e38\u4fa0-\u6668\u8f89","totalCount":"562","isTop":"0","isPush":"0","liveChannel":"2593619800","bussType":"1","yyid":"110567","screenshot":"http:\/\/screenshot.msstatic.com\/yysnapshot\/9c1231d6cfd29ccf399e153db7ff5c27e24cddda","recommendSite":"6","pic":"http:\/\/livewebbs2.msstatic.com\/home_recommend_live_web_1506298817.jpg","liveSourceType":"0","vedioUrl":"http:\/\/webyylbs.yy.duowan.com\/s\/37759532\/2593619800\/../../jsscene.swf","privateHost":"110567","appPic":"http:\/\/livewebbs2.msstatic.com\/home_recommend_live_app_1506298817.jpg","nick":"\u6668\u8f89","avatar180":"http:\/\/huyaimg.msstatic.com\/avatar\/1022\/ed\/f1a0efadde5929f28b99a94f6eedc3_180_135.jpg","gid":"2602","bitRate":"5000","channel":"37759532","introduction":"\u8be5\u6765\u7684\u603b\u4f1a\u6765\uff0c\u8be5\u8d70\u7684\u7559\u4e0d\u4f4f\uff01\uff01","h5_player":true,"flashVersion":"v3.2_17092101"}];
 
     </script>
 
@@ -609,7 +609,7 @@
 
         (function(){
 
-            var slideChange=function(){var e=function(){function e(e){for(var t=document.cookie.split("; "),r=0;r<t.length;r+=1){var i=t[r].split("=");if(i[0]==e)return decodeURIComponent(i[1])}return""}function t(e){var t,r={};if(-1!=(t=e.indexOf("?")))for(var i=e.substring(t+1,e.length),n=i.split("&"),o=[],a=0,s=n.length;s>a;a++)o=n[a].split("="),r[o[0]]=o[1];return r}function r(e,t){function r(){o.onload=o.onreadystatechange=null,o=null,"function"==typeof t&&t()}var i=document,n=i.head||i.getElementsByTagName("head")[0]||i.documentElement,o=i.createElement("script");"onload"in o?o.onload=r:o.onreadystatechange=function(){/loaded|complete/.test(o.readyState)&&r()},o.charset="utf-8",o.type="text/javascript",o.async=!0,o.src=e,n.appendChild(o)}function i(e){var t=document.createElement("link");t.setAttribute("rel","stylesheet"),t.setAttribute("type","text/css"),t.setAttribute("href",e),document.getElementsByTagName("head")[0].appendChild(t)}function n(){function e(){var e=!1;/2345chrome/.test(window.navigator.userAgent)?e=!0:/2345Explorer/.test(window.navigator.userAgent)&&(e=!0);try{window.external.RCCoralGetItemCacheType(),e=!0}catch(t){}return e}var r=t(location.href),i=!!r.playerh5,n=!!r.playerflash,o=function(){var e=navigator.userAgent.toLocaleLowerCase(),t=e.match(/chrome\/([\d.]+)/);return!!(t&&parseInt(t[1])>=45&&e.indexOf("edge")<0)}(),a=function(){var e=(new Date).getTime(),t=localStorage.getItem("homeH5ErrorTime");return t&&864e5>=e-t?!0:!1}(),s=!e()&&(i||!n&&hyPlayerConfig.html5&&o&&!a);return s}function o(e){for(var t="",r=0;r<e.length;r++)t+=e[r].uid,t+=r+1<e.length?",":"";return t}return{getCookieVal:e,parseQueryString:t,getScript:r,loadCssFile:i,isH5Player:n,getPidList:o}}(),t=function(){var t=function(){return function(){function t(e){window.h5loadTime=(new Date).getTime();var t=new VPlayer(r.paramObj(e));t.setVideoData(slideStream),t.on("playerError",function(){var e=(new Date).getTime(),t=localStorage.getItem("homeH5ErrorTime");t&&864e5>=e-t||(localStorage.setItem("homeH5ErrorTime",e),location.reload())});var i=setInterval(function(){window.ya&&(clearInterval(i),t.tongjiReady({sessionId:YA.session_id.get(),mid:YA.mid.get()}))},1e3);return t}var r=this;!function(){e.loadCssFile(hyPlayerConfig.assets.vplayer_css),e.getScript("//a.msstatic.com/huya/main/lib/h5_hiido_hiidostatic_a89573b.js"),e.getScript(hyPlayerConfig.assets.vplayer_js2,function(){r.player=t(slideMainIndex)})}()}}();return t.prototype=function(){return{paramObj:function(t){var r=e.parseQueryString(location.href),i=slides[t],n={slidesKey:slidesKey,pidList:e.getPidList(slides),idDom:"#index_player",chTopId:i.channel,subChId:i.liveChannel,vappid:"2"==i.liveSourceType?10507:10057,iSourceType:i.liveSourceType||0,screenType:i.screenType||0,profile:i.uid,gameId:i.gid,avatarImg:i.avatar180,shortlink2room:location.protocol+"//"+location.host+"/"+i.privateHost,_yyAuth:12,back2yy:1,rso:r.rso||"",rso_desc:r.rso_desc||"",hidedanmutip:1,hideguanggaotip:1,type:hyPlayerConfig.WEBYY_SWF,furl:encodeURIComponent(document.referrer),referer:encodeURIComponent(location.href),ref:e.getCookieVal("ya_eid")||"",from:hyPlayerConfig.WEBYYFROM||""};return window.l_p=i.uid,n},changeStream:function(e){return this.player?(this.player.switchTo(this.paramObj(e)),!0):(TT.log("H5Player initialize lose."),!1)}}}(),t.prototype.constructor=t,t}(),r=function(){window.initComplete=function(){t.UTIL.isReady=!0,t.UTIL.ready()},window.liveRoomObj={report:function(){var e=this;if(t.reportTimer&&clearTimeout(t.reportTimer),window.ya)try{t.UTIL.send("tongjiReady",{sessionId:YA.session_id.get(),mid:YA.mid.get()}),TT.log("report success")}catch(r){TT.log("report error")}else t.reportTimer=setTimeout(function(){e.report()},1e3)},setFlashCookie:function(e){function t(e,t,r,i,n){var o=e+"="+t+"; domain="+r+"; path="+i;n>0&&(o=o+"; expires="+n.toGMTString()),document.cookie=o}var r=new Date;r.setTime(r.getTime()+864e5),t(e.param.cookieKey,e.param.cookieVal,TT.domainForWriteCookie,"/",r),TT.log("set flashCookie success")}};var t=function(){return function(){function t(e){window.jsTime=(new Date).getTime();var t=r.paramObj(e);return swfobject.embedSWF(t.swfUrl,t.swfId,"100%","100%",t.swfVersion,null,t.swfVar,t.swfSetting,{},huyacreateObject,huyaflashCallback)}var r=this;!function(){e.getScript("//a.msstatic.com/huya/main/lib/swf_hiido_hiidostatic_72ae934.js",function(){r.player=t(slideMainIndex)})}()}}();return t.UTIL=function(){function e(){return $.browser.msie?window.index_player:document.index_player}return{isReady:!1,registerAsCbFunc:function(e,t){this.getMovie().registerCallBack(e,t)},send:function(t,r){return this.isReady?(e().callAs(t,r),!0):!1},ready:function(){t.reportTimer&&clearTimeout(t.reportTimer),this.send("addJsKey",!0),this.send("setVideoData",slideStream),this.registerAsCbFunc("flashTongJiInit","liveRoomObj.report"),this.registerAsCbFunc("setFlashCookie","liveRoomObj.setFlashCookie")}}}(),t.prototype=function(){return{paramObj:function(t){var r=e.parseQueryString(location.href),i=slides[t],n={swfId:"index_player",swfUrl:hyPlayerConfig.assets.flash_url,swfVersion:"10.1",swfVar:{topSid:i.channel,subSid:i.liveChannel,vappid:"2"==i.liveSourceType?10507:10057,iSourceType:i.liveSourceType||0,screenType:i.screenType||0,profile:i.uid,gameId:i.gid,avatarImg:i.avatar180,shortlink2room:location.protocol+"//"+location.host+"/"+i.privateHost,_yyAuth:12,back2yy:1,rso:r.rso||"",rso_desc:r.rso_desc||"",hidedanmutip:1,hideguanggaotip:1,type:hyPlayerConfig.WEBYY_SWF,furl:encodeURIComponent(document.referrer),referer:encodeURIComponent(location.href),ref:e.getCookieVal("ya_eid"),from:hyPlayerConfig.WEBYYFROM||"",slidesKey:slidesKey,pidList:e.getPidList(slides)},swfSetting:{quality:"high",bgcolor:"#000000",allowScriptAccess:"always",allowFullScreen:"true",wmode:"opaque",menu:"false"}};return window.l_p=i.uid,n},changeStream:function(e){return t.UTIL.send("switchTo",this.paramObj(e))}}}(),t.prototype.constroctor=t,t}();return function(){function i(e){s.eq(e).addClass("current").siblings().removeClass("current")}function n(n){a=e.isH5Player()?new t:new r,i(n)}function o(e){a.changeStream(e)&&i(e)}var a,s=$("#js-main .item-nav").find("li");return function(){s.on("click",function(){var e=$(this);e.hasClass("current")||a&&(window.clearHBTimeout&&clearHBTimeout(),o(e.index()))})}(),{initialize:n,change:o}}()}();;
+            var slideChange=function(){var e=function(){function e(e){for(var t=document.cookie.split("; "),r=0;r<t.length;r+=1){var i=t[r].split("=");if(i[0]==e)return decodeURIComponent(i[1])}return""}function t(e){var t,r={};if(-1!=(t=e.indexOf("?")))for(var i=e.substring(t+1,e.length),n=i.split("&"),o=[],a=0,s=n.length;s>a;a++)o=n[a].split("="),r[o[0]]=o[1];return r}function r(e,t){function r(){o.onload=o.onreadystatechange=null,o=null,"function"==typeof t&&t()}var i=document,n=i.head||i.getElementsByTagName("head")[0]||i.documentElement,o=i.createElement("script");"onload"in o?o.onload=r:o.onreadystatechange=function(){/loaded|complete/.test(o.readyState)&&r()},o.charset="utf-8",o.type="text/javascript",o.async=!0,o.src=e,n.appendChild(o)}function i(e){var t=document.createElement("link");t.setAttribute("rel","stylesheet"),t.setAttribute("type","text/css"),t.setAttribute("href",e),document.getElementsByTagName("head")[0].appendChild(t)}function n(){function e(){var e=!1;/2345chrome/.test(window.navigator.userAgent)?e=!0:/2345Explorer/.test(window.navigator.userAgent)&&(e=!0);try{window.external.RCCoralGetItemCacheType(),e=!0}catch(t){}return e}var r=t(location.href),i=!!r.playerh5,n=!!r.playerflash,o=function(){var e=navigator.userAgent.toLocaleLowerCase(),t=e.match(/chrome\/([\d.]+)/);return!!(t&&parseInt(t[1])>=45&&e.indexOf("edge")<0)}(),a=function(){var e=(new Date).getTime(),t=localStorage.getItem("homeH5ErrorTime");return t&&864e5>=e-t?!0:!1}(),s=!e()&&(i||!n&&hyPlayerConfig.html5&&o&&!a);return s}function o(e){for(var t="",r=0;r<e.length;r++)t+=e[r].uid,t+=r+1<e.length?",":"";return t}return{getCookieVal:e,parseQueryString:t,getScript:r,loadCssFile:i,isH5Player:n,getPidList:o}}(),t=function(){var t=function(){return function(){function t(e){window.h5loadTime=(new Date).getTime();var t=new VPlayer(r.paramObj(e));t.setVideoData(slideStream),t.on("playerError",function(){var e=(new Date).getTime(),t=localStorage.getItem("homeH5ErrorTime");t&&864e5>=e-t||(localStorage.setItem("homeH5ErrorTime",e),location.reload())});var i=setInterval(function(){window.ya&&(clearInterval(i),t.tongjiReady({sessionId:YA.session_id.get(),mid:YA.mid.get()}))},1e3);return t}var r=this;!function(){e.loadCssFile(hyPlayerConfig.assets.vplayer_css),e.getScript("//a.msstatic.com/huya/main/lib/h5_hiido_hiidostatic_a89573b.../../js"),e.getScript(hyPlayerConfig.assets.vplayer_../../js2,function(){r.player=t(slideMainIndex)})}()}}();return t.prototype=function(){return{paramObj:function(t){var r=e.parseQueryString(location.href),i=slides[t],n={slidesKey:slidesKey,pidList:e.getPidList(slides),idDom:"#index_player",chTopId:i.channel,subChId:i.liveChannel,vappid:"2"==i.liveSourceType?10507:10057,iSourceType:i.liveSourceType||0,screenType:i.screenType||0,profile:i.uid,gameId:i.gid,avatarImg:i.avatar180,shortlink2room:location.protocol+"//"+location.host+"/"+i.privateHost,_yyAuth:12,back2yy:1,rso:r.rso||"",rso_desc:r.rso_desc||"",hidedanmutip:1,hideguanggaotip:1,type:hyPlayerConfig.WEBYY_SWF,furl:encodeURIComponent(document.referrer),referer:encodeURIComponent(location.href),ref:e.getCookieVal("ya_eid")||"",from:hyPlayerConfig.WEBYYFROM||""};return window.l_p=i.uid,n},changeStream:function(e){return this.player?(this.player.switchTo(this.paramObj(e)),!0):(TT.log("H5Player initialize lose."),!1)}}}(),t.prototype.constructor=t,t}(),r=function(){window.initComplete=function(){t.UTIL.isReady=!0,t.UTIL.ready()},window.liveRoomObj={report:function(){var e=this;if(t.reportTimer&&clearTimeout(t.reportTimer),window.ya)try{t.UTIL.send("tongjiReady",{sessionId:YA.session_id.get(),mid:YA.mid.get()}),TT.log("report success")}catch(r){TT.log("report error")}else t.reportTimer=setTimeout(function(){e.report()},1e3)},setFlashCookie:function(e){function t(e,t,r,i,n){var o=e+"="+t+"; domain="+r+"; path="+i;n>0&&(o=o+"; expires="+n.toGMTString()),document.cookie=o}var r=new Date;r.setTime(r.getTime()+864e5),t(e.param.cookieKey,e.param.cookieVal,TT.domainForWriteCookie,"/",r),TT.log("set flashCookie success")}};var t=function(){return function(){function t(e){window.../../jsTime=(new Date).getTime();var t=r.paramObj(e);return swfobject.embedSWF(t.swfUrl,t.swfId,"100%","100%",t.swfVersion,null,t.swfVar,t.swfSetting,{},huyacreateObject,huyaflashCallback)}var r=this;!function(){e.getScript("//a.msstatic.com/huya/main/lib/swf_hiido_hiidostatic_72ae934.../../js",function(){r.player=t(slideMainIndex)})}()}}();return t.UTIL=function(){function e(){return $.browser.msie?window.index_player:document.index_player}return{isReady:!1,registerAsCbFunc:function(e,t){this.getMovie().registerCallBack(e,t)},send:function(t,r){return this.isReady?(e().callAs(t,r),!0):!1},ready:function(){t.reportTimer&&clearTimeout(t.reportTimer),this.send("add../../jsKey",!0),this.send("setVideoData",slideStream),this.registerAsCbFunc("flashTongJiInit","liveRoomObj.report"),this.registerAsCbFunc("setFlashCookie","liveRoomObj.setFlashCookie")}}}(),t.prototype=function(){return{paramObj:function(t){var r=e.parseQueryString(location.href),i=slides[t],n={swfId:"index_player",swfUrl:hyPlayerConfig.assets.flash_url,swfVersion:"10.1",swfVar:{topSid:i.channel,subSid:i.liveChannel,vappid:"2"==i.liveSourceType?10507:10057,iSourceType:i.liveSourceType||0,screenType:i.screenType||0,profile:i.uid,gameId:i.gid,avatarImg:i.avatar180,shortlink2room:location.protocol+"//"+location.host+"/"+i.privateHost,_yyAuth:12,back2yy:1,rso:r.rso||"",rso_desc:r.rso_desc||"",hidedanmutip:1,hideguanggaotip:1,type:hyPlayerConfig.WEBYY_SWF,furl:encodeURIComponent(document.referrer),referer:encodeURIComponent(location.href),ref:e.getCookieVal("ya_eid"),from:hyPlayerConfig.WEBYYFROM||"",slidesKey:slidesKey,pidList:e.getPidList(slides)},swfSetting:{quality:"high",bgcolor:"#000000",allowScriptAccess:"always",allowFullScreen:"true",wmode:"opaque",menu:"false"}};return window.l_p=i.uid,n},changeStream:function(e){return t.UTIL.send("switchTo",this.paramObj(e))}}}(),t.prototype.constroctor=t,t}();return function(){function i(e){s.eq(e).addClass("current").siblings().removeClass("current")}function n(n){a=e.isH5Player()?new t:new r,i(n)}function o(e){a.changeStream(e)&&i(e)}var a,s=$("#../../js-main .item-nav").find("li");return function(){s.on("click",function(){var e=$(this);e.hasClass("current")||a&&(window.clearHBTimeout&&clearHBTimeout(),o(e.index()))})}(),{initialize:n,change:o}}()}();;
 
 
 
@@ -623,7 +623,7 @@
 
                 'html5' : 'true' == 'true' ? true : false,
 
-                'WEBYY_SWF' : 'jsscene' || 'jsscene',
+                'WEBYY_SWF' : '../../jsscene' || '../../jsscene',
 
                 'WEBYYFROM' : '' || '',
 
@@ -631,11 +631,11 @@
 
                     'vplayer_css': '//a.msstatic.com/huya/h5player/home/1703151108/vplayer.css',
 
-                    //'h5_sdk_js': '//a.msstatic.com/huya/h5player/sdk/h5player.home.1703061730.js',
+                    //'h5_sdk_../../js': '//a.msstatic.com/huya/h5player/sdk/h5player.home.1703061730.../../js',
 
-                    //'vplayer_js': '//a.msstatic.com/huya/h5player/home/1703151108/vplayer.js',
+                    //'vplayer_../../js': '//a.msstatic.com/huya/h5player/home/1703151108/vplayer.../../js',
 
-                    'vplayer_js2': '//a.msstatic.com/huya/h5player/home/1709011019/vplayer2.js',
+                    'vplayer_../../js2': '//a.msstatic.com/huya/h5player/home/1709011019/vplayer2.../../js',
 
                     'flash_url' : '//hyplayer.msstatic.com/hp_58/main.swf'
 
@@ -789,7 +789,7 @@
 
                     <li>
 
-                        <a href="http://www.huya.com/sgjsheng" target="_blank" class="new-clickstat" report='{"eid":"click/position","position":"index/remen/2-1","game_id":"1964","ayyuid":"10895178"}'>
+                        <a href="http://www.huya.com/sg../../jsheng" target="_blank" class="new-clickstat" report='{"eid":"click/position","position":"index/remen/2-1","game_id":"1964","ayyuid":"10895178"}'>
 
                             <div class="img-box">
 
@@ -1253,7 +1253,7 @@
 
                 <!-- S 节目预告 -->
 
-                <div class="program-preview-box" id="js-preview-box">
+                <div class="program-preview-box" id="../../js-preview-box">
 
     <div class="preview-hd">
 
@@ -1821,7 +1821,7 @@
 
                             <li class="star-item">
 
-                    <a  class="star-link clickstat" href="http://www.huya.com/sgjsheng" target="_blank" eid="click/home/dashen/dashen1" eid_desc="点击/首页/大神/大神1" >
+                    <a  class="star-link clickstat" href="http://www.huya.com/sg../../jsheng" target="_blank" eid="click/home/dashen/dashen1" eid_desc="点击/首页/大神/大神1" >
 
                         <div class="pic">
 
@@ -2793,7 +2793,7 @@
 
         </span>
 
-                <span class="num"><i class="num-icon"></i><i class="js-num">35.0万</i></span>
+                <span class="num"><i class="num-icon"></i><i class="../../js-num">35.0万</i></span>
 
     </span>
 
@@ -2825,7 +2825,7 @@
 
         </span>
 
-                <span class="num"><i class="num-icon"></i><i class="js-num">21.6万</i></span>
+                <span class="num"><i class="num-icon"></i><i class="../../js-num">21.6万</i></span>
 
     </span>
 
@@ -2857,7 +2857,7 @@
 
         </span>
 
-                <span class="num"><i class="num-icon"></i><i class="js-num">13.1万</i></span>
+                <span class="num"><i class="num-icon"></i><i class="../../js-num">13.1万</i></span>
 
     </span>
 
@@ -2889,7 +2889,7 @@
 
         </span>
 
-                <span class="num"><i class="num-icon"></i><i class="js-num">7.8万</i></span>
+                <span class="num"><i class="num-icon"></i><i class="../../js-num">7.8万</i></span>
 
     </span>
 
@@ -3013,7 +3013,7 @@
 
         </span>
 
-                <span class="num"><i class="num-icon"></i><i class="js-num">12.0万</i></span>
+                <span class="num"><i class="num-icon"></i><i class="../../js-num">12.0万</i></span>
 
     </span>
 
@@ -3045,7 +3045,7 @@
 
         </span>
 
-                <span class="num"><i class="num-icon"></i><i class="js-num">3.2万</i></span>
+                <span class="num"><i class="num-icon"></i><i class="../../js-num">3.2万</i></span>
 
     </span>
 
@@ -3077,7 +3077,7 @@
 
         </span>
 
-                <span class="num"><i class="num-icon"></i><i class="js-num">3.2万</i></span>
+                <span class="num"><i class="num-icon"></i><i class="../../js-num">3.2万</i></span>
 
     </span>
 
@@ -3109,7 +3109,7 @@
 
         </span>
 
-                <span class="num"><i class="num-icon"></i><i class="js-num">1.8万</i></span>
+                <span class="num"><i class="num-icon"></i><i class="../../js-num">1.8万</i></span>
 
     </span>
 
@@ -3257,7 +3257,7 @@
 
         </span>
 
-                <span class="num"><i class="num-icon"></i><i class="js-num">1.4万</i></span>
+                <span class="num"><i class="num-icon"></i><i class="../../js-num">1.4万</i></span>
 
     </span>
 
@@ -3289,7 +3289,7 @@
 
         </span>
 
-                <span class="num"><i class="num-icon"></i><i class="js-num">1.2万</i></span>
+                <span class="num"><i class="num-icon"></i><i class="../../js-num">1.2万</i></span>
 
     </span>
 
@@ -3321,7 +3321,7 @@
 
         </span>
 
-                <span class="num"><i class="num-icon"></i><i class="js-num">1.5万</i></span>
+                <span class="num"><i class="num-icon"></i><i class="../../js-num">1.5万</i></span>
 
     </span>
 
@@ -3353,7 +3353,7 @@
 
         </span>
 
-                <span class="num"><i class="num-icon"></i><i class="js-num">6566</i></span>
+                <span class="num"><i class="num-icon"></i><i class="../../js-num">6566</i></span>
 
     </span>
 
@@ -3485,7 +3485,7 @@
 
         </span>
 
-                <span class="num"><i class="num-icon"></i><i class="js-num">2750</i></span>
+                <span class="num"><i class="num-icon"></i><i class="../../js-num">2750</i></span>
 
     </span>
 
@@ -3517,7 +3517,7 @@
 
         </span>
 
-                <span class="num"><i class="num-icon"></i><i class="js-num">2709</i></span>
+                <span class="num"><i class="num-icon"></i><i class="../../js-num">2709</i></span>
 
     </span>
 
@@ -3549,7 +3549,7 @@
 
         </span>
 
-                <span class="num"><i class="num-icon"></i><i class="js-num">2351</i></span>
+                <span class="num"><i class="num-icon"></i><i class="../../js-num">2351</i></span>
 
     </span>
 
@@ -3581,7 +3581,7 @@
 
         </span>
 
-                <span class="num"><i class="num-icon"></i><i class="js-num">2119</i></span>
+                <span class="num"><i class="num-icon"></i><i class="../../js-num">2119</i></span>
 
     </span>
 
@@ -3705,7 +3705,7 @@
 
         </span>
 
-                <span class="num"><i class="num-icon"></i><i class="js-num">1.6万</i></span>
+                <span class="num"><i class="num-icon"></i><i class="../../js-num">1.6万</i></span>
 
     </span>
 
@@ -3737,7 +3737,7 @@
 
         </span>
 
-                <span class="num"><i class="num-icon"></i><i class="js-num">9614</i></span>
+                <span class="num"><i class="num-icon"></i><i class="../../js-num">9614</i></span>
 
     </span>
 
@@ -3769,7 +3769,7 @@
 
         </span>
 
-                <span class="num"><i class="num-icon"></i><i class="js-num">7506</i></span>
+                <span class="num"><i class="num-icon"></i><i class="../../js-num">7506</i></span>
 
     </span>
 
@@ -3801,7 +3801,7 @@
 
         </span>
 
-                <span class="num"><i class="num-icon"></i><i class="js-num">6281</i></span>
+                <span class="num"><i class="num-icon"></i><i class="../../js-num">6281</i></span>
 
     </span>
 
@@ -3917,7 +3917,7 @@
 
         </span>
 
-                <span class="num"><i class="num-icon"></i><i class="js-num">1.6万</i></span>
+                <span class="num"><i class="num-icon"></i><i class="../../js-num">1.6万</i></span>
 
     </span>
 
@@ -3949,7 +3949,7 @@
 
         </span>
 
-                <span class="num"><i class="num-icon"></i><i class="js-num">1.4万</i></span>
+                <span class="num"><i class="num-icon"></i><i class="../../js-num">1.4万</i></span>
 
     </span>
 
@@ -3981,7 +3981,7 @@
 
         </span>
 
-                <span class="num"><i class="num-icon"></i><i class="js-num">1.1万</i></span>
+                <span class="num"><i class="num-icon"></i><i class="../../js-num">1.1万</i></span>
 
     </span>
 
@@ -4013,7 +4013,7 @@
 
         </span>
 
-                <span class="num"><i class="num-icon"></i><i class="js-num">1.1万</i></span>
+                <span class="num"><i class="num-icon"></i><i class="../../js-num">1.1万</i></span>
 
     </span>
 
@@ -4059,7 +4059,7 @@
 
                                                             <li>
 
-                        <a target="_blank" class="" href="http://www.huya.com/sgjsheng">
+                        <a target="_blank" class="" href="http://www.huya.com/sg../../jsheng">
 
                             贱圣                        </a>
 
@@ -4153,7 +4153,7 @@
 
         </span>
 
-                <span class="num"><i class="num-icon"></i><i class="js-num">12.0万</i></span>
+                <span class="num"><i class="num-icon"></i><i class="../../js-num">12.0万</i></span>
 
     </span>
 
@@ -4163,7 +4163,7 @@
 
                                                                     <li class="game-live-item" gid="1964">
 
-        <a href="http://www.huya.com/sgjsheng" class="video-info new-clickstat" target="_blank" report='{"eid":"click/position","position":"index/column/100002/2","game_id":"1964","ayyuid":"10895178"}'>
+        <a href="http://www.huya.com/sg../../jsheng" class="video-info new-clickstat" target="_blank" report='{"eid":"click/position","position":"index/column/100002/2","game_id":"1964","ayyuid":"10895178"}'>
 
         <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/2e98e28d29e0cfaf4d63d6dc1a7b8861191483a6?imageview/4/0/w/338/h/190/blur/1" src="../images/338x190.jpg" onerror="this.onerror=null; this.src='../images/338x190.jpg';" alt="Style丶贱圣-90327的直播" title="Style丶贱圣-90327的直播">
 
@@ -4173,7 +4173,7 @@
 
         <em class="tag tag-blue">蓝光</em>    </a>
 
-    <a href="http://www.huya.com/sgjsheng" class="title new-clickstat"report='{"eid":"click/position","position":"index/column/100002/2","game_id":"1964","ayyuid":"10895178"}' title="人贱人爱 花贱花开" target="_blank">人贱人爱 花贱花开</a>
+    <a href="http://www.huya.com/sg../../jsheng" class="title new-clickstat"report='{"eid":"click/position","position":"index/column/100002/2","game_id":"1964","ayyuid":"10895178"}' title="人贱人爱 花贱花开" target="_blank">人贱人爱 花贱花开</a>
 
     <span class="txt">
 
@@ -4185,7 +4185,7 @@
 
         </span>
 
-                <span class="num"><i class="num-icon"></i><i class="js-num">6.2万</i></span>
+                <span class="num"><i class="num-icon"></i><i class="../../js-num">6.2万</i></span>
 
     </span>
 
@@ -4217,7 +4217,7 @@
 
         </span>
 
-                <span class="num"><i class="num-icon"></i><i class="js-num">3.2万</i></span>
+                <span class="num"><i class="num-icon"></i><i class="../../js-num">3.2万</i></span>
 
     </span>
 
@@ -4249,7 +4249,7 @@
 
         </span>
 
-                <span class="num"><i class="num-icon"></i><i class="js-num">3.2万</i></span>
+                <span class="num"><i class="num-icon"></i><i class="../../js-num">3.2万</i></span>
 
     </span>
 
@@ -4373,7 +4373,7 @@
 
         </span>
 
-                <span class="num"><i class="num-icon"></i><i class="js-num">19.2万</i></span>
+                <span class="num"><i class="num-icon"></i><i class="../../js-num">19.2万</i></span>
 
     </span>
 
@@ -4405,7 +4405,7 @@
 
         </span>
 
-                <span class="num"><i class="num-icon"></i><i class="js-num">1.5万</i></span>
+                <span class="num"><i class="num-icon"></i><i class="../../js-num">1.5万</i></span>
 
     </span>
 
@@ -4437,7 +4437,7 @@
 
         </span>
 
-                <span class="num"><i class="num-icon"></i><i class="js-num">6540</i></span>
+                <span class="num"><i class="num-icon"></i><i class="../../js-num">6540</i></span>
 
     </span>
 
@@ -4469,7 +4469,7 @@
 
         </span>
 
-                <span class="num"><i class="num-icon"></i><i class="js-num">2093</i></span>
+                <span class="num"><i class="num-icon"></i><i class="../../js-num">2093</i></span>
 
     </span>
 
@@ -4609,7 +4609,7 @@
 
         </span>
 
-                <span class="num"><i class="num-icon"></i><i class="js-num">1.2万</i></span>
+                <span class="num"><i class="num-icon"></i><i class="../../js-num">1.2万</i></span>
 
     </span>
 
@@ -4641,7 +4641,7 @@
 
         </span>
 
-                <span class="num"><i class="num-icon"></i><i class="js-num">5973</i></span>
+                <span class="num"><i class="num-icon"></i><i class="../../js-num">5973</i></span>
 
     </span>
 
@@ -4673,7 +4673,7 @@
 
         </span>
 
-                <span class="num"><i class="num-icon"></i><i class="js-num">5140</i></span>
+                <span class="num"><i class="num-icon"></i><i class="../../js-num">5140</i></span>
 
     </span>
 
@@ -4705,7 +4705,7 @@
 
         </span>
 
-                <span class="num"><i class="num-icon"></i><i class="js-num">4310</i></span>
+                <span class="num"><i class="num-icon"></i><i class="../../js-num">4310</i></span>
 
     </span>
 
@@ -4845,7 +4845,7 @@
 
         </span>
 
-                <span class="num"><i class="num-icon"></i><i class="js-num">4452</i></span>
+                <span class="num"><i class="num-icon"></i><i class="../../js-num">4452</i></span>
 
     </span>
 
@@ -4877,7 +4877,7 @@
 
         </span>
 
-                <span class="num"><i class="num-icon"></i><i class="js-num">4069</i></span>
+                <span class="num"><i class="num-icon"></i><i class="../../js-num">4069</i></span>
 
     </span>
 
@@ -4909,7 +4909,7 @@
 
         </span>
 
-                <span class="num"><i class="num-icon"></i><i class="js-num">3301</i></span>
+                <span class="num"><i class="num-icon"></i><i class="../../js-num">3301</i></span>
 
     </span>
 
@@ -4941,7 +4941,7 @@
 
         </span>
 
-                <span class="num"><i class="num-icon"></i><i class="js-num">1791</i></span>
+                <span class="num"><i class="num-icon"></i><i class="../../js-num">1791</i></span>
 
     </span>
 
@@ -5065,7 +5065,7 @@
 
         </span>
 
-                <span class="num"><i class="num-icon"></i><i class="js-num">72.4万</i></span>
+                <span class="num"><i class="num-icon"></i><i class="../../js-num">72.4万</i></span>
 
     </span>
 
@@ -5097,7 +5097,7 @@
 
         </span>
 
-                <span class="num"><i class="num-icon"></i><i class="js-num">49.6万</i></span>
+                <span class="num"><i class="num-icon"></i><i class="../../js-num">49.6万</i></span>
 
     </span>
 
@@ -5129,7 +5129,7 @@
 
         </span>
 
-                <span class="num"><i class="num-icon"></i><i class="js-num">20.2万</i></span>
+                <span class="num"><i class="num-icon"></i><i class="../../js-num">20.2万</i></span>
 
     </span>
 
@@ -5161,7 +5161,7 @@
 
         </span>
 
-                <span class="num"><i class="num-icon"></i><i class="js-num">14.0万</i></span>
+                <span class="num"><i class="num-icon"></i><i class="../../js-num">14.0万</i></span>
 
     </span>
 
@@ -5243,19 +5243,19 @@
 
 
 
-<script src="js/headerFunction_c0fe602.js" data-fixed="true"></script>
+<script src="../../js/headerFunction_c0fe602.../../js" data-fixed="true"></script>
 
-<script src="js/jquery.lazyload_769f44a.js" data-fixed="true"></script>
+<script src="../../js/jquery.lazyload_769f44a.../../js" data-fixed="true"></script>
 
-<script type="text/javascript" charset="utf-8" src="js/auto_combine_d17e3_b03328c.js"></script>
+<script type="text/javascript" charset="utf-8" src="../../js/auto_combine_d17e3_b03328c.../../js"></script>
 <script type="text/javascript" >
 
-    require.resourceMap({"res":{"h5player":{"url":"//a.msstatic.com/huya/main/modules/h5player/h5player_1a89b41.js"},"dialog":{"url":"//a.msstatic.com/huya/main/modules/dialog/dialog_0b9b88a.js"}},"pkg":{}});
+    require.resourceMap({"res":{"h5player":{"url":"//a.msstatic.com/huya/main/modules/h5player/h5player_1a89b41.../../js"},"dialog":{"url":"//a.msstatic.com/huya/main/modules/dialog/dialog_0b9b88a.../../js"}},"pkg":{}});
 
 </script>
 <script>
 
-    var rec4x4Data = [{"contents":[{"uid":"858305433","yyid":"818948001","screenshot":"http:\/\/screenshot.msstatic.com\/yysnapshot\/403831b107f027c49be7902d8d7b1a0d04a0e626","isBluRay":"0","gameFullName":"QQ\u98de\u8f66","liveSourceType":"0","gameHostName":"9","screenType":"0","activityId":"8817343","activityCount":"168957","privateHost":"huage520","level":"24","nick":"\u795e\u8bdd-\u79c0\u8f66\u738b\u82b1\u54e5","totalCount":"9250","avatar180":"http:\/\/huyaimg.msstatic.com\/avatar\/1058\/8b\/95122d48221f5f89911e5e900c8209_180_135.jpg?1497786078","gid":"9","bitRate":"2000","channel":"21420432","liveChannel":"2369722404","introduction":"\u5927\u4f6c\u4eec\u597d\uff0c\u5404\u79cdTSA\u641e\u8d77","bussType":"1"},{"uid":"109398699","yyid":"900586","screenshot":"http:\/\/screenshot.msstatic.com\/yysnapshot\/56b89b8a24325cc7695e9581bc1b656ffc13c7ea","isBluRay":"1","gameFullName":"\u5192\u9669\u5c9b2","liveSourceType":"0","gameHostName":"2350","screenType":"0","activityId":"9417557","activityCount":"1178136","privateHost":"qicai","level":"30","nick":"9oo58\u4e36\u4e03\u5f69","totalCount":"3247","avatar180":"http:\/\/huyaimg.msstatic.com\/avatar\/1051\/e5\/964df4de066d989d9eab77954b8204_180_135.jpg?1496839022","gid":"2350","bitRate":"3000","channel":"10559898","liveChannel":"2226043697","introduction":"\u4e03\u5f69\u516c\u4f1a\u4f1a\u957f\uff01\u6536\u4eba\u4e00\u8d77\u73a9 \u6536\u91d1","bussType":"1"},{"uid":"1271256459","yyid":"1391089114","screenshot":"http:\/\/screenshot.msstatic.com\/yysnapshot\/9273c7fe8974311d7832aa4c3cf2adf30031cfc5","isBluRay":"0","gameFullName":"\u7089\u77f3\u4f20\u8bf4","liveSourceType":"0","gameHostName":"393","screenType":"0","activityId":"27191963","activityCount":"679060","privateHost":"a16789","level":"36","nick":"\u5b89\u5fb7\u7f57\u59ae\u4e36","totalCount":"192278","avatar180":"http:\/\/huyaimg.msstatic.com\/avatar\/1047\/bc\/bc06fb8973906c9c1292df49a49a18_180_135.jpg","gid":"393","bitRate":"2500","channel":"85068257","liveChannel":"85068257","introduction":"2800 \u89e6\u5e95\u53cd\u5f39\uff0c\u767b\u9876\u51b3\u4e0d\u653e\u5f03\u3002","bussType":"1"},{"uid":"174924723","yyid":"162311774","screenshot":"http:\/\/screenshot.msstatic.com\/yysnapshot\/f79f6817d4b08222219911ea18f4f3f47be82b54","isBluRay":"1","gameFullName":"\u5b88\u671b\u5148\u950b","liveSourceType":"0","gameHostName":"2174","screenType":"0","activityId":"22637018","activityCount":"1642","privateHost":"162311774","level":"14","nick":"Baymax","totalCount":"842","avatar180":"http:\/\/huyaimg.msstatic.com\/avatar\/1009\/10\/13491fe0137f8d3fe8ae080b452737_180_135.jpg?1502500626","gid":"2174","bitRate":"3000","channel":"98390031","liveChannel":"2630733362","introduction":"\u53cc\u53f7\u524d50\u51b2\u7b2c\u4e09\u4e2a\u53f7\uff011\u53f7\u62bd\u59564\u53f7\u6c34\u53cb\u8d5b","bussType":"1"}],"themeLogo":"http:\/\/livewebbs2.msstatic.com\/huya_hot_rec_theme_logo_1488335027.png","themeTitle":"\u7f51\u6e38\u7ade\u6280"},{"contents":[{"uid":"10895178","yyid":"10064","screenshot":"http:\/\/screenshot.msstatic.com\/yysnapshot\/6c89147e6f1d4883bada8f0d15120db81ad30bf6","isBluRay":"1","gameFullName":"\u4e3b\u673a\u6e38\u620f","liveSourceType":"0","gameHostName":"1964","screenType":"0","previewUrl":"\/\/ws.streamhls.huya.com\/hqlive\/92094861-2450367234-10524247133219979264-21913812-10057-A-1506305396-1_100\/playlist.m3u8","activityId":"18054989","activityCount":"2236972","privateHost":"sgjsheng","level":"28","nick":"Style\u4e36\u8d31\u5723-90327","totalCount":"62090","avatar180":"http:\/\/huyaimg.msstatic.com\/avatar\/1094\/b7\/1429a763a419403e621a3472214759_180_135.jpg?1461836156","gid":"1964","bitRate":"3000","channel":"92094861","liveChannel":"2450367234","introduction":"\u4eba\u8d31\u4eba\u7231 \u82b1\u8d31\u82b1\u5f00","bussType":"2"},{"uid":"672985574","yyid":"627422973","screenshot":"http:\/\/screenshot.msstatic.com\/yysnapshot\/1b7b1e15f8265232e6f1dfb0314de0476f1db780","isBluRay":"1","gameFullName":"\u7edd\u5730\u6c42\u751f","liveSourceType":"0","gameHostName":"2793","screenType":"0","activityId":"18430509","activityCount":"951032","privateHost":"badaozongcai","level":"26","nick":"Style\u4e36\u5c0f\u6d77-90327","totalCount":"118899","avatar180":"http:\/\/huyaimg.msstatic.com\/avatar\/1012\/84\/b525c936595d6595fc1faa681f081a_180_135.jpg?1417076834","gid":"2793","bitRate":"3000","channel":"92094861","liveChannel":"2439387868","introduction":"\u738b\u724c\u5403\u9e21\u6307\u6325\u5b98\u6b63\u5728\u63fd\u4ef6\u4e2d","bussType":"2"},{"uid":"1667497420","yyid":"1895652583","screenshot":"http:\/\/screenshot.msstatic.com\/yysnapshot\/c99862f7a27365ecdc2e3e27050c6b0ad58cb1f4","isBluRay":"0","gameFullName":"\u8ff7\u4f60\u4e16\u754c","liveSourceType":"0","gameHostName":"2683","screenType":"0","activityId":"34523174","activityCount":"70940","privateHost":"1895652583","level":"21","nick":"6043-\u5e05\u5c11","totalCount":"4027","avatar180":"http:\/\/huyaimg.msstatic.com\/avatar\/1018\/cc\/7e4c21697bdf45ba1339d750faa183_180_135.jpg?1484705990","gid":"2683","bitRate":"2000","channel":"16642925","liveChannel":"2583608414","introduction":"\u751f\u5b58\u4e4b\u738b \u54c7 \u65ad\u7f51\u4e86","bussType":"3"},{"uid":"988716794","yyid":"955613772","screenshot":"http:\/\/screenshot.msstatic.com\/yysnapshot\/e0f9dc03b09ee97c205518198f4a89f763a152d5","isBluRay":"1","gameFullName":"\u6211\u7684\u4e16\u754c","liveSourceType":"0","gameHostName":"1732","screenType":"0","activityId":"19784662","activityCount":"362612","privateHost":"zhanshenshen","level":"26","nick":"\u4f17\u5a31-\u6218\u795e\u00b790808","totalCount":"2561","avatar180":"http:\/\/downhdlogo.yy.com\/hdlogo\/144144\/94\/67\/71\/0988716794\/u988716794ddj1Mt5W.png","gid":"1732","bitRate":"3000","channel":"81028608","liveChannel":"2559693141","introduction":"\u3010\u7a77\u795e\u3011\u5475\u5475\u5475\u5475~","bussType":"2"}],"themeLogo":"http:\/\/livewebbs2.msstatic.com\/huya_hot_rec_theme_logo_1488335054.png","themeTitle":"\u5355\u673a\u70ed\u6e38"},{"contents":[{"uid":"558802298","yyid":"483955229","screenshot":"http:\/\/huyaimg.msstatic.com\/cdnimage\/anchorpost\/1054\/db\/6590aa9bcf98e12e5d809d371e46cc_1663_1502704363.jpg","isBluRay":"0","gameFullName":"\u661f\u79c0","liveSourceType":"0","gameHostName":"1663","screenType":"0","activityId":"24732076","activityCount":"554456","privateHost":"483955229","level":"28","nick":"\u9752\u79be-\u5c0f\u516d\u516d","totalCount":"3537","avatar180":"http:\/\/huyaimg.msstatic.com\/avatar\/1054\/db\/6590aa9bcf98e12e5d809d371e46cc_180_135.jpg?1502092944","gid":"1663","bitRate":"2000","channel":"51982748","liveChannel":"2613396150","introduction":"\u5929\u738b\u76d6\u5730\u864e","bussType":"8"},{"uid":"1747814620","yyid":"2000394038","screenshot":"http:\/\/screenshot.msstatic.com\/yysnapshot\/f78c38e9e39106d680eac28a48cd0717d356796d","isBluRay":"0","gameFullName":"\u7f8e\u98df","liveSourceType":"6","gameHostName":"2752","screenType":"1","activityId":"37841171","activityCount":"185033","privateHost":"2000394038","level":"17","nick":"MH\u3001\u864e\u7259\u98de\u5f1f ","totalCount":"1595","avatar180":"http:\/\/huyaimg.msstatic.com\/avatar\/1031\/31\/bca633597e4cc2a642c8e321e2e3f7_180_135.jpg?0","gid":"2752","bitRate":"1200","channel":"68748040","liveChannel":"68748040","introduction":"\u6458\u91ce\u751f\u67ff\u5b50\u3002","bussType":"8"},{"uid":"1501374403","yyid":"1683954582","screenshot":"http:\/\/screenshot.msstatic.com\/yysnapshot\/827530b64f10f373b60696ff203e94b0bb03d9db","isBluRay":"0","gameFullName":"\u4e61\u91ce","liveSourceType":"6","gameHostName":"2836","screenType":"1","activityId":"24918171","activityCount":"1127107","privateHost":"1683954582","level":"24","nick":"\u6840\u695a\u3001\u6d41\u6c13\u5154","totalCount":"13569","avatar180":"http:\/\/downhdlogo.yy.com\/hdlogo\/144144\/3\/44\/37\/1501374403\/u1501374403BpyXS5J.png","gid":"2836","bitRate":"750","channel":"93085901","liveChannel":"93085901","introduction":"\u5f92\u6b65\u6e56\u5317-\u6d77\u5357-\u6e56\u5317\u7b2c222\u5929","bussType":"8"},{"uid":"1591391630","yyid":"1798213273","screenshot":"http:\/\/screenshot.msstatic.com\/yysnapshot\/4fd5ad4abf207fd6ea132b8e2311371aba8b6dc5","isBluRay":"0","gameFullName":"\u4e61\u91ce","liveSourceType":"6","gameHostName":"2836","screenType":"1","activityId":"29149314","activityCount":"306438","privateHost":"1798213273","level":"23","nick":"\u725b\u54e5\u8ffd\u68a6","totalCount":"12088","avatar180":"http:\/\/huyaimg.msstatic.com\/avatar\/1066\/b9\/70482bc06a44e876440b44d95f2623_180_135.jpg?1493824803","gid":"2836","bitRate":"1200","channel":"58471506","liveChannel":"58471506","introduction":"\u7b49\u5f85\u6d41\u6d6a\u8005\u5bb6\u5c5e\u6765\u63a5\u4eba\uff0c\u7b2c25\u4e2a","bussType":"8"}],"themeLogo":"http:\/\/livewebbs2.msstatic.com\/huya_hot_rec_theme_logo_1488335035.png","themeTitle":"\u5a31\u4e50\u5929\u5730"},{"contents":[{"uid":"17206260","yyid":"10791382","screenshot":"http:\/\/huyaimg.msstatic.com\/cdnimage\/anchorpost\/1029\/b3\/67921cd48eac56d79a9fea1bc676f7_2336_1505886663.jpg","isBluRay":"0","gameFullName":"\u738b\u8005\u8363\u8000","liveSourceType":"0","gameHostName":"2336","screenType":"0","activityId":"8946621","activityCount":"2901322","privateHost":"aglaoshuai","level":"18","nick":"AG\u8d85\u73a9\u4f1a\u8001\u5e05","totalCount":"351400","avatar180":"http:\/\/huyaimg.msstatic.com\/avatar\/1029\/b3\/67921cd48eac56d79a9fea1bc676f7_180_135.jpg?1504542795","gid":"2336","bitRate":"2000","channel":"43759006","liveChannel":"2634621580","introduction":"AG\u8d85\u73a9\u4f1a\u8001\u5e05\u7684\u76f4\u64ad\u95f4","bussType":"3"},{"uid":"1089197997","yyid":"1159608041","screenshot":"http:\/\/screenshot.msstatic.com\/yysnapshot\/a118fbc2f4a134063f53f7adb679cc736712b5b0","isBluRay":"0","gameFullName":"\u7403\u7403\u5927\u4f5c\u6218","liveSourceType":"0","gameHostName":"2411","screenType":"0","activityId":"31946036","activityCount":"784046","privateHost":"qiuqiujiaofu","level":"21","nick":"\u7403\u7403\u6559\u7236","totalCount":"12267","avatar180":"http:\/\/huyaimg.msstatic.com\/avatar\/1045\/5e\/40c55637bdd63ab3e9cb842c78185e_180_135.jpg?1505008247","gid":"2411","bitRate":"2000","channel":"78941969","liveChannel":"2562905814","introduction":"\u6559\u7236\uff1a\u7403\u7403\u6700\u7a33\u716e\u64ad!","bussType":"3"},{"uid":"1674061413","yyid":"1905118486","screenshot":"http:\/\/screenshot.msstatic.com\/yysnapshot\/78d7626a6149641c895b325b8d5520886d675ef9","isBluRay":"1","gameFullName":"CF\u67aa\u6218\u738b\u8005","liveSourceType":"0","gameHostName":"2413","screenType":"0","activityId":"34903231","activityCount":"118591","privateHost":"1905118486","level":"19","nick":"LNG\u4e36Zh","totalCount":"10955","avatar180":"http:\/\/huyaimg.msstatic.com\/avatar\/1091\/cc\/740fb6dff7431fe119f16bb2b6d2ab_180_135.jpg?1505383344","gid":"2413","bitRate":"3000","channel":"95685753","liveChannel":"2566699915","introduction":"\u66b4\u529bM4\u8fdb\u573a  \u522b\u8dd1\uff01","bussType":"3"},{"uid":"59340438","yyid":"2445317","screenshot":"http:\/\/screenshot.msstatic.com\/yysnapshot\/183b457ef8f1fe8732371d9b257945e78d3f3d6b","isBluRay":"0","gameFullName":"\u706b\u5f71\u5fcd\u8005\u624b\u6e38","liveSourceType":"0","gameHostName":"2429","screenType":"0","activityId":"33311960","activityCount":"17099","privateHost":"guoguoaisisi","level":"16","nick":"\u9505\u9505","totalCount":"2750","avatar180":"http:\/\/huyaimg.msstatic.com\/avatar\/1043\/ae\/bd177eae1ee8fbead1512e18e4f82a_180_135.jpg?1479240367","gid":"2429","bitRate":"1200","channel":"16007726","liveChannel":"2565285757","introduction":"\u65e0\u654c\u7684\u6211\u53c8\u7761\u9192\u4e86quq","bussType":"3"}],"themeLogo":"http:\/\/livewebbs2.msstatic.com\/huya_hot_rec_theme_logo_1488335045.png","themeTitle":"\u624b\u6e38\u4f11\u95f2"}]        </script>
+    var rec4x4Data = [{"contents":[{"uid":"858305433","yyid":"818948001","screenshot":"http:\/\/screenshot.msstatic.com\/yysnapshot\/403831b107f027c49be7902d8d7b1a0d04a0e626","isBluRay":"0","gameFullName":"QQ\u98de\u8f66","liveSourceType":"0","gameHostName":"9","screenType":"0","activityId":"8817343","activityCount":"168957","privateHost":"huage520","level":"24","nick":"\u795e\u8bdd-\u79c0\u8f66\u738b\u82b1\u54e5","totalCount":"9250","avatar180":"http:\/\/huyaimg.msstatic.com\/avatar\/1058\/8b\/95122d48221f5f89911e5e900c8209_180_135.jpg?1497786078","gid":"9","bitRate":"2000","channel":"21420432","liveChannel":"2369722404","introduction":"\u5927\u4f6c\u4eec\u597d\uff0c\u5404\u79cdTSA\u641e\u8d77","bussType":"1"},{"uid":"109398699","yyid":"900586","screenshot":"http:\/\/screenshot.msstatic.com\/yysnapshot\/56b89b8a24325cc7695e9581bc1b656ffc13c7ea","isBluRay":"1","gameFullName":"\u5192\u9669\u5c9b2","liveSourceType":"0","gameHostName":"2350","screenType":"0","activityId":"9417557","activityCount":"1178136","privateHost":"qicai","level":"30","nick":"9oo58\u4e36\u4e03\u5f69","totalCount":"3247","avatar180":"http:\/\/huyaimg.msstatic.com\/avatar\/1051\/e5\/964df4de066d989d9eab77954b8204_180_135.jpg?1496839022","gid":"2350","bitRate":"3000","channel":"10559898","liveChannel":"2226043697","introduction":"\u4e03\u5f69\u516c\u4f1a\u4f1a\u957f\uff01\u6536\u4eba\u4e00\u8d77\u73a9 \u6536\u91d1","bussType":"1"},{"uid":"1271256459","yyid":"1391089114","screenshot":"http:\/\/screenshot.msstatic.com\/yysnapshot\/9273c7fe8974311d7832aa4c3cf2adf30031cfc5","isBluRay":"0","gameFullName":"\u7089\u77f3\u4f20\u8bf4","liveSourceType":"0","gameHostName":"393","screenType":"0","activityId":"27191963","activityCount":"679060","privateHost":"a16789","level":"36","nick":"\u5b89\u5fb7\u7f57\u59ae\u4e36","totalCount":"192278","avatar180":"http:\/\/huyaimg.msstatic.com\/avatar\/1047\/bc\/bc06fb8973906c9c1292df49a49a18_180_135.jpg","gid":"393","bitRate":"2500","channel":"85068257","liveChannel":"85068257","introduction":"2800 \u89e6\u5e95\u53cd\u5f39\uff0c\u767b\u9876\u51b3\u4e0d\u653e\u5f03\u3002","bussType":"1"},{"uid":"174924723","yyid":"162311774","screenshot":"http:\/\/screenshot.msstatic.com\/yysnapshot\/f79f6817d4b08222219911ea18f4f3f47be82b54","isBluRay":"1","gameFullName":"\u5b88\u671b\u5148\u950b","liveSourceType":"0","gameHostName":"2174","screenType":"0","activityId":"22637018","activityCount":"1642","privateHost":"162311774","level":"14","nick":"Baymax","totalCount":"842","avatar180":"http:\/\/huyaimg.msstatic.com\/avatar\/1009\/10\/13491fe0137f8d3fe8ae080b452737_180_135.jpg?1502500626","gid":"2174","bitRate":"3000","channel":"98390031","liveChannel":"2630733362","introduction":"\u53cc\u53f7\u524d50\u51b2\u7b2c\u4e09\u4e2a\u53f7\uff011\u53f7\u62bd\u59564\u53f7\u6c34\u53cb\u8d5b","bussType":"1"}],"themeLogo":"http:\/\/livewebbs2.msstatic.com\/huya_hot_rec_theme_logo_1488335027.png","themeTitle":"\u7f51\u6e38\u7ade\u6280"},{"contents":[{"uid":"10895178","yyid":"10064","screenshot":"http:\/\/screenshot.msstatic.com\/yysnapshot\/6c89147e6f1d4883bada8f0d15120db81ad30bf6","isBluRay":"1","gameFullName":"\u4e3b\u673a\u6e38\u620f","liveSourceType":"0","gameHostName":"1964","screenType":"0","previewUrl":"\/\/ws.streamhls.huya.com\/hqlive\/92094861-2450367234-10524247133219979264-21913812-10057-A-1506305396-1_100\/playlist.m3u8","activityId":"18054989","activityCount":"2236972","privateHost":"sg../../jsheng","level":"28","nick":"Style\u4e36\u8d31\u5723-90327","totalCount":"62090","avatar180":"http:\/\/huyaimg.msstatic.com\/avatar\/1094\/b7\/1429a763a419403e621a3472214759_180_135.jpg?1461836156","gid":"1964","bitRate":"3000","channel":"92094861","liveChannel":"2450367234","introduction":"\u4eba\u8d31\u4eba\u7231 \u82b1\u8d31\u82b1\u5f00","bussType":"2"},{"uid":"672985574","yyid":"627422973","screenshot":"http:\/\/screenshot.msstatic.com\/yysnapshot\/1b7b1e15f8265232e6f1dfb0314de0476f1db780","isBluRay":"1","gameFullName":"\u7edd\u5730\u6c42\u751f","liveSourceType":"0","gameHostName":"2793","screenType":"0","activityId":"18430509","activityCount":"951032","privateHost":"badaozongcai","level":"26","nick":"Style\u4e36\u5c0f\u6d77-90327","totalCount":"118899","avatar180":"http:\/\/huyaimg.msstatic.com\/avatar\/1012\/84\/b525c936595d6595fc1faa681f081a_180_135.jpg?1417076834","gid":"2793","bitRate":"3000","channel":"92094861","liveChannel":"2439387868","introduction":"\u738b\u724c\u5403\u9e21\u6307\u6325\u5b98\u6b63\u5728\u63fd\u4ef6\u4e2d","bussType":"2"},{"uid":"1667497420","yyid":"1895652583","screenshot":"http:\/\/screenshot.msstatic.com\/yysnapshot\/c99862f7a27365ecdc2e3e27050c6b0ad58cb1f4","isBluRay":"0","gameFullName":"\u8ff7\u4f60\u4e16\u754c","liveSourceType":"0","gameHostName":"2683","screenType":"0","activityId":"34523174","activityCount":"70940","privateHost":"1895652583","level":"21","nick":"6043-\u5e05\u5c11","totalCount":"4027","avatar180":"http:\/\/huyaimg.msstatic.com\/avatar\/1018\/cc\/7e4c21697bdf45ba1339d750faa183_180_135.jpg?1484705990","gid":"2683","bitRate":"2000","channel":"16642925","liveChannel":"2583608414","introduction":"\u751f\u5b58\u4e4b\u738b \u54c7 \u65ad\u7f51\u4e86","bussType":"3"},{"uid":"988716794","yyid":"955613772","screenshot":"http:\/\/screenshot.msstatic.com\/yysnapshot\/e0f9dc03b09ee97c205518198f4a89f763a152d5","isBluRay":"1","gameFullName":"\u6211\u7684\u4e16\u754c","liveSourceType":"0","gameHostName":"1732","screenType":"0","activityId":"19784662","activityCount":"362612","privateHost":"zhanshenshen","level":"26","nick":"\u4f17\u5a31-\u6218\u795e\u00b790808","totalCount":"2561","avatar180":"http:\/\/downhdlogo.yy.com\/hdlogo\/144144\/94\/67\/71\/0988716794\/u988716794ddj1Mt5W.png","gid":"1732","bitRate":"3000","channel":"81028608","liveChannel":"2559693141","introduction":"\u3010\u7a77\u795e\u3011\u5475\u5475\u5475\u5475~","bussType":"2"}],"themeLogo":"http:\/\/livewebbs2.msstatic.com\/huya_hot_rec_theme_logo_1488335054.png","themeTitle":"\u5355\u673a\u70ed\u6e38"},{"contents":[{"uid":"558802298","yyid":"483955229","screenshot":"http:\/\/huyaimg.msstatic.com\/cdnimage\/anchorpost\/1054\/db\/6590aa9bcf98e12e5d809d371e46cc_1663_1502704363.jpg","isBluRay":"0","gameFullName":"\u661f\u79c0","liveSourceType":"0","gameHostName":"1663","screenType":"0","activityId":"24732076","activityCount":"554456","privateHost":"483955229","level":"28","nick":"\u9752\u79be-\u5c0f\u516d\u516d","totalCount":"3537","avatar180":"http:\/\/huyaimg.msstatic.com\/avatar\/1054\/db\/6590aa9bcf98e12e5d809d371e46cc_180_135.jpg?1502092944","gid":"1663","bitRate":"2000","channel":"51982748","liveChannel":"2613396150","introduction":"\u5929\u738b\u76d6\u5730\u864e","bussType":"8"},{"uid":"1747814620","yyid":"2000394038","screenshot":"http:\/\/screenshot.msstatic.com\/yysnapshot\/f78c38e9e39106d680eac28a48cd0717d356796d","isBluRay":"0","gameFullName":"\u7f8e\u98df","liveSourceType":"6","gameHostName":"2752","screenType":"1","activityId":"37841171","activityCount":"185033","privateHost":"2000394038","level":"17","nick":"MH\u3001\u864e\u7259\u98de\u5f1f ","totalCount":"1595","avatar180":"http:\/\/huyaimg.msstatic.com\/avatar\/1031\/31\/bca633597e4cc2a642c8e321e2e3f7_180_135.jpg?0","gid":"2752","bitRate":"1200","channel":"68748040","liveChannel":"68748040","introduction":"\u6458\u91ce\u751f\u67ff\u5b50\u3002","bussType":"8"},{"uid":"1501374403","yyid":"1683954582","screenshot":"http:\/\/screenshot.msstatic.com\/yysnapshot\/827530b64f10f373b60696ff203e94b0bb03d9db","isBluRay":"0","gameFullName":"\u4e61\u91ce","liveSourceType":"6","gameHostName":"2836","screenType":"1","activityId":"24918171","activityCount":"1127107","privateHost":"1683954582","level":"24","nick":"\u6840\u695a\u3001\u6d41\u6c13\u5154","totalCount":"13569","avatar180":"http:\/\/downhdlogo.yy.com\/hdlogo\/144144\/3\/44\/37\/1501374403\/u1501374403BpyXS5J.png","gid":"2836","bitRate":"750","channel":"93085901","liveChannel":"93085901","introduction":"\u5f92\u6b65\u6e56\u5317-\u6d77\u5357-\u6e56\u5317\u7b2c222\u5929","bussType":"8"},{"uid":"1591391630","yyid":"1798213273","screenshot":"http:\/\/screenshot.msstatic.com\/yysnapshot\/4fd5ad4abf207fd6ea132b8e2311371aba8b6dc5","isBluRay":"0","gameFullName":"\u4e61\u91ce","liveSourceType":"6","gameHostName":"2836","screenType":"1","activityId":"29149314","activityCount":"306438","privateHost":"1798213273","level":"23","nick":"\u725b\u54e5\u8ffd\u68a6","totalCount":"12088","avatar180":"http:\/\/huyaimg.msstatic.com\/avatar\/1066\/b9\/70482bc06a44e876440b44d95f2623_180_135.jpg?1493824803","gid":"2836","bitRate":"1200","channel":"58471506","liveChannel":"58471506","introduction":"\u7b49\u5f85\u6d41\u6d6a\u8005\u5bb6\u5c5e\u6765\u63a5\u4eba\uff0c\u7b2c25\u4e2a","bussType":"8"}],"themeLogo":"http:\/\/livewebbs2.msstatic.com\/huya_hot_rec_theme_logo_1488335035.png","themeTitle":"\u5a31\u4e50\u5929\u5730"},{"contents":[{"uid":"17206260","yyid":"10791382","screenshot":"http:\/\/huyaimg.msstatic.com\/cdnimage\/anchorpost\/1029\/b3\/67921cd48eac56d79a9fea1bc676f7_2336_1505886663.jpg","isBluRay":"0","gameFullName":"\u738b\u8005\u8363\u8000","liveSourceType":"0","gameHostName":"2336","screenType":"0","activityId":"8946621","activityCount":"2901322","privateHost":"aglaoshuai","level":"18","nick":"AG\u8d85\u73a9\u4f1a\u8001\u5e05","totalCount":"351400","avatar180":"http:\/\/huyaimg.msstatic.com\/avatar\/1029\/b3\/67921cd48eac56d79a9fea1bc676f7_180_135.jpg?1504542795","gid":"2336","bitRate":"2000","channel":"43759006","liveChannel":"2634621580","introduction":"AG\u8d85\u73a9\u4f1a\u8001\u5e05\u7684\u76f4\u64ad\u95f4","bussType":"3"},{"uid":"1089197997","yyid":"1159608041","screenshot":"http:\/\/screenshot.msstatic.com\/yysnapshot\/a118fbc2f4a134063f53f7adb679cc736712b5b0","isBluRay":"0","gameFullName":"\u7403\u7403\u5927\u4f5c\u6218","liveSourceType":"0","gameHostName":"2411","screenType":"0","activityId":"31946036","activityCount":"784046","privateHost":"qiuqiujiaofu","level":"21","nick":"\u7403\u7403\u6559\u7236","totalCount":"12267","avatar180":"http:\/\/huyaimg.msstatic.com\/avatar\/1045\/5e\/40c55637bdd63ab3e9cb842c78185e_180_135.jpg?1505008247","gid":"2411","bitRate":"2000","channel":"78941969","liveChannel":"2562905814","introduction":"\u6559\u7236\uff1a\u7403\u7403\u6700\u7a33\u716e\u64ad!","bussType":"3"},{"uid":"1674061413","yyid":"1905118486","screenshot":"http:\/\/screenshot.msstatic.com\/yysnapshot\/78d7626a6149641c895b325b8d5520886d675ef9","isBluRay":"1","gameFullName":"CF\u67aa\u6218\u738b\u8005","liveSourceType":"0","gameHostName":"2413","screenType":"0","activityId":"34903231","activityCount":"118591","privateHost":"1905118486","level":"19","nick":"LNG\u4e36Zh","totalCount":"10955","avatar180":"http:\/\/huyaimg.msstatic.com\/avatar\/1091\/cc\/740fb6dff7431fe119f16bb2b6d2ab_180_135.jpg?1505383344","gid":"2413","bitRate":"3000","channel":"95685753","liveChannel":"2566699915","introduction":"\u66b4\u529bM4\u8fdb\u573a  \u522b\u8dd1\uff01","bussType":"3"},{"uid":"59340438","yyid":"2445317","screenshot":"http:\/\/screenshot.msstatic.com\/yysnapshot\/183b457ef8f1fe8732371d9b257945e78d3f3d6b","isBluRay":"0","gameFullName":"\u706b\u5f71\u5fcd\u8005\u624b\u6e38","liveSourceType":"0","gameHostName":"2429","screenType":"0","activityId":"33311960","activityCount":"17099","privateHost":"guoguoaisisi","level":"16","nick":"\u9505\u9505","totalCount":"2750","avatar180":"http:\/\/huyaimg.msstatic.com\/avatar\/1043\/ae\/bd177eae1ee8fbead1512e18e4f82a_180_135.jpg?1479240367","gid":"2429","bitRate":"1200","channel":"16007726","liveChannel":"2565285757","introduction":"\u65e0\u654c\u7684\u6211\u53c8\u7761\u9192\u4e86quq","bussType":"3"}],"themeLogo":"http:\/\/livewebbs2.msstatic.com\/huya_hot_rec_theme_logo_1488335045.png","themeTitle":"\u624b\u6e38\u4f11\u95f2"}]        </script>
 
 <script>
 
@@ -5273,13 +5273,13 @@
 
 <!--[if lte IE 7]>
 
-<script  type='text/javascript' src='//www.huya.com/base/js/push/json3.min.js'></script>
+<script  type='text/javascript' src='//www.huya.com/base/../../js/push/../../json3.min.../../js'></script>
 
 <![endif]-->
 
 <!--[if lte IE 9]>
 
-<script type='text/javascript' src='//www.huya.com/base/js/push/jquery.xdomainrequest.min.js'></script>
+<script type='text/javascript' src='//www.huya.com/base/../../js/push/jquery.xdomainrequest.min.../../js'></script>
 
 <![endif]-->
 
@@ -5297,9 +5297,9 @@
 
 </script>
 
-<script type='text/javascript' src='js/push-min.js?t=20170818'></script>
+<script type='text/javascript' src='../../js/push-min.../../js?t=20170818'></script>
 
-<script type='text/javascript' src='js/push.func-min.js?t=20161207'></script><!-- E 后台推送消息 -->    <!-- E 页面公用功能 -->
+<script type='text/javascript' src='../../js/push.func-min.../../js?t=20161207'></script><!-- E 后台推送消息 -->    <!-- E 页面公用功能 -->
 
 <script data-fixed="true">
 
@@ -5365,7 +5365,7 @@
 
         function report(){
 
-            getScriptCache('//szhuodong.duowan.com/s/rp/ya-huya.min.js',function(){
+            getScriptCache('//szhuodong.duowan.com/s/rp/ya-huya.min.../../js',function(){
 
                 var oHref = parseQueryString(location.href);
 
@@ -5629,7 +5629,7 @@
 
         var hm = document.createElement("script");
 
-        hm.src = "//hm.baidu.com/hm.js?51700b6c722f5bb4cf39906a596ea41f";
+        hm.src = "//hm.baidu.com/hm.../../js?51700b6c722f5bb4cf39906a596ea41f";
 
         var s = document.getElementsByTagName("script")[0];
 

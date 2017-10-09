@@ -21,10 +21,14 @@ use App\Http\Requests;
 class LoginController extends Controller
 {
     //public $enableCsrfValidation = false; //关闭原有的表单验证类
+    public function homepage()
+    {
+        return view('Login.login');
+    }
     public function login()
     {
        $log=$_POST;
-       //var_dump($user);die;
+      // var_dump($log);die;
         $user=DB::table('user')->where(['user_name'=>$log['name']])->first();
       //  print_r($user->user_name);die;
         if(empty(json_encode($user,true)))
