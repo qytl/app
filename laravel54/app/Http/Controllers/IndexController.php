@@ -7,14 +7,22 @@
  */
 
 namespace App\Http\Controllers;
-
+use DB;
 class IndexController extends Controller{
+<<<<<<< HEAD
 
  public function login(){        return view("/index/index");
+=======
+    
+    public function Login(){
+        return view("/index/index");
+>>>>>>> 4f49f04161566449eefd7333e35a2114f6b2da5b
     }
     //展示列表
     public function user(){
-        return view("/user/user_center");
+        $user = DB::table('user_center')->select('u_name','u_age','u_adress','u_sign')->first();
+        $user = json_decode(json_encode($user),true);
+        return view("/user/user_center",['user'=>$user]);
     }
     //主播申请
     public function apply(){
@@ -38,36 +46,6 @@ class IndexController extends Controller{
         return view("/index/fenlei");
     }
 
-    //主播信息
-    public  function ProfileInfo(){
-        return view("/user/ProfileInfo");
-    }
-
-     //违规查询
-    public  function ProfileFreezeAppeal(){
-        return view("/user/ProfileFreezeAppeal");
-    }
-
-    //主播收入
-    public  function MyAccount(){
-        return view("/user/MyAccount");
-    }
-
-    //礼物清单
-    public  function profileGiftList(){
-        return view("/user/profileGiftList");
-    }
-
-    //签约申请
-    public  function ProfileSign(){
-        return view("/user/ProfileSign");
-    }
-
-    //我的粉丝
-    public  function ProfileFans(){
-        return view("/user/ProfileFans");
-    }
-
-
-
 }
+
+
