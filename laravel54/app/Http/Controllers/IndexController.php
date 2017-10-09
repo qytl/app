@@ -7,15 +7,17 @@
  */
 
 namespace App\Http\Controllers;
-
+use DB;
 class IndexController extends Controller{
     
-    public function index(){
+    public function Login(){
         return view("/index/index");
     }
     //展示列表
     public function user(){
-        return view("/user/user_center");
+        $user = DB::table('user_center')->select('u_name','u_age','u_adress','u_sign')->first();
+        $user = json_decode(json_encode($user),true);
+        return view("/user/user_center",['user'=>$user]);
     }
     //主播申请
     public function apply(){
@@ -40,3 +42,5 @@ class IndexController extends Controller{
     }
 
 }
+
+

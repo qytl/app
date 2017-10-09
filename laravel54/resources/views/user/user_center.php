@@ -327,144 +327,17 @@
                                 </span>
                                 </a>
                             </li>
-                            <li>
-                                <a menu="noble" href="http://i.huya.com/index.php?m=NobleSys">
-                                    <span class="icon icon-noble"></span>
-                                    <span class="title">
-                                    我的贵族
-                                </span>
-                                </a>
-                            </li>
-                            <!-- <li>
-                                    <a menu="myRoom" href="http://i.huya.com/index.php?m=MyRoomAuditor">
-                                        <span class="icon icon-room"></span>
-                                        <span class="title">
-                                            房间管理
-                                        </span>
-                                    </a>
-                                </li> -->
-                            <li>
-                                <a menu="myRoom" href="http://i.huya.com/index.php?m=MyRoomAuditor">
-                                    <span class="icon icon-room"></span>
-                                    <span class="title">
-                                    我的头衔
-                                </span>
-                                </a>
-                            </li>
-                            <li>
-                                <a menu="money" href="http://i.huya.com/index.php?m=MyAccount&amp;do=myAccount">
-                                    <span class="icon icon-money"></span>
-                                    <span class="title">
-                                    我的财产
-                                </span>
-                                </a>
-                            </li>
-                            <!-- <li>
-                                <a menu="guess" href="http://i.huya.com/index.php?m=Guess">
-                                    <span class="icon icon-guess"></span>
-                                    <span class="title">
-                                        我的竞猜
-                                    </span>
-                                </a>
-                            </li> -->
-                            <!-- <li>
-                                <a menu="texas" href="http://i.huya.com/index.php?m=Texas">
-                                    <span class="icon icon-teaxs"></span>
-                                    <span class="title">
-                                        开心德州
-                                    </span>
-                                </a>
-                            </li> -->
-                            <!--
-                            <li>
-                                <a menu="guard" href="http://i.huya.com/index.php?m=Guard&do=guardInfo">
-                                    <span class="icon icon-protect"></span>
-                                    <span class="title">
-                                        主播守护
-                                    </span>
-                                </a>
-                            </li>
 
-                            <li>
-                                <a menu="badge"  href="http://i.huya.com/index.php?m=Badge">
-                                    <span class="icon icon-badge"></span>
-                                     <span class="title">
-                                         我的徽章
-                                     </span>
-                                </a>
-                            </li>
-                            -->
-                            <!--
-                            <li>
-                                <a menu="basesetting" href="http://i.huya.com/index.php?m=PopOptions&do=userOption">
-                                    <span class="icon icon-base"></span>
-                                    <span class="title">
-                                        基础设置
-                                    </span>
-                                </a>
-                            </li>
-                            -->
-                            <!-- <li id="mygift-li">
-                                <a menu="mygift" href="http://i.huya.com/index.php?m=MyGift&do=listMyGift">
-                                    <span class="icon icon-welfare"></span>
-                                    <span class="title">
-                                        我的福利
-                                    </span>
-                                </a>
-                            </li> -->
-                            <!-- <li id="maw-li">
-                                <a menu="maw" href="http://i.huya.com/index.php?m=Maw">
-                                    <span class="icon icon-maw"></span>
-                                    <span class="title">
-                                        中奖查询
-                                    </span>
-                                </a>
-                            </li> -->
-                            <!-- <li id="interaction_game-li">
-                                <a menu="interaction_game" href="http://i.huya.com/index.php?m=MonkeyTrick">
-                                    <span class="icon icon-interaction"></span>
-                                    <span class="title">
-                                        互动游戏
-                                    </span>
-                                </a>
-                            </li> -->
-                            <!-- <li id="mygift-li">
-                                <a menu="userlevel" href="http://i.huya.com/index.php?m=UserLevel">
-                                    <span class="icon icon-power"></span>
-                                    <span class="title">
-                                        等级特权
-                                    </span>
-                                </a>
-                            </li> -->
-                            <li id="CDKey_change-li">
-                                <a menu="cdkey" href="http://i.huya.com/index.php?m=CdKey">
-                                    <span class="icon icon-CDKey_change"></span>
-                                    <span class="title">
-                                    CDKey兑换
-                                </span>
-                                </a>
-                            </li>
-                            <li>
-                                <a menu="auth" href="http://i.huya.com/index.php?m=ProfileAuth">
-                                    <span class="icon icon-auth"></span>
-                                    <span class="title">
-                                    虎牙认证
-                                </span>
-                                </a>
-                            </li>
+
+
+
+
                         </ul>
                     </div>
                     <div class="nav-section" style="padding-bottom:0">
                         <h3 class="header">&nbsp;我是主播</h3>
                         <ul class="anchor-info">
-                            <li>
-                                <a menu="profiler" href="http://i.huya.com/index.php?m=ProfileInfo">
-                                    <span class="icon icon-anchor"></span>
-                                    <span class="title">
-                                    主播信息
-                                </span>
-                                </a>
-                            </li>
+
                             <li>
                                 <a menu="profileFreezeAppeal" href="http://i.huya.com/index.php?m=ProfileFreezeAppeal">
                                     <span class="icon icon-violation"></span>
@@ -673,9 +546,10 @@
                     <input name="y1" id="y1" value="" type="hidden">
                     <input name="x2" id="x2" value="" type="hidden">
                     <input name="y2" id="y2" value="" type="hidden">
+
                 </form>
                 <div class="user_info">
-                    <h2 style="font-size: 25px;" class="uesr_n">吃嘛嘛香</h2>
+                    <h2 style="font-size: 25px;" class="uesr_n">☛<?php echo isset($user['u_name'])?$user['u_name']:''?></h2>
                     <span class="user_sex user_sex-male"></span>
 
                     <!-- <p class="yy_num"><span>YY:</span><span id="YY">1492160058</span></p> -->
@@ -686,28 +560,18 @@
                         <a href="javascript:void(0);" class="btn sure_change">确定</a>
                         <a href="javascript:void(0);" class="btn quit_change">取消</a>
                     </div>
-                    <a id="edit_nick" href="?m=UserInfo" class="change_n clickstat" eid="click/grzx/myinfo/edit" eid_desc="点击/个人中心/我的信息/编辑">编辑</a>
+                    <a id="edit_nick" href="<?=url('center/user_center')?>" class="">编辑</a>
                     <a href="javascript:void(0);" class="change_w"></a>
                     <p class="user_msg">
-                            <span class="user_age">
-                                24岁</span>
+                            <span class="u_age" id="u_age">
+                                <?php echo isset($user['u_age'])?$user['u_age']:'' ?></span>
                         <span class="user_add">
-                                北京                            </span>
-                        <span class="user_ps">你还没编辑个性签名。</span>
+                                <?php echo isset($user['u_adress'])?$user['u_adress']:'' ?> </span>
+                        <span class="user_sign">
+                            <?php echo isset($user['u_sign'])?$user['u_sign']:'' ?>
+                        </span>
                     </p>
-                    <div class="detail table-badge" id="grow_level">
-                        <span>LV1</span>
-                        <span class="contact">
-                                <span class="number">55/200</span>
-                                <span class="part" style="width:27.5%;"></span>
-                                <span class="grow_msg" style="top:-32px;left:0px;">
-                                                                        <span class="grow_msg_span">今日获得<span class="num">0</span>点经验值，升级还需<span class="num">145</span>点</span>
-                                                                        <i class="up_arrows"></i>
-                                </span>
-                            </span>
-                        <span>LV2</span>
-                        <a class="question" href="?m=UserLevel">查看等级成长&gt;</a>
-                    </div>
+
                     <ul id="my_estate">
                         <li>
                                     <span class="tool">
@@ -735,6 +599,7 @@
                                                                                 <i class="line"></i>
                                     </span>
                         </li>
+
                         <li>
                                     <span class="tool">
                                         <i class="icon icon-silver"></i>
@@ -753,11 +618,7 @@
                                     <a href="http://i.huya.com/index.php?m=MyAccount&amp;do=myAccount" class="money_detail">资产明细</a>
                                 </span>
                         </li>
-                        <li>
-                                <span>
-                                    <a class="btn" id="jdRechargeBtn" href="javascript:void(0);">充值</a>
-                                </span>
-                        </li>
+
                     </ul>
                 </div>
             </div>
@@ -770,23 +631,9 @@
                 <!-- <span class="line line-income"></span> -->
             </div>
             <!-- 手机未认证 -->
-            <div class="account_num_list hidden" id="no_phone">
-                <div class="no_phone"></div>
-                <div class="msg">
-                    <p class="msg_1">绑定手机</p>
-                    <p class="msg_2">绑定密保手机保障您的账号安全</p>
-                </div>
-                <a class="result" id="bindMobile" data-is-thirduser="0" href="javascript:void(0);" target="_blank"></a>
-            </div>
+
             <!-- 手机已认证 -->
-            <div class="account_num_list" id="phone">
-                <div class="phone"></div>
-                <div class="msg">
-                    <p class="msg_1">修改绑定手机</p>
-                    <p class="msg_2">已绑定：<span class="mobile num">135******50</span></p>
-                </div>
-                <a class="result" href="https://aq.yy.com/mb/mob/index.do" target="_blank"></a>
-            </div>
+
 
             <div class="account_num_list">
                 <div class="password"></div>
@@ -794,28 +641,19 @@
                     <p class="msg_1">修改密码</p>
                     <p class="msg_2">建议定期修改密码，保证账号安全</p>
                 </div>
+                <a class="result" href="<?=url('center/pwd')?>"></a>
                 <!-- 非第三方登陆，显示修改密码 -->
-                <a class="result" href="https://aq.yy.com/pwd/chg/index.do" target="_blank"></a>
-            </div>
-            <div style="clear:both;"></div>
-            <!-- 非第三方登陆，显示实名认证 -->
-            <!-- 已实名认证 -->
-            <div class="account_num_list">
-                <div class="approve"></div>
-                <div class="msg">
-                    <p class="msg_1">虎牙认证(已完成)</p>
-                    <p class="msg_2">已完成实名认证，可申请开播</p>
-                </div>
-                <a class="result" target="_blank" href="http://www.huya.com/e/zhubo"></a>
+
+
             </div>
             <!-- 是主播 -->
             <div class="account_num_list">
                 <div class="anchor"></div>
                 <div class="msg">
-                    <p class="msg_1">查看主播信息</p>
-                    <p class="msg_2">我已是主播，可查看自己的信息</p>
+                    <p class="msg_1">维护中...</p>
+                    <p class="msg_2">当前功能不开放,请查看其它功能</p>
                 </div>
-                <a class="result" href="http://i.huya.com//index.php?m=ProfileInfo"></a>
+                <a class="result" href="#"></a>
             </div>
         </div>
     </div>
