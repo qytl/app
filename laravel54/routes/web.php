@@ -10,7 +10,6 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
 $uri=$_SERVER['REQUEST_URI'];
 $uri=explode('/', $uri);
 if(isset($uri[3])){
