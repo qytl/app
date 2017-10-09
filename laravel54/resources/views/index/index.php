@@ -48,7 +48,7 @@
 
         .w-1000 .left-banner,.w-1000 .right-banner{
 
-            background-image: url("images/huya_1506047436_content.jpg");
+            background-image: url("../images/huya_1506047436_content.jpg");
 
         }
 
@@ -86,7 +86,7 @@
 
             <h1 id="duya-header-logo" title="虎牙直播-虎牙TV-中国领先的互动直播平台">
 
-                <a href="http://www.huya.com/" class="clickstat" eid="click/navi/logo" eid_desc="点击/导航/logo"><img src="images/logo.png" alt="虎牙直播" width="120" height="36"></a>
+                <a href="http://www.huya.com/" class="clickstat" eid="click/navi/logo" eid_desc="点击/导航/logo"><img src="../images/logo.png" alt="虎牙直播" width="120" height="36"></a>
 
             </h1>
 
@@ -297,7 +297,7 @@
 
                     <a class="nav-user-title" href="http://i.huya.com/" target="_blank">
 
-                        <img id="login-userAvatar" src="images/10001.jpg" alt="头像" />
+                        <img id="login-userAvatar" src="../images/10001.jpg" alt="头像" />
 
                         <span id="login-username"></span>
 
@@ -317,7 +317,7 @@
 
                                 <a class="avatar" id="J_huyaNavUserCardAvatar" href="http://i.huya.com/" target="_blank">
 
-                                    <img src="images/10001.jpg" id="J_huyaNavUserCardAvatarImg" />
+                                    <img src="../images/10001.jpg" id="J_huyaNavUserCardAvatarImg" />
 
                                 </a>
 
@@ -485,7 +485,7 @@
 
     <!-- S 主屏背景 -->
 
-    <div id="banner" class="J_g_resource" data-pos="home/beitou" data-rsc="2111" style="background-image: url('images/huya_1506047436_content.jpg');">
+    <div id="banner" class="J_g_resource" data-pos="home/beitou" data-rsc="2111" style="background-image: url('../images/huya_1506047436_content.jpg');">
 
         <a class="left-banner clickstat third-clickstat" id="J_adLeft" data-thirdview="" data-thirdstat="" eid="click/push/beitou/left" eid_desc="点击/推荐/背投/左侧" href="http://www.huya.com/s7" target="_blank"></a>
 
@@ -519,7 +519,7 @@
 
                     <div class="item-pic">
 
-                        <img src="images/home_recommend_live_web_1506139195.jpg" alt="虎牙直播" onerror="this.onerror='';this.src='images/default_focus.jpg'">
+                        <img src="../images/home_recommend_live_web_1506139195.jpg" alt="虎牙直播" onerror="this.onerror='';this.src='../images/default_focus.jpg'">
 
                         <div class="highlight"><i class="arrow"></i></div>
 
@@ -531,7 +531,7 @@
 
                     <div class="item-pic">
 
-                        <img src="images/home_recommend_live_web_1497924217.jpg" alt="虎牙直播" onerror="this.onerror='';this.src='images/default_focus.jpg'">
+                        <img src="../images/home_recommend_live_web_1497924217.jpg" alt="虎牙直播" onerror="this.onerror='';this.src='../images/default_focus.jpg'">
 
                         <div class="highlight"><i class="arrow"></i></div>
 
@@ -543,7 +543,7 @@
 
                     <div class="item-pic">
 
-                        <img src="images/home_recommend_live_web_1487229821.png" alt="虎牙直播" onerror="this.onerror='';this.src='images/default_focus.jpg'">
+                        <img src="../images/home_recommend_live_web_1487229821.png" alt="虎牙直播" onerror="this.onerror='';this.src='../images/default_focus.jpg'">
 
                         <div class="highlight"><i class="arrow"></i></div>
 
@@ -555,7 +555,7 @@
 
                     <div class="item-pic">
 
-                        <img src="images/home_recommend_live_web_1481093568.jpg" alt="虎牙直播" onerror="this.onerror='';this.src='images/default_focus.jpg'">
+                        <img src="../images/home_recommend_live_web_1481093568.jpg" alt="虎牙直播" onerror="this.onerror='';this.src='../images/default_focus.jpg'">
 
                         <div class="highlight"><i class="arrow"></i></div>
 
@@ -567,7 +567,7 @@
 
                     <div class="item-pic">
 
-                        <img src="images/home_recommend_live_web_1494302026.jpg" alt="虎牙直播" onerror="this.onerror='';this.src='images/default_focus.jpg'">
+                        <img src="../images/home_recommend_live_web_1494302026.jpg" alt="虎牙直播" onerror="this.onerror='';this.src='../images/default_focus.jpg'">
 
                         <div class="highlight"><i class="arrow"></i></div>
 
@@ -579,7 +579,7 @@
 
                     <div class="item-pic">
 
-                        <img src="images/home_recommend_live_web_1506298817.jpg" alt="虎牙直播" onerror="this.onerror='';this.src='images/default_focus.jpg'">
+                        <img src="../images/home_recommend_live_web_1506298817.jpg" alt="虎牙直播" onerror="this.onerror='';this.src='../images/default_focus.jpg'">
 
                         <div class="highlight"><i class="arrow"></i></div>
 
@@ -1129,31 +1129,31 @@
 
                             <a class="link pic-box clickstat third-clickstat pic1" id="J_thirdView_1" title="S7全球总决赛" href="http://blog.huya.com/news/4556" target="_blank" eid="click/push/indexnews/picture1" eid_desc="点击/活动/首页新闻/图片1" data-thirdstat="" data-thirdview="">
 
-                <img src="images/huya_1506075209_content.jpg" onerror="this.onerror=null;this.src='images/330x210.jpg';" alt="S7全球总决赛">
+                <img src="../images/huya_1506075209_content.jpg" onerror="this.onerror=null;this.src='../images/330x210.jpg';" alt="S7全球总决赛">
 
             </a>
 
                                 <a class="link pic-box clickstat third-clickstat pic2" id="J_thirdView_2" title="KPL秋季赛" href="http://blog.huya.com/news/4564" target="_blank" eid="click/push/indexnews/picture2" eid_desc="点击/活动/首页新闻/图片2" data-thirdstat="" data-thirdview="">
 
-                <img src="images/huya_1505963058_content.jpg" onerror="this.onerror=null;this.src='images/160x210.jpg';" alt="KPL秋季赛">
+                <img src="../images/huya_1505963058_content.jpg" onerror="this.onerror=null;this.src='../images/160x210.jpg';" alt="KPL秋季赛">
 
             </a>
 
                                 <a class="link pic-box clickstat third-clickstat pic3" id="J_thirdView_3" title="天天狼人杀" href="http://blog.huya.com/news/4568" target="_blank" eid="click/push/indexnews/picture3" eid_desc="点击/活动/首页新闻/图片3" data-thirdstat="" data-thirdview="">
 
-                <img src="images/huya_1506305846_content.jpg" onerror="this.onerror=null;this.src='images/160x100.jpg';" alt="天天狼人杀">
+                <img src="../images/huya_1506305846_content.jpg" onerror="this.onerror=null;this.src='../images/160x100.jpg';" alt="天天狼人杀">
 
             </a>
 
                                 <a class="link pic-box clickstat third-clickstat pic3" id="J_thirdView_4" title="【乡野】渔乐达人——渔王争霸赛" href="http://blog.huya.com/news/4555" target="_blank" eid="click/push/indexnews/picture4" eid_desc="点击/活动/首页新闻/图片4" data-thirdstat="" data-thirdview="">
 
-                <img src="images/huya_1505813856_content.jpg" onerror="this.onerror=null;this.src='images/160x100.jpg';" alt="【乡野】渔乐达人——渔王争霸赛">
+                <img src="../images/huya_1505813856_content.jpg" onerror="this.onerror=null;this.src='../images/160x100.jpg';" alt="【乡野】渔乐达人——渔王争霸赛">
 
             </a>
 
                                 <a class="link pic-box clickstat third-clickstat pic3" id="J_thirdView_5" title="虎牙《英魂之刃口袋版》主播积分大挑战" href="http://blog.huya.com/news/4558" target="_blank" eid="click/push/indexnews/picture5" eid_desc="点击/活动/首页新闻/图片5" data-thirdstat="" data-thirdview="">
 
-                <img src="images/huya_1505894117_content.jpg" onerror="this.onerror=null;this.src='images/160x100.jpg';" alt="虎牙《英魂之刃口袋版》主播积分大挑战">
+                <img src="../images/huya_1505894117_content.jpg" onerror="this.onerror=null;this.src='../images/160x100.jpg';" alt="虎牙《英魂之刃口袋版》主播积分大挑战">
 
             </a>
 
@@ -1291,7 +1291,7 @@
 
                             <a class="preview-pic-link clickstat" >
 
-                                <img data-original="//huyaimg.msstatic.com/cdnimage/upcoming/up_15057915175027_pic.jpg" src="images/195x70.jpg" onerror="this.onerror=null; this.src='images/195x70.jpg';" alt="S7全球总决赛预告">
+                                <img data-original="//huyaimg.msstatic.com/cdnimage/upcoming/up_15057915175027_pic.jpg" src="../images/195x70.jpg" onerror="this.onerror=null; this.src='../images/195x70.jpg';" alt="S7全球总决赛预告">
 
                             </a>
 
@@ -1333,7 +1333,7 @@
 
                             <a class="preview-pic-link clickstat" >
 
-                                <img data-original="//huyaimg.msstatic.com/cdnimage/upcoming/up_15063094063363_pic.jpg" src="images/195x70.jpg" onerror="this.onerror=null; this.src='images/195x70.jpg';" alt="科技美学vs魅族杨颜预告">
+                                <img data-original="//huyaimg.msstatic.com/cdnimage/upcoming/up_15063094063363_pic.jpg" src="../images/195x70.jpg" onerror="this.onerror=null; this.src='../images/195x70.jpg';" alt="科技美学vs魅族杨颜预告">
 
                             </a>
 
@@ -1375,7 +1375,7 @@
 
                             <a class="preview-pic-link clickstat" >
 
-                                <img data-original="//huyaimg.msstatic.com/cdnimage/upcoming/up_15028752192337_pic.jpg" src="images/195x70.jpg" onerror="this.onerror=null; this.src='images/195x70.jpg';" alt="穿越火线CFPL秋季赛预告">
+                                <img data-original="//huyaimg.msstatic.com/cdnimage/upcoming/up_15028752192337_pic.jpg" src="../images/195x70.jpg" onerror="this.onerror=null; this.src='../images/195x70.jpg';" alt="穿越火线CFPL秋季赛预告">
 
                             </a>
 
@@ -1417,7 +1417,7 @@
 
                             <a class="preview-pic-link clickstat" >
 
-                                <img data-original="//huyaimg.msstatic.com/cdnimage/upcoming/up_15063094617414_pic.jpg" src="images/195x70.jpg" onerror="this.onerror=null; this.src='images/195x70.jpg';" alt="《异星狂欢节》DAY1预告">
+                                <img data-original="//huyaimg.msstatic.com/cdnimage/upcoming/up_15063094617414_pic.jpg" src="../images/195x70.jpg" onerror="this.onerror=null; this.src='../images/195x70.jpg';" alt="《异星狂欢节》DAY1预告">
 
                             </a>
 
@@ -1459,7 +1459,7 @@
 
                             <a class="preview-pic-link clickstat" >
 
-                                <img data-original="//huyaimg.msstatic.com/cdnimage/upcoming/up_15028724227371_pic.jpg" src="images/195x70.jpg" onerror="this.onerror=null; this.src='images/195x70.jpg';" alt="CF枪战王者CFML秋季赛预告">
+                                <img data-original="//huyaimg.msstatic.com/cdnimage/upcoming/up_15028724227371_pic.jpg" src="../images/195x70.jpg" onerror="this.onerror=null; this.src='../images/195x70.jpg';" alt="CF枪战王者CFML秋季赛预告">
 
                             </a>
 
@@ -1501,7 +1501,7 @@
 
                             <a class="preview-pic-link clickstat" >
 
-                                <img data-original="//huyaimg.msstatic.com/cdnimage/upcoming/up_15046689333753_pic.jpg" src="images/195x70.jpg" onerror="this.onerror=null; this.src='images/195x70.jpg';" alt="球球BPL秋季赛预告">
+                                <img data-original="//huyaimg.msstatic.com/cdnimage/upcoming/up_15046689333753_pic.jpg" src="../images/195x70.jpg" onerror="this.onerror=null; this.src='../images/195x70.jpg';" alt="球球BPL秋季赛预告">
 
                             </a>
 
@@ -1543,7 +1543,7 @@
 
                             <a class="preview-pic-link clickstat" >
 
-                                <img data-original="//huyaimg.msstatic.com/cdnimage/upcoming/up_15057162860344_pic.jpg" src="images/195x70.jpg" onerror="this.onerror=null; this.src='images/195x70.jpg';" alt="王者荣耀KPL秋季赛预告">
+                                <img data-original="//huyaimg.msstatic.com/cdnimage/upcoming/up_15057162860344_pic.jpg" src="../images/195x70.jpg" onerror="this.onerror=null; this.src='../images/195x70.jpg';" alt="王者荣耀KPL秋季赛预告">
 
                             </a>
 
@@ -1585,7 +1585,7 @@
 
                             <a class="preview-pic-link clickstat" >
 
-                                <img data-original="//huyaimg.msstatic.com/cdnimage/upcoming/up_15063073555863_pic.jpg" src="images/195x70.jpg" onerror="this.onerror=null; this.src='images/195x70.jpg';" alt="GLORY46荣耀格斗冠军赛预告">
+                                <img data-original="//huyaimg.msstatic.com/cdnimage/upcoming/up_15063073555863_pic.jpg" src="../images/195x70.jpg" onerror="this.onerror=null; this.src='../images/195x70.jpg';" alt="GLORY46荣耀格斗冠军赛预告">
 
                             </a>
 
@@ -1649,7 +1649,7 @@
 
 	    <a target="_blank" href="http://www.huya.com/g/lol" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/1","game_id":"1"}'>
 
-    	<img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/1-S.jpg?t=1506308400" src="images/240x360.jpg" onerror="this.onerror=null; this.src='images/240x360.jpg';" alt="英雄联盟" title="英雄联盟">
+    	<img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/1-S.jpg?t=1506308400" src="../images/240x360.jpg" onerror="this.onerror=null; this.src='../images/240x360.jpg';" alt="英雄联盟" title="英雄联盟">
 
     	<h3 class="title">英雄联盟</h3>
 
@@ -1661,7 +1661,7 @@
 
 	    <a target="_blank" href="http://www.huya.com/g/wzry" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/2","game_id":"2336"}'>
 
-    	<img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/2336-S.jpg?t=1506308400" src="images/240x360.jpg" onerror="this.onerror=null; this.src='images/240x360.jpg';" alt="王者荣耀" title="王者荣耀">
+    	<img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/2336-S.jpg?t=1506308400" src="../images/240x360.jpg" onerror="this.onerror=null; this.src='../images/240x360.jpg';" alt="王者荣耀" title="王者荣耀">
 
     	<h3 class="title">王者荣耀</h3>
 
@@ -1673,7 +1673,7 @@
 
 	    <a target="_blank" href="http://www.huya.com/g/qiuqiu" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/3","game_id":"2411"}'>
 
-    	<img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/2411-S.jpg?t=1506308400" src="images/240x360.jpg" onerror="this.onerror=null; this.src='images/240x360.jpg';" alt="球球大作战" title="球球大作战">
+    	<img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/2411-S.jpg?t=1506308400" src="../images/240x360.jpg" onerror="this.onerror=null; this.src='../images/240x360.jpg';" alt="球球大作战" title="球球大作战">
 
     	<h3 class="title">球球大作战</h3>
 
@@ -1685,7 +1685,7 @@
 
 	    <a target="_blank" href="http://www.huya.com/g/100032" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/4","game_id":"100032"}'>
 
-    	<img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/100032-S.jpg?t=1506308400" src="images/240x360.jpg" onerror="this.onerror=null; this.src='images/240x360.jpg';" alt="主机游戏" title="主机游戏">
+    	<img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/100032-S.jpg?t=1506308400" src="../images/240x360.jpg" onerror="this.onerror=null; this.src='../images/240x360.jpg';" alt="主机游戏" title="主机游戏">
 
     	<h3 class="title">主机游戏</h3>
 
@@ -1697,7 +1697,7 @@
 
 	    <a target="_blank" href="http://www.huya.com/g/xingxiu" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/5","game_id":"1663"}'>
 
-    	<img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/1663-S.jpg?t=1506308400" src="images/240x360.jpg" onerror="this.onerror=null; this.src='images/240x360.jpg';" alt="星秀" title="星秀">
+    	<img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/1663-S.jpg?t=1506308400" src="../images/240x360.jpg" onerror="this.onerror=null; this.src='../images/240x360.jpg';" alt="星秀" title="星秀">
 
     	<h3 class="title">星秀</h3>
 
@@ -1709,7 +1709,7 @@
 
 	    <a target="_blank" href="http://www.huya.com/g/100044" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/6","game_id":"100044"}'>
 
-    	<img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/100044-S.jpg?t=1506308400" src="images/240x360.jpg" onerror="this.onerror=null; this.src='images/240x360.jpg';" alt="吃喝玩乐" title="吃喝玩乐">
+    	<img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/100044-S.jpg?t=1506308400" src="../images/240x360.jpg" onerror="this.onerror=null; this.src='../images/240x360.jpg';" alt="吃喝玩乐" title="吃喝玩乐">
 
     	<h3 class="title">吃喝玩乐</h3>
 
@@ -1721,7 +1721,7 @@
 
 	    <a target="_blank" href="http://www.huya.com/g/100029" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/7","game_id":"100029"}'>
 
-    	<img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/100029-S.jpg?t=1506308400" src="images/240x360.jpg" onerror="this.onerror=null; this.src='images/240x360.jpg';" alt="热门手游" title="热门手游">
+    	<img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/100029-S.jpg?t=1506308400" src="../images/240x360.jpg" onerror="this.onerror=null; this.src='../images/240x360.jpg';" alt="热门手游" title="热门手游">
 
     	<h3 class="title">热门手游</h3>
 
@@ -1733,7 +1733,7 @@
 
 	    <a target="_blank" href="http://www.huya.com/g/hearthstone" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/8","game_id":"393"}'>
 
-    	<img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/393-S.jpg?t=1506308400" src="images/240x360.jpg" onerror="this.onerror=null; this.src='images/240x360.jpg';" alt="炉石传说" title="炉石传说">
+    	<img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/393-S.jpg?t=1506308400" src="../images/240x360.jpg" onerror="this.onerror=null; this.src='../images/240x360.jpg';" alt="炉石传说" title="炉石传说">
 
     	<h3 class="title">炉石传说</h3>
 
@@ -1745,7 +1745,7 @@
 
 	    <a target="_blank" href="http://www.huya.com/g/MC" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/9","game_id":"1732"}'>
 
-    	<img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/1732-S.jpg?t=1506308400" src="images/240x360.jpg" onerror="this.onerror=null; this.src='images/240x360.jpg';" alt="我的世界" title="我的世界">
+    	<img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/1732-S.jpg?t=1506308400" src="../images/240x360.jpg" onerror="this.onerror=null; this.src='../images/240x360.jpg';" alt="我的世界" title="我的世界">
 
     	<h3 class="title">我的世界</h3>
 
@@ -1757,7 +1757,7 @@
 
 	    <a target="_blank" href="http://www.huya.com/g/cf" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/10","game_id":"4"}'>
 
-    	<img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/4-S.jpg?t=1506308400" src="images/240x360.jpg" onerror="this.onerror=null; this.src='images/240x360.jpg';" alt="穿越火线" title="穿越火线">
+    	<img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/4-S.jpg?t=1506308400" src="../images/240x360.jpg" onerror="this.onerror=null; this.src='../images/240x360.jpg';" alt="穿越火线" title="穿越火线">
 
     	<h3 class="title">穿越火线</h3>
 
@@ -1769,7 +1769,7 @@
 
 	    <a target="_blank" href="http://www.huya.com/g/cfm" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/11","game_id":"2413"}'>
 
-    	<img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/2413-S.jpg?t=1506308400" src="images/240x360.jpg" onerror="this.onerror=null; this.src='images/240x360.jpg';" alt="CF枪战王者" title="CF枪战王者">
+    	<img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/2413-S.jpg?t=1506308400" src="../images/240x360.jpg" onerror="this.onerror=null; this.src='../images/240x360.jpg';" alt="CF枪战王者" title="CF枪战王者">
 
     	<h3 class="title">CF枪战王者</h3>
 
@@ -1781,7 +1781,7 @@
 
 	    <a target="_blank" href="http://www.huya.com/g/2793" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/12","game_id":"2793"}'>
 
-    	<img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/2793-S.jpg?t=1506308400" src="images/240x360.jpg" onerror="this.onerror=null; this.src='images/240x360.jpg';" alt="绝地求生" title="绝地求生">
+    	<img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/2793-S.jpg?t=1506308400" src="../images/240x360.jpg" onerror="this.onerror=null; this.src='../images/240x360.jpg';" alt="绝地求生" title="绝地求生">
 
     	<h3 class="title">绝地求生</h3>
 
@@ -1825,7 +1825,7 @@
 
                         <div class="pic">
 
-                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_10064_b1464780675.jpg" src="images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='images/84x84.jpg';" alt="贱圣的直播" title="贱圣的直播">
+                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_10064_b1464780675.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='../images/84x84.jpg';" alt="贱圣的直播" title="贱圣的直播">
 
                         </div>
 
@@ -1851,7 +1851,7 @@
 
                         <div class="pic">
 
-                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_1391089114_b1465291548.jpg" src="images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='images/84x84.jpg';" alt="安德罗妮的直播" title="安德罗妮的直播">
+                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_1391089114_b1465291548.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='../images/84x84.jpg';" alt="安德罗妮的直播" title="安德罗妮的直播">
 
                         </div>
 
@@ -1877,7 +1877,7 @@
 
                         <div class="pic">
 
-                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_158764213_b1464780695.jpg" src="images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='images/84x84.jpg';" alt="旋律的直播" title="旋律的直播">
+                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_158764213_b1464780695.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='../images/84x84.jpg';" alt="旋律的直播" title="旋律的直播">
 
                         </div>
 
@@ -1903,7 +1903,7 @@
 
                         <div class="pic">
 
-                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_1313214123_b1464780733.jpg" src="images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='images/84x84.jpg';" alt="仇东生的直播" title="仇东生的直播">
+                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_1313214123_b1464780733.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='../images/84x84.jpg';" alt="仇东生的直播" title="仇东生的直播">
 
                         </div>
 
@@ -1929,7 +1929,7 @@
 
                         <div class="pic">
 
-                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_900586_b1474181104.jpg" src="images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='images/84x84.jpg';" alt="七彩的直播" title="七彩的直播">
+                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_900586_b1474181104.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='../images/84x84.jpg';" alt="七彩的直播" title="七彩的直播">
 
                         </div>
 
@@ -1955,7 +1955,7 @@
 
                         <div class="pic">
 
-                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_3199219_b1480048893.jpg" src="images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='images/84x84.jpg';" alt="晓时候的直播" title="晓时候的直播">
+                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_3199219_b1480048893.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='../images/84x84.jpg';" alt="晓时候的直播" title="晓时候的直播">
 
                         </div>
 
@@ -1981,7 +1981,7 @@
 
                         <div class="pic">
 
-                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_1927556408_b1484711021.jpg" src="images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='images/84x84.jpg';" alt="Uzi的直播" title="Uzi的直播">
+                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_1927556408_b1484711021.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='../images/84x84.jpg';" alt="Uzi的直播" title="Uzi的直播">
 
                         </div>
 
@@ -2005,7 +2005,7 @@
 
                         <div class="pic">
 
-                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_917707_b1464780837.jpg" src="images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='images/84x84.jpg';" alt="董小飒的直播" title="董小飒的直播">
+                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_917707_b1464780837.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='../images/84x84.jpg';" alt="董小飒的直播" title="董小飒的直播">
 
                         </div>
 
@@ -2029,7 +2029,7 @@
 
                         <div class="pic">
 
-                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_1639423385_b1464780786.jpg" src="images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='images/84x84.jpg';" alt="Miss大小姐的直播" title="Miss大小姐的直播">
+                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_1639423385_b1464780786.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='../images/84x84.jpg';" alt="Miss大小姐的直播" title="Miss大小姐的直播">
 
                         </div>
 
@@ -2053,7 +2053,7 @@
 
                         <div class="pic">
 
-                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_770276_b1486977345.png" src="images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='images/84x84.jpg';" alt="骚男的直播" title="骚男的直播">
+                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_770276_b1486977345.png" src="../images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='../images/84x84.jpg';" alt="骚男的直播" title="骚男的直播">
 
                         </div>
 
@@ -2077,7 +2077,7 @@
 
                         <div class="pic">
 
-                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_229813522_b1464780659.jpg" src="images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='images/84x84.jpg';" alt="楚河的直播" title="楚河的直播">
+                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_229813522_b1464780659.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='../images/84x84.jpg';" alt="楚河的直播" title="楚河的直播">
 
                         </div>
 
@@ -2101,7 +2101,7 @@
 
                         <div class="pic">
 
-                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_932805375_b1464780578.jpg" src="images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='images/84x84.jpg';" alt="小宇的直播" title="小宇的直播">
+                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_932805375_b1464780578.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='../images/84x84.jpg';" alt="小宇的直播" title="小宇的直播">
 
                         </div>
 
@@ -2125,7 +2125,7 @@
 
                         <div class="pic">
 
-                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_79390772_b1465291599.jpg" src="images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='images/84x84.jpg';" alt="萌太奇的直播" title="萌太奇的直播">
+                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_79390772_b1465291599.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='../images/84x84.jpg';" alt="萌太奇的直播" title="萌太奇的直播">
 
                         </div>
 
@@ -2149,7 +2149,7 @@
 
                         <div class="pic">
 
-                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_2013047123_b1494577569.jpg" src="images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='images/84x84.jpg';" alt="Smeb的直播" title="Smeb的直播">
+                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_2013047123_b1494577569.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='../images/84x84.jpg';" alt="Smeb的直播" title="Smeb的直播">
 
                         </div>
 
@@ -2173,7 +2173,7 @@
 
                         <div class="pic">
 
-                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_2013063494_b1494577685.jpg" src="images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='images/84x84.jpg';" alt="Pawn的直播" title="Pawn的直播">
+                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_2013063494_b1494577685.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='../images/84x84.jpg';" alt="Pawn的直播" title="Pawn的直播">
 
                         </div>
 
@@ -2197,7 +2197,7 @@
 
                         <div class="pic">
 
-                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_2013074130_b1494577911.jpg" src="images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='images/84x84.jpg';" alt="Deft的直播" title="Deft的直播">
+                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_2013074130_b1494577911.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='../images/84x84.jpg';" alt="Deft的直播" title="Deft的直播">
 
                         </div>
 
@@ -2221,7 +2221,7 @@
 
                         <div class="pic">
 
-                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_2013047662_b1494577937.jpg" src="images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='images/84x84.jpg';" alt="Mata的直播" title="Mata的直播">
+                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_2013047662_b1494577937.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='../images/84x84.jpg';" alt="Mata的直播" title="Mata的直播">
 
                         </div>
 
@@ -2245,7 +2245,7 @@
 
                         <div class="pic">
 
-                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_2013048177_b1494577960.jpg" src="images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='images/84x84.jpg';" alt="Score的直播" title="Score的直播">
+                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_2013048177_b1494577960.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='../images/84x84.jpg';" alt="Score的直播" title="Score的直播">
 
                         </div>
 
@@ -2269,7 +2269,7 @@
 
                         <div class="pic">
 
-                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_1718236446_b1479114243.jpg" src="images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='images/84x84.jpg';" alt="炫星的直播" title="炫星的直播">
+                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_1718236446_b1479114243.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='../images/84x84.jpg';" alt="炫星的直播" title="炫星的直播">
 
                         </div>
 
@@ -2293,7 +2293,7 @@
 
                         <div class="pic">
 
-                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_383757_b1464780390.jpg" src="images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='images/84x84.jpg';" alt="星痕的直播" title="星痕的直播">
+                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_383757_b1464780390.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='../images/84x84.jpg';" alt="星痕的直播" title="星痕的直播">
 
                         </div>
 
@@ -2317,7 +2317,7 @@
 
                         <div class="pic">
 
-                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_1681435395_b1464780769.jpg" src="images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='images/84x84.jpg';" alt="魔法之风的直播" title="魔法之风的直播">
+                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_1681435395_b1464780769.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='../images/84x84.jpg';" alt="魔法之风的直播" title="魔法之风的直播">
 
                         </div>
 
@@ -2341,7 +2341,7 @@
 
                         <div class="pic">
 
-                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_635563237_b1464780407.jpg" src="images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='images/84x84.jpg';" alt="Yumiko的直播" title="Yumiko的直播">
+                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_635563237_b1464780407.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='../images/84x84.jpg';" alt="Yumiko的直播" title="Yumiko的直播">
 
                         </div>
 
@@ -2365,7 +2365,7 @@
 
                         <div class="pic">
 
-                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_1841420205_b1477022367.jpg" src="images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='images/84x84.jpg';" alt="李九的直播" title="李九的直播">
+                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_1841420205_b1477022367.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='../images/84x84.jpg';" alt="李九的直播" title="李九的直播">
 
                         </div>
 
@@ -2389,7 +2389,7 @@
 
                         <div class="pic">
 
-                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_13955_b1464780855.jpg" src="images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='images/84x84.jpg';" alt="霸道的直播" title="霸道的直播">
+                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_13955_b1464780855.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='../images/84x84.jpg';" alt="霸道的直播" title="霸道的直播">
 
                         </div>
 
@@ -2413,7 +2413,7 @@
 
                         <div class="pic">
 
-                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_26842324_b1480057519.jpg" src="images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='images/84x84.jpg';" alt="岛屿的直播" title="岛屿的直播">
+                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_26842324_b1480057519.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='../images/84x84.jpg';" alt="岛屿的直播" title="岛屿的直播">
 
                         </div>
 
@@ -2437,7 +2437,7 @@
 
                         <div class="pic">
 
-                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_14837713_b1464780643.jpg" src="images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='images/84x84.jpg';" alt="longdd的直播" title="longdd的直播">
+                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_14837713_b1464780643.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='../images/84x84.jpg';" alt="longdd的直播" title="longdd的直播">
 
                         </div>
 
@@ -2461,7 +2461,7 @@
 
                         <div class="pic">
 
-                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_1773664461_b1477560199.jpg" src="images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='images/84x84.jpg';" alt="裴小峰的直播" title="裴小峰的直播">
+                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_1773664461_b1477560199.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='../images/84x84.jpg';" alt="裴小峰的直播" title="裴小峰的直播">
 
                         </div>
 
@@ -2485,7 +2485,7 @@
 
                         <div class="pic">
 
-                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_42234231_b1479267889.jpg" src="images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='images/84x84.jpg';" alt="理想的直播" title="理想的直播">
+                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_42234231_b1479267889.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='../images/84x84.jpg';" alt="理想的直播" title="理想的直播">
 
                         </div>
 
@@ -2509,7 +2509,7 @@
 
                         <div class="pic">
 
-                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_339085_b1464780501.jpg" src="images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='images/84x84.jpg';" alt="小熊的直播" title="小熊的直播">
+                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_339085_b1464780501.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='../images/84x84.jpg';" alt="小熊的直播" title="小熊的直播">
 
                         </div>
 
@@ -2533,7 +2533,7 @@
 
                         <div class="pic">
 
-                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_290583883_b1505902739.jpg" src="images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='images/84x84.jpg';" alt="明天不见的直播" title="明天不见的直播">
+                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_290583883_b1505902739.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='../images/84x84.jpg';" alt="明天不见的直播" title="明天不见的直播">
 
                         </div>
 
@@ -2557,7 +2557,7 @@
 
                         <div class="pic">
 
-                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_1862797660_b1478661619.jpg" src="images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='images/84x84.jpg';" alt="清风徐来的直播" title="清风徐来的直播">
+                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_1862797660_b1478661619.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='../images/84x84.jpg';" alt="清风徐来的直播" title="清风徐来的直播">
 
                         </div>
 
@@ -2581,7 +2581,7 @@
 
                         <div class="pic">
 
-                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_30568775_b1477022428.jpg" src="images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='images/84x84.jpg';" alt="狂人的直播" title="狂人的直播">
+                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_30568775_b1477022428.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='../images/84x84.jpg';" alt="狂人的直播" title="狂人的直播">
 
                         </div>
 
@@ -2605,7 +2605,7 @@
 
                         <div class="pic">
 
-                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_398815955_b1464780462.jpg" src="images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='images/84x84.jpg';" alt="西门的直播" title="西门的直播">
+                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_398815955_b1464780462.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='../images/84x84.jpg';" alt="西门的直播" title="西门的直播">
 
                         </div>
 
@@ -2629,7 +2629,7 @@
 
                         <div class="pic">
 
-                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_305131670_b1464780424.jpg" src="images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='images/84x84.jpg';" alt="童话的直播" title="童话的直播">
+                            <img data-original="//livewebbs2.msstatic.com/huya_famous_b_305131670_b1464780424.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; alert(1); this.src='../images/84x84.jpg';" alt="童话的直播" title="童话的直播">
 
                         </div>
 
@@ -2669,7 +2669,7 @@
 
         <a target="_blank" id="J_adBnM" href="http://www.huya.com/s7" class="game-extend clickstat J_g_resource third-clickstat" data-thirdstat="" data-pos="index/banner/mid" data-rsc="2116" eid="click/push/banner/indexmid" eid_desc="点击/推荐/横幅/首页中部" data-thirdview="">
 
-            <img id="J_bnM" src="images/huya_1506074437_content.jpg" alt="">
+            <img id="J_bnM" src="../images/huya_1506074437_content.jpg" alt="">
 
         </a>
 
@@ -2681,7 +2681,7 @@
 
             <h2 class="title">
 
-                        <img src="images/game_14919794008412_logo.png" alt="图标" class="hy-column-normal">
+                        <img src="../images/game_14919794008412_logo.png" alt="图标" class="hy-column-normal">
 
                         <a target="_blank" href="http://www.huya.com/g/wzry">王者荣耀</a>
 
@@ -2773,7 +2773,7 @@
 
         <a href="http://www.huya.com/aglaoshuai" class="video-info new-clickstat" target="_blank" report='{"eid":"click/position","position":"index/column/2336/1","game_id":"2336","ayyuid":"17206260"}'>
 
-        <img class="pic" data-original="//huyaimg.msstatic.com/cdnimage/anchorpost/1029/b3/67921cd48eac56d79a9fea1bc676f7_2336_1505886663.jpg?imageview/4/0/w/338/h/190/blur/1" src="images/338x190.jpg" onerror="this.onerror=null; this.src='images/338x190.jpg';" alt="AG超玩会老帅的直播" title="AG超玩会老帅的直播">
+        <img class="pic" data-original="//huyaimg.msstatic.com/cdnimage/anchorpost/1029/b3/67921cd48eac56d79a9fea1bc676f7_2336_1505886663.jpg?imageview/4/0/w/338/h/190/blur/1" src="../images/338x190.jpg" onerror="this.onerror=null; this.src='../images/338x190.jpg';" alt="AG超玩会老帅的直播" title="AG超玩会老帅的直播">
 
         <em class="tag tag-recommend">职业选手</em>        <div class="item-mask"></div>
 
@@ -2787,7 +2787,7 @@
 
         <span class="avatar fl">
 
-            <img data-original="//huyaimg.msstatic.com/avatar/1029/b3/67921cd48eac56d79a9fea1bc676f7_180_135.jpg" src="images/84x84.jpg" onerror="this.onerror=null; this.src='images/84x84.jpg';" alt="AG超玩会老帅" title="AG超玩会老帅">
+            <img data-original="//huyaimg.msstatic.com/avatar/1029/b3/67921cd48eac56d79a9fea1bc676f7_180_135.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; this.src='../images/84x84.jpg';" alt="AG超玩会老帅" title="AG超玩会老帅">
 
             <i class="nick" title="AG超玩会老帅">AG超玩会老帅</i>
 
@@ -2805,7 +2805,7 @@
 
         <a href="http://www.huya.com/haddis" class="video-info new-clickstat" target="_blank" report='{"eid":"click/position","position":"index/column/2336/2","game_id":"2336","ayyuid":"1354160941"}'>
 
-        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/098fb1c73b94afe979c04b3c3d76fd6433f0859e?imageview/4/0/w/338/h/190/blur/1" src="images/338x190.jpg" onerror="this.onerror=null; this.src='images/338x190.jpg';" alt="哈迪斯的直播" title="哈迪斯的直播">
+        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/098fb1c73b94afe979c04b3c3d76fd6433f0859e?imageview/4/0/w/338/h/190/blur/1" src="../images/338x190.jpg" onerror="this.onerror=null; this.src='../images/338x190.jpg';" alt="哈迪斯的直播" title="哈迪斯的直播">
 
         <em class="tag tag-recommend">大神推荐</em>        <div class="item-mask"></div>
 
@@ -2819,7 +2819,7 @@
 
         <span class="avatar fl">
 
-            <img data-original="//huyaimg.msstatic.com/avatar/1025/47/ebd8d06fcad9e3048cfac92e515c48_180_135.jpg" src="images/84x84.jpg" onerror="this.onerror=null; this.src='images/84x84.jpg';" alt="哈迪斯" title="哈迪斯">
+            <img data-original="//huyaimg.msstatic.com/avatar/1025/47/ebd8d06fcad9e3048cfac92e515c48_180_135.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; this.src='../images/84x84.jpg';" alt="哈迪斯" title="哈迪斯">
 
             <i class="nick" title="哈迪斯">哈迪斯</i>
 
@@ -2837,7 +2837,7 @@
 
         <a href="http://www.huya.com/agyuqiu" class="video-info new-clickstat" target="_blank" report='{"eid":"click/position","position":"index/column/2336/3","game_id":"2336","ayyuid":"165067857"}'>
 
-        <img class="pic" data-original="//huyaimg.msstatic.com/cdnimage/anchorpost/1031/28/c0cbb13e321ff9271558f3608b29e9_2336_1505886684.jpg?imageview/4/0/w/338/h/190/blur/1" src="images/338x190.jpg" onerror="this.onerror=null; this.src='images/338x190.jpg';" alt="AG超玩会屿秋的直播" title="AG超玩会屿秋的直播">
+        <img class="pic" data-original="//huyaimg.msstatic.com/cdnimage/anchorpost/1031/28/c0cbb13e321ff9271558f3608b29e9_2336_1505886684.jpg?imageview/4/0/w/338/h/190/blur/1" src="../images/338x190.jpg" onerror="this.onerror=null; this.src='../images/338x190.jpg';" alt="AG超玩会屿秋的直播" title="AG超玩会屿秋的直播">
 
         <em class="tag tag-recommend">职业选手</em>        <div class="item-mask"></div>
 
@@ -2851,7 +2851,7 @@
 
         <span class="avatar fl">
 
-            <img data-original="//huyaimg.msstatic.com/avatar/1031/28/c0cbb13e321ff9271558f3608b29e9_180_135.jpg" src="images/84x84.jpg" onerror="this.onerror=null; this.src='images/84x84.jpg';" alt="AG超玩会屿秋" title="AG超玩会屿秋">
+            <img data-original="//huyaimg.msstatic.com/avatar/1031/28/c0cbb13e321ff9271558f3608b29e9_180_135.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; this.src='../images/84x84.jpg';" alt="AG超玩会屿秋" title="AG超玩会屿秋">
 
             <i class="nick" title="AG超玩会屿秋">AG超玩会屿秋</i>
 
@@ -2869,7 +2869,7 @@
 
         <a href="http://www.huya.com/1115120" class="video-info new-clickstat" target="_blank" report='{"eid":"click/position","position":"index/column/2336/4","game_id":"2336","ayyuid":"62631688"}'>
 
-        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/cdead5e7e25815da5fb9fd2b1c91d77ae8854c7e?imageview/4/0/w/338/h/190/blur/1" src="images/338x190.jpg" onerror="this.onerror=null; this.src='images/338x190.jpg';" alt="虎牙九哥的直播" title="虎牙九哥的直播">
+        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/cdead5e7e25815da5fb9fd2b1c91d77ae8854c7e?imageview/4/0/w/338/h/190/blur/1" src="../images/338x190.jpg" onerror="this.onerror=null; this.src='../images/338x190.jpg';" alt="虎牙九哥的直播" title="虎牙九哥的直播">
 
         <em class="tag tag-recommend">大神推荐</em>        <div class="item-mask"></div>
 
@@ -2883,7 +2883,7 @@
 
         <span class="avatar fl">
 
-            <img data-original="//huyaimg.msstatic.com/avatar/1029/e0/82f5531492711b5da97608ec615051_180_135.jpg" src="images/84x84.jpg" onerror="this.onerror=null; this.src='images/84x84.jpg';" alt="虎牙九哥" title="虎牙九哥">
+            <img data-original="//huyaimg.msstatic.com/avatar/1029/e0/82f5531492711b5da97608ec615051_180_135.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; this.src='../images/84x84.jpg';" alt="虎牙九哥" title="虎牙九哥">
 
             <i class="nick" title="虎牙九哥">虎牙九哥</i>
 
@@ -2909,7 +2909,7 @@
 
             <h2 class="title">
 
-                        <img src="images/game_15046861170767_logo.png" alt="图标" class="hy-column-normal">
+                        <img src="../images/game_15046861170767_logo.png" alt="图标" class="hy-column-normal">
 
                         <a target="_blank" href="http://www.huya.com/g/2793">绝地求生</a>
 
@@ -2993,7 +2993,7 @@
 
         <a href="http://www.huya.com/badaozongcai" class="video-info new-clickstat" target="_blank" report='{"eid":"click/position","position":"index/column/2793/1","game_id":"2793","ayyuid":"672985574"}'>
 
-        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/f032cc76d83ebacc10533d676ce035eb7310f65a?imageview/4/0/w/338/h/190/blur/1" src="images/338x190.jpg" onerror="this.onerror=null; this.src='images/338x190.jpg';" alt="Style丶小海-90327的直播" title="Style丶小海-90327的直播">
+        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/f032cc76d83ebacc10533d676ce035eb7310f65a?imageview/4/0/w/338/h/190/blur/1" src="../images/338x190.jpg" onerror="this.onerror=null; this.src='../images/338x190.jpg';" alt="Style丶小海-90327的直播" title="Style丶小海-90327的直播">
 
         <em class="tag tag-recommend">大神推荐</em>        <div class="item-mask"></div>
 
@@ -3007,7 +3007,7 @@
 
         <span class="avatar fl">
 
-            <img data-original="//huyaimg.msstatic.com/avatar/1012/84/b525c936595d6595fc1faa681f081a_180_135.jpg" src="images/84x84.jpg" onerror="this.onerror=null; this.src='images/84x84.jpg';" alt="Style丶小海-90327" title="Style丶小海-90327">
+            <img data-original="//huyaimg.msstatic.com/avatar/1012/84/b525c936595d6595fc1faa681f081a_180_135.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; this.src='../images/84x84.jpg';" alt="Style丶小海-90327" title="Style丶小海-90327">
 
             <i class="nick" title="Style丶小海-90327">Style丶小海-90327</i>
 
@@ -3025,7 +3025,7 @@
 
         <a href="http://www.huya.com/1471622651" class="video-info new-clickstat" target="_blank" report='{"eid":"click/position","position":"index/column/2793/2","game_id":"2793","ayyuid":"1334368570"}'>
 
-        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/33a09da441c081a4db8b3def15844510e44f8316?imageview/4/0/w/338/h/190/blur/1" src="images/338x190.jpg" onerror="this.onerror=null; this.src='images/338x190.jpg';" alt="Style丶权威-90327的直播" title="Style丶权威-90327的直播">
+        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/33a09da441c081a4db8b3def15844510e44f8316?imageview/4/0/w/338/h/190/blur/1" src="../images/338x190.jpg" onerror="this.onerror=null; this.src='../images/338x190.jpg';" alt="Style丶权威-90327的直播" title="Style丶权威-90327的直播">
 
         <em class="tag tag-recommend">魅力新星</em>        <div class="item-mask"></div>
 
@@ -3039,7 +3039,7 @@
 
         <span class="avatar fl">
 
-            <img data-original="//huyaimg.msstatic.com/avatar/1007/8a/19207c04b7dc8ffc1e767880a6685e_180_135.jpg" src="images/84x84.jpg" onerror="this.onerror=null; this.src='images/84x84.jpg';" alt="Style丶权威-90327" title="Style丶权威-90327">
+            <img data-original="//huyaimg.msstatic.com/avatar/1007/8a/19207c04b7dc8ffc1e767880a6685e_180_135.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; this.src='../images/84x84.jpg';" alt="Style丶权威-90327" title="Style丶权威-90327">
 
             <i class="nick" title="Style丶权威-90327">Style丶权威-90327</i>
 
@@ -3057,7 +3057,7 @@
 
         <a href="http://www.huya.com/2078617547" class="video-info new-clickstat" target="_blank" report='{"eid":"click/position","position":"index/column/2793/3","game_id":"2793","ayyuid":"1825977883"}'>
 
-        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/227b5b1089048c8e16118955e53b3a617ed2d661?imageview/4/0/w/338/h/190/blur/1" src="images/338x190.jpg" onerror="this.onerror=null; this.src='images/338x190.jpg';" alt="众娱-小熙哥哥-90808的直播" title="众娱-小熙哥哥-90808的直播">
+        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/227b5b1089048c8e16118955e53b3a617ed2d661?imageview/4/0/w/338/h/190/blur/1" src="../images/338x190.jpg" onerror="this.onerror=null; this.src='../images/338x190.jpg';" alt="众娱-小熙哥哥-90808的直播" title="众娱-小熙哥哥-90808的直播">
 
                 <div class="item-mask"></div>
 
@@ -3071,7 +3071,7 @@
 
         <span class="avatar fl">
 
-            <img data-original="//huyaimg.msstatic.com/avatar/1054/5c/fb42ad96e5ae405a193353ba0f9194_180_135.jpg" src="images/84x84.jpg" onerror="this.onerror=null; this.src='images/84x84.jpg';" alt="众娱-小熙哥哥-90808" title="众娱-小熙哥哥-90808">
+            <img data-original="//huyaimg.msstatic.com/avatar/1054/5c/fb42ad96e5ae405a193353ba0f9194_180_135.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; this.src='../images/84x84.jpg';" alt="众娱-小熙哥哥-90808" title="众娱-小熙哥哥-90808">
 
             <i class="nick" title="众娱-小熙哥哥-90808">众娱-小熙哥哥-90808</i>
 
@@ -3089,7 +3089,7 @@
 
         <a href="http://www.huya.com/mgxiaodi" class="video-info new-clickstat" target="_blank" report='{"eid":"click/position","position":"index/column/2793/4","game_id":"2793","ayyuid":"993484363"}'>
 
-        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/687ee6f439bd083087ca7ce0a49da1c27fd5e0b0?imageview/4/0/w/338/h/190/blur/1" src="images/338x190.jpg" onerror="this.onerror=null; this.src='images/338x190.jpg';" alt="话社-小弟-CNXZ的直播" title="话社-小弟-CNXZ的直播">
+        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/687ee6f439bd083087ca7ce0a49da1c27fd5e0b0?imageview/4/0/w/338/h/190/blur/1" src="../images/338x190.jpg" onerror="this.onerror=null; this.src='../images/338x190.jpg';" alt="话社-小弟-CNXZ的直播" title="话社-小弟-CNXZ的直播">
 
         <em class="tag tag-recommend">魅力新星</em>        <div class="item-mask"></div>
 
@@ -3103,7 +3103,7 @@
 
         <span class="avatar fl">
 
-            <img data-original="//huyaimg.msstatic.com/avatar/1054/bf/6d55e00d8daf5ccdae74235d9559c4_180_135.jpg" src="images/84x84.jpg" onerror="this.onerror=null; this.src='images/84x84.jpg';" alt="话社-小弟-CNXZ" title="话社-小弟-CNXZ">
+            <img data-original="//huyaimg.msstatic.com/avatar/1054/bf/6d55e00d8daf5ccdae74235d9559c4_180_135.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; this.src='../images/84x84.jpg';" alt="话社-小弟-CNXZ" title="话社-小弟-CNXZ">
 
             <i class="nick" title="话社-小弟-CNXZ">话社-小弟-CNXZ</i>
 
@@ -3129,7 +3129,7 @@
 
             <h2 class="title">
 
-                        <img src="images/game_14919794285355_logo.png" alt="图标" class="hy-column-normal">
+                        <img src="../images/game_14919794285355_logo.png" alt="图标" class="hy-column-normal">
 
                         <a target="_blank" href="http://www.huya.com/g/qiuqiu">球球大作战</a>
 
@@ -3237,7 +3237,7 @@
 
         <a href="http://www.huya.com/qiuqiujiaofu" class="video-info new-clickstat" target="_blank" report='{"eid":"click/position","position":"index/column/2411/1","game_id":"2411","ayyuid":"1089197997"}'>
 
-        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/f0b113ddd238475effc28439deb5d62ce0ea3242?imageview/4/0/w/338/h/190/blur/1" src="images/338x190.jpg" onerror="this.onerror=null; this.src='images/338x190.jpg';" alt="球球教父的直播" title="球球教父的直播">
+        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/f0b113ddd238475effc28439deb5d62ce0ea3242?imageview/4/0/w/338/h/190/blur/1" src="../images/338x190.jpg" onerror="this.onerror=null; this.src='../images/338x190.jpg';" alt="球球教父的直播" title="球球教父的直播">
 
         <em class="tag tag-recommend">大神推荐</em>        <div class="item-mask"></div>
 
@@ -3251,7 +3251,7 @@
 
         <span class="avatar fl">
 
-            <img data-original="//huyaimg.msstatic.com/avatar/1045/5e/40c55637bdd63ab3e9cb842c78185e_180_135.jpg" src="images/84x84.jpg" onerror="this.onerror=null; this.src='images/84x84.jpg';" alt="球球教父" title="球球教父">
+            <img data-original="//huyaimg.msstatic.com/avatar/1045/5e/40c55637bdd63ab3e9cb842c78185e_180_135.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; this.src='../images/84x84.jpg';" alt="球球教父" title="球球教父">
 
             <i class="nick" title="球球教父">球球教父</i>
 
@@ -3269,7 +3269,7 @@
 
         <a href="http://www.huya.com/liuxiansen" class="video-info new-clickstat" target="_blank" report='{"eid":"click/position","position":"index/column/2411/2","game_id":"2411","ayyuid":"1771491806"}'>
 
-        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/e1ab7af9c2c5777dd02e152faeb942737bd625fa?imageview/4/0/w/338/h/190/blur/1" src="images/338x190.jpg" onerror="this.onerror=null; this.src='images/338x190.jpg';" alt="刘先森的直播" title="刘先森的直播">
+        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/e1ab7af9c2c5777dd02e152faeb942737bd625fa?imageview/4/0/w/338/h/190/blur/1" src="../images/338x190.jpg" onerror="this.onerror=null; this.src='../images/338x190.jpg';" alt="刘先森的直播" title="刘先森的直播">
 
         <em class="tag tag-recommend">大神推荐</em>        <div class="item-mask"></div>
 
@@ -3283,7 +3283,7 @@
 
         <span class="avatar fl">
 
-            <img data-original="//huyaimg.msstatic.com/avatar/1051/dd/4fd8f32b33ed2d5600820969a25204_180_135.jpg" src="images/84x84.jpg" onerror="this.onerror=null; this.src='images/84x84.jpg';" alt="刘先森" title="刘先森">
+            <img data-original="//huyaimg.msstatic.com/avatar/1051/dd/4fd8f32b33ed2d5600820969a25204_180_135.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; this.src='../images/84x84.jpg';" alt="刘先森" title="刘先森">
 
             <i class="nick" title="刘先森">刘先森</i>
 
@@ -3301,7 +3301,7 @@
 
         <a href="http://www.huya.com/2056802046" class="video-info new-clickstat" target="_blank" report='{"eid":"click/position","position":"index/column/2411/3","game_id":"2411","ayyuid":"1804200340"}'>
 
-        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/8beae2933454f0c43184b463b6381ed413b7445e?imageview/4/0/w/338/h/190/blur/1" src="images/338x190.jpg" onerror="this.onerror=null; this.src='images/338x190.jpg';" alt="暖心剑的直播" title="暖心剑的直播">
+        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/8beae2933454f0c43184b463b6381ed413b7445e?imageview/4/0/w/338/h/190/blur/1" src="../images/338x190.jpg" onerror="this.onerror=null; this.src='../images/338x190.jpg';" alt="暖心剑的直播" title="暖心剑的直播">
 
                 <div class="item-mask"></div>
 
@@ -3315,7 +3315,7 @@
 
         <span class="avatar fl">
 
-            <img data-original="//huyaimg.msstatic.com/avatar/1078/93/ed16203a054e221519e14637f439ac_180_135.jpg" src="images/84x84.jpg" onerror="this.onerror=null; this.src='images/84x84.jpg';" alt="暖心剑" title="暖心剑">
+            <img data-original="//huyaimg.msstatic.com/avatar/1078/93/ed16203a054e221519e14637f439ac_180_135.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; this.src='../images/84x84.jpg';" alt="暖心剑" title="暖心剑">
 
             <i class="nick" title="暖心剑">暖心剑</i>
 
@@ -3333,7 +3333,7 @@
 
         <a href="http://www.huya.com/mengxiya" class="video-info new-clickstat" target="_blank" report='{"eid":"click/position","position":"index/column/2411/4","game_id":"2411","ayyuid":"1246173856"}'>
 
-        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/b5cc1f0a0cbf40711c1b38d329d732de748cbfa2?imageview/4/0/w/338/h/190/blur/1" src="images/338x190.jpg" onerror="this.onerror=null; this.src='images/338x190.jpg';" alt="Ｃｗ-梦曦的直播" title="Ｃｗ-梦曦的直播">
+        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/b5cc1f0a0cbf40711c1b38d329d732de748cbfa2?imageview/4/0/w/338/h/190/blur/1" src="../images/338x190.jpg" onerror="this.onerror=null; this.src='../images/338x190.jpg';" alt="Ｃｗ-梦曦的直播" title="Ｃｗ-梦曦的直播">
 
         <em class="tag tag-recommend">大神推荐</em>        <div class="item-mask"></div>
 
@@ -3347,7 +3347,7 @@
 
         <span class="avatar fl">
 
-            <img data-original="//huyaimg.msstatic.com/avatar/1076/93/39aac0e79fe63d9b8fef5192197f44_180_135.jpg" src="images/84x84.jpg" onerror="this.onerror=null; this.src='images/84x84.jpg';" alt="Ｃｗ-梦曦" title="Ｃｗ-梦曦">
+            <img data-original="//huyaimg.msstatic.com/avatar/1076/93/39aac0e79fe63d9b8fef5192197f44_180_135.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; this.src='../images/84x84.jpg';" alt="Ｃｗ-梦曦" title="Ｃｗ-梦曦">
 
             <i class="nick" title="Ｃｗ-梦曦">Ｃｗ-梦曦</i>
 
@@ -3373,7 +3373,7 @@
 
             <h2 class="title">
 
-                        <img src="images/game_14919795384937_logo.png" alt="图标" class="hy-column-normal">
+                        <img src="../images/game_14919795384937_logo.png" alt="图标" class="hy-column-normal">
 
                         <a target="_blank" href="http://www.huya.com/g/100029">热门手游</a>
 
@@ -3465,7 +3465,7 @@
 
         <a href="http://www.huya.com/guoguoaisisi" class="video-info new-clickstat" target="_blank" report='{"eid":"click/position","position":"index/column/100029/1","game_id":"2429","ayyuid":"59340438"}'>
 
-        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/580a06585bb15dc78034fd5fe5c4f20ec1ca5857?imageview/4/0/w/338/h/190/blur/1" src="images/338x190.jpg" onerror="this.onerror=null; this.src='images/338x190.jpg';" alt="锅锅的直播" title="锅锅的直播">
+        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/580a06585bb15dc78034fd5fe5c4f20ec1ca5857?imageview/4/0/w/338/h/190/blur/1" src="../images/338x190.jpg" onerror="this.onerror=null; this.src='../images/338x190.jpg';" alt="锅锅的直播" title="锅锅的直播">
 
                 <div class="item-mask"></div>
 
@@ -3479,7 +3479,7 @@
 
         <span class="avatar fl">
 
-            <img data-original="//huyaimg.msstatic.com/avatar/1043/ae/bd177eae1ee8fbead1512e18e4f82a_180_135.jpg" src="images/84x84.jpg" onerror="this.onerror=null; this.src='images/84x84.jpg';" alt="锅锅" title="锅锅">
+            <img data-original="//huyaimg.msstatic.com/avatar/1043/ae/bd177eae1ee8fbead1512e18e4f82a_180_135.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; this.src='../images/84x84.jpg';" alt="锅锅" title="锅锅">
 
             <i class="nick" title="锅锅">锅锅</i>
 
@@ -3497,7 +3497,7 @@
 
         <a href="http://www.huya.com/zhixin666" class="video-info new-clickstat" target="_blank" report='{"eid":"click/position","position":"index/column/100029/2","game_id":"2852","ayyuid":"1621729922"}'>
 
-        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/8a70033fd1b3931918a7c34527011b786a12da60?imageview/4/0/w/338/h/190/blur/1" src="images/338x190.jpg" onerror="this.onerror=null; this.src='images/338x190.jpg';" alt="执心哥哥的直播" title="执心哥哥的直播">
+        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/8a70033fd1b3931918a7c34527011b786a12da60?imageview/4/0/w/338/h/190/blur/1" src="../images/338x190.jpg" onerror="this.onerror=null; this.src='../images/338x190.jpg';" alt="执心哥哥的直播" title="执心哥哥的直播">
 
                 <div class="item-mask"></div>
 
@@ -3511,7 +3511,7 @@
 
         <span class="avatar fl">
 
-            <img data-original="//huyaimg.msstatic.com/avatar/1004/f2/658443bfea4682eef44d02a93c6b73_180_135.jpg" src="images/84x84.jpg" onerror="this.onerror=null; this.src='images/84x84.jpg';" alt="执心哥哥" title="执心哥哥">
+            <img data-original="//huyaimg.msstatic.com/avatar/1004/f2/658443bfea4682eef44d02a93c6b73_180_135.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; this.src='../images/84x84.jpg';" alt="执心哥哥" title="执心哥哥">
 
             <i class="nick" title="执心哥哥">执心哥哥</i>
 
@@ -3529,7 +3529,7 @@
 
         <a href="http://www.huya.com/1537499875" class="video-info new-clickstat" target="_blank" report='{"eid":"click/position","position":"index/column/100029/3","game_id":"2852","ayyuid":"1386109064"}'>
 
-        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/490c5d79699f32b259b582ff33233e8869ad028b?imageview/4/0/w/338/h/190/blur/1" src="images/338x190.jpg" onerror="this.onerror=null; this.src='images/338x190.jpg';" alt="爱玩-訫缘90161的直播" title="爱玩-訫缘90161的直播">
+        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/490c5d79699f32b259b582ff33233e8869ad028b?imageview/4/0/w/338/h/190/blur/1" src="../images/338x190.jpg" onerror="this.onerror=null; this.src='../images/338x190.jpg';" alt="爱玩-訫缘90161的直播" title="爱玩-訫缘90161的直播">
 
                 <div class="item-mask"></div>
 
@@ -3543,7 +3543,7 @@
 
         <span class="avatar fl">
 
-            <img data-original="//huyaimg.msstatic.com/avatar/1091/64/ed7f7d8e2aa88f1be832e528119632_180_135.jpg" src="images/84x84.jpg" onerror="this.onerror=null; this.src='images/84x84.jpg';" alt="爱玩-訫缘90161" title="爱玩-訫缘90161">
+            <img data-original="//huyaimg.msstatic.com/avatar/1091/64/ed7f7d8e2aa88f1be832e528119632_180_135.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; this.src='../images/84x84.jpg';" alt="爱玩-訫缘90161" title="爱玩-訫缘90161">
 
             <i class="nick" title="爱玩-訫缘90161">爱玩-訫缘90161</i>
 
@@ -3561,7 +3561,7 @@
 
         <a href="http://www.huya.com/zhanfenglol" class="video-info new-clickstat" target="_blank" report='{"eid":"click/position","position":"index/column/100029/4","game_id":"2852","ayyuid":"71958997"}'>
 
-        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/5f1ed9f9a1ace9d3af7d456cb01d92118bd573c7?imageview/4/0/w/338/h/190/blur/1" src="images/338x190.jpg" onerror="this.onerror=null; this.src='images/338x190.jpg';" alt="爱玩-若枫90161的直播" title="爱玩-若枫90161的直播">
+        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/5f1ed9f9a1ace9d3af7d456cb01d92118bd573c7?imageview/4/0/w/338/h/190/blur/1" src="../images/338x190.jpg" onerror="this.onerror=null; this.src='../images/338x190.jpg';" alt="爱玩-若枫90161的直播" title="爱玩-若枫90161的直播">
 
                 <div class="item-mask"></div>
 
@@ -3575,7 +3575,7 @@
 
         <span class="avatar fl">
 
-            <img data-original="//huyaimg.msstatic.com/avatar/1087/e9/5778724e58125ab6861d80708c2496_180_135.jpg" src="images/84x84.jpg" onerror="this.onerror=null; this.src='images/84x84.jpg';" alt="爱玩-若枫90161" title="爱玩-若枫90161">
+            <img data-original="//huyaimg.msstatic.com/avatar/1087/e9/5778724e58125ab6861d80708c2496_180_135.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; this.src='../images/84x84.jpg';" alt="爱玩-若枫90161" title="爱玩-若枫90161">
 
             <i class="nick" title="爱玩-若枫90161">爱玩-若枫90161</i>
 
@@ -3601,7 +3601,7 @@
 
             <h2 class="title">
 
-                        <img src="images/game_14919795829583_logo.png" alt="图标" class="hy-column-normal">
+                        <img src="../images/game_14919795829583_logo.png" alt="图标" class="hy-column-normal">
 
                         <a target="_blank" href="http://www.huya.com/g/xingxiu">星秀</a>
 
@@ -3685,7 +3685,7 @@
 
         <a href="http://www.huya.com/685576" class="video-info new-clickstat" target="_blank" report='{"eid":"click/position","position":"index/column/1663/1","game_id":"1663","ayyuid":"1833692495"}'>
 
-        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/6afe472ddac0836d05b93ae8d634113712e43d3f?imageview/4/0/w/338/h/190/blur/1" src="images/338x190.jpg" onerror="this.onerror=null; this.src='images/338x190.jpg';" alt="9528没天理的直播" title="9528没天理的直播">
+        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/6afe472ddac0836d05b93ae8d634113712e43d3f?imageview/4/0/w/338/h/190/blur/1" src="../images/338x190.jpg" onerror="this.onerror=null; this.src='../images/338x190.jpg';" alt="9528没天理的直播" title="9528没天理的直播">
 
                 <div class="item-mask"></div>
 
@@ -3699,7 +3699,7 @@
 
         <span class="avatar fl">
 
-            <img data-original="//huyaimg.msstatic.com/avatar/1064/bb/9b6ece578d8841bfba0f432da3cddf_180_135.jpg" src="images/84x84.jpg" onerror="this.onerror=null; this.src='images/84x84.jpg';" alt="9528没天理" title="9528没天理">
+            <img data-original="//huyaimg.msstatic.com/avatar/1064/bb/9b6ece578d8841bfba0f432da3cddf_180_135.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; this.src='../images/84x84.jpg';" alt="9528没天理" title="9528没天理">
 
             <i class="nick" title="9528没天理">9528没天理</i>
 
@@ -3717,7 +3717,7 @@
 
         <a href="http://www.huya.com/4359176" class="video-info new-clickstat" target="_blank" report='{"eid":"click/position","position":"index/column/1663/2","game_id":"1663","ayyuid":"1096896069"}'>
 
-        <img class="pic" data-original="//huyaimg.msstatic.com/cdnimage/anchorpost/1009/60/f418558d9d2445b5043a9eda512d1a_1663_1502878081.jpg?imageview/4/0/w/338/h/190/blur/1" src="images/338x190.jpg" onerror="this.onerror=null; this.src='images/338x190.jpg';" alt="正恒YJ-画心的直播" title="正恒YJ-画心的直播">
+        <img class="pic" data-original="//huyaimg.msstatic.com/cdnimage/anchorpost/1009/60/f418558d9d2445b5043a9eda512d1a_1663_1502878081.jpg?imageview/4/0/w/338/h/190/blur/1" src="../images/338x190.jpg" onerror="this.onerror=null; this.src='../images/338x190.jpg';" alt="正恒YJ-画心的直播" title="正恒YJ-画心的直播">
 
         <em class="tag tag-recommend">白金推荐</em>        <div class="item-mask"></div>
 
@@ -3731,7 +3731,7 @@
 
         <span class="avatar fl">
 
-            <img data-original="//huyaimg.msstatic.com/avatar/1009/60/f418558d9d2445b5043a9eda512d1a_180_135.jpg" src="images/84x84.jpg" onerror="this.onerror=null; this.src='images/84x84.jpg';" alt="正恒YJ-画心" title="正恒YJ-画心">
+            <img data-original="//huyaimg.msstatic.com/avatar/1009/60/f418558d9d2445b5043a9eda512d1a_180_135.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; this.src='../images/84x84.jpg';" alt="正恒YJ-画心" title="正恒YJ-画心">
 
             <i class="nick" title="正恒YJ-画心">正恒YJ-画心</i>
 
@@ -3749,7 +3749,7 @@
 
         <a href="http://www.huya.com/39615405" class="video-info new-clickstat" target="_blank" report='{"eid":"click/position","position":"index/column/1663/3","game_id":"1663","ayyuid":"86487251"}'>
 
-        <img class="pic" data-original="//huyaimg.msstatic.com/cdnimage/anchorpost/1035/53/78b5b080bbdb483ef3848a932c2abe_1663.jpg?imageview/4/0/w/338/h/190/blur/1" src="images/338x190.jpg" onerror="this.onerror=null; this.src='images/338x190.jpg';" alt="AzZ丶阿星的直播" title="AzZ丶阿星的直播">
+        <img class="pic" data-original="//huyaimg.msstatic.com/cdnimage/anchorpost/1035/53/78b5b080bbdb483ef3848a932c2abe_1663.jpg?imageview/4/0/w/338/h/190/blur/1" src="../images/338x190.jpg" onerror="this.onerror=null; this.src='../images/338x190.jpg';" alt="AzZ丶阿星的直播" title="AzZ丶阿星的直播">
 
         <em class="tag tag-recommend">魅力新星</em>        <div class="item-mask"></div>
 
@@ -3763,7 +3763,7 @@
 
         <span class="avatar fl">
 
-            <img data-original="//huyaimg.msstatic.com/avatar/1035/53/78b5b080bbdb483ef3848a932c2abe_180_135.jpg" src="images/84x84.jpg" onerror="this.onerror=null; this.src='images/84x84.jpg';" alt="AzZ丶阿星" title="AzZ丶阿星">
+            <img data-original="//huyaimg.msstatic.com/avatar/1035/53/78b5b080bbdb483ef3848a932c2abe_180_135.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; this.src='../images/84x84.jpg';" alt="AzZ丶阿星" title="AzZ丶阿星">
 
             <i class="nick" title="AzZ丶阿星">AzZ丶阿星</i>
 
@@ -3781,7 +3781,7 @@
 
         <a href="http://www.huya.com/362658864" class="video-info new-clickstat" target="_blank" report='{"eid":"click/position","position":"index/column/1663/4","game_id":"1663","ayyuid":"294249938"}'>
 
-        <img class="pic" data-original="//huyaimg.msstatic.com/cdnimage/anchorpost/1015/37/927e38e42989772b146b3c5ee79d3f_1663_1505717639.jpg?imageview/4/0/w/338/h/190/blur/1" src="images/338x190.jpg" onerror="this.onerror=null; this.src='images/338x190.jpg';" alt="AzZ丶小安逸的直播" title="AzZ丶小安逸的直播">
+        <img class="pic" data-original="//huyaimg.msstatic.com/cdnimage/anchorpost/1015/37/927e38e42989772b146b3c5ee79d3f_1663_1505717639.jpg?imageview/4/0/w/338/h/190/blur/1" src="../images/338x190.jpg" onerror="this.onerror=null; this.src='../images/338x190.jpg';" alt="AzZ丶小安逸的直播" title="AzZ丶小安逸的直播">
 
         <em class="tag tag-recommend">白金推荐</em>        <div class="item-mask"></div>
 
@@ -3795,7 +3795,7 @@
 
         <span class="avatar fl">
 
-            <img data-original="//huyaimg.msstatic.com/avatar/1015/37/927e38e42989772b146b3c5ee79d3f_180_135.jpg" src="images/84x84.jpg" onerror="this.onerror=null; this.src='images/84x84.jpg';" alt="AzZ丶小安逸" title="AzZ丶小安逸">
+            <img data-original="//huyaimg.msstatic.com/avatar/1015/37/927e38e42989772b146b3c5ee79d3f_180_135.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; this.src='../images/84x84.jpg';" alt="AzZ丶小安逸" title="AzZ丶小安逸">
 
             <i class="nick" title="AzZ丶小安逸">AzZ丶小安逸</i>
 
@@ -3821,7 +3821,7 @@
 
             <h2 class="title">
 
-                        <img src="images/game_14920597991780_logo.png" alt="图标" class="hy-column-normal">
+                        <img src="../images/game_14920597991780_logo.png" alt="图标" class="hy-column-normal">
 
                         <a target="_blank" href="http://www.huya.com/g/100044">吃喝玩乐</a>
 
@@ -3897,7 +3897,7 @@
 
         <a href="http://www.huya.com/yelong8" class="video-info new-clickstat" target="_blank" report='{"eid":"click/position","position":"index/column/100044/1","game_id":"2836","ayyuid":"127236428"}'>
 
-        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/edfbec11763337d72bfba885343343517ca94d59?imageview/4/0/w/338/h/190/blur/1" src="images/338x190.jpg" onerror="this.onerror=null; this.src='images/338x190.jpg';" alt="野龙生存技的直播" title="野龙生存技的直播">
+        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/edfbec11763337d72bfba885343343517ca94d59?imageview/4/0/w/338/h/190/blur/1" src="../images/338x190.jpg" onerror="this.onerror=null; this.src='../images/338x190.jpg';" alt="野龙生存技的直播" title="野龙生存技的直播">
 
         <em class="tag tag-recommend">达人推荐</em>        <div class="item-mask"></div>
 
@@ -3911,7 +3911,7 @@
 
         <span class="avatar fl">
 
-            <img data-original="//huyaimg.msstatic.com/avatar/1092/ac/0a7449b395ad9ad46768d0d7605628_180_135.jpg" src="images/84x84.jpg" onerror="this.onerror=null; this.src='images/84x84.jpg';" alt="野龙生存技" title="野龙生存技">
+            <img data-original="//huyaimg.msstatic.com/avatar/1092/ac/0a7449b395ad9ad46768d0d7605628_180_135.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; this.src='../images/84x84.jpg';" alt="野龙生存技" title="野龙生存技">
 
             <i class="nick" title="野龙生存技">野龙生存技</i>
 
@@ -3929,7 +3929,7 @@
 
         <a href="http://www.huya.com/1683954582" class="video-info new-clickstat" target="_blank" report='{"eid":"click/position","position":"index/column/100044/2","game_id":"2836","ayyuid":"1501374403"}'>
 
-        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/13d196fbd3d969b9c48bfd16e4c5d57521e11996?imageview/4/0/w/338/h/190/blur/1" src="images/338x190.jpg" onerror="this.onerror=null; this.src='images/338x190.jpg';" alt="桀楚、流氓兔的直播" title="桀楚、流氓兔的直播">
+        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/13d196fbd3d969b9c48bfd16e4c5d57521e11996?imageview/4/0/w/338/h/190/blur/1" src="../images/338x190.jpg" onerror="this.onerror=null; this.src='../images/338x190.jpg';" alt="桀楚、流氓兔的直播" title="桀楚、流氓兔的直播">
 
         <em class="tag tag-recommend">达人推荐</em>        <div class="item-mask"></div>
 
@@ -3943,7 +3943,7 @@
 
         <span class="avatar fl">
 
-            <img data-original="//huyaimg.msstatic.com/avatar/1009/2b/4ebedca7b56c31e461809699c99d28_180_135.jpg" src="images/84x84.jpg" onerror="this.onerror=null; this.src='images/84x84.jpg';" alt="桀楚、流氓兔" title="桀楚、流氓兔">
+            <img data-original="//huyaimg.msstatic.com/avatar/1009/2b/4ebedca7b56c31e461809699c99d28_180_135.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; this.src='../images/84x84.jpg';" alt="桀楚、流氓兔" title="桀楚、流氓兔">
 
             <i class="nick" title="桀楚、流氓兔">桀楚、流氓兔</i>
 
@@ -3961,7 +3961,7 @@
 
         <a href="http://www.huya.com/lovefeichibuke" class="video-info new-clickstat" target="_blank" report='{"eid":"click/position","position":"index/column/100044/3","game_id":"2752","ayyuid":"1449110851"}'>
 
-        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/318fe8dba6ac7a372d7c370df3a0108b8aa921df?imageview/4/0/w/338/h/190/blur/1" src="images/338x190.jpg" onerror="this.onerror=null; this.src='images/338x190.jpg';" alt="艾小菲醉美厨娘的直播" title="艾小菲醉美厨娘的直播">
+        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/318fe8dba6ac7a372d7c370df3a0108b8aa921df?imageview/4/0/w/338/h/190/blur/1" src="../images/338x190.jpg" onerror="this.onerror=null; this.src='../images/338x190.jpg';" alt="艾小菲醉美厨娘的直播" title="艾小菲醉美厨娘的直播">
 
                 <div class="item-mask"></div>
 
@@ -3975,7 +3975,7 @@
 
         <span class="avatar fl">
 
-            <img data-original="//huyaimg.msstatic.com/avatar/1080/29/ea38444f1f7fac4a0b48a39aa0b7e3_180_135.jpg" src="images/84x84.jpg" onerror="this.onerror=null; this.src='images/84x84.jpg';" alt="艾小菲醉美厨娘" title="艾小菲醉美厨娘">
+            <img data-original="//huyaimg.msstatic.com/avatar/1080/29/ea38444f1f7fac4a0b48a39aa0b7e3_180_135.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; this.src='../images/84x84.jpg';" alt="艾小菲醉美厨娘" title="艾小菲醉美厨娘">
 
             <i class="nick" title="艾小菲醉美厨娘">艾小菲醉美厨娘</i>
 
@@ -3993,7 +3993,7 @@
 
         <a href="http://www.huya.com/orbaby" class="video-info new-clickstat" target="_blank" report='{"eid":"click/position","position":"index/column/100044/4","game_id":"2165","ayyuid":"1800175620"}'>
 
-        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/b4522ce2f8971b292f3b8d73a4d06cbc8868364b?imageview/4/0/w/338/h/190/blur/1" src="images/338x190.jpg" onerror="this.onerror=null; this.src='images/338x190.jpg';" alt="帝豪丶ORbaby的直播" title="帝豪丶ORbaby的直播">
+        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/b4522ce2f8971b292f3b8d73a4d06cbc8868364b?imageview/4/0/w/338/h/190/blur/1" src="../images/338x190.jpg" onerror="this.onerror=null; this.src='../images/338x190.jpg';" alt="帝豪丶ORbaby的直播" title="帝豪丶ORbaby的直播">
 
                 <div class="item-mask"></div>
 
@@ -4007,7 +4007,7 @@
 
         <span class="avatar fl">
 
-            <img data-original="//huyaimg.msstatic.com/avatar/1038/d9/b988ade1a5852bf4fff0a89b46ea21_180_135.jpg" src="images/84x84.jpg" onerror="this.onerror=null; this.src='images/84x84.jpg';" alt="帝豪丶ORbaby" title="帝豪丶ORbaby">
+            <img data-original="//huyaimg.msstatic.com/avatar/1038/d9/b988ade1a5852bf4fff0a89b46ea21_180_135.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; this.src='../images/84x84.jpg';" alt="帝豪丶ORbaby" title="帝豪丶ORbaby">
 
             <i class="nick" title="帝豪丶ORbaby">帝豪丶ORbaby</i>
 
@@ -4033,7 +4033,7 @@
 
             <h2 class="title">
 
-                        <img src="images/game_14919797188379_logo.png" alt="图标" class="hy-column-normal">
+                        <img src="../images/game_14919797188379_logo.png" alt="图标" class="hy-column-normal">
 
                         <a target="_blank" href="http://www.huya.com/g/pcgame">单机热游</a>
 
@@ -4133,7 +4133,7 @@
 
         <a href="http://www.huya.com/badaozongcai" class="video-info new-clickstat" target="_blank" report='{"eid":"click/position","position":"index/column/100002/1","game_id":"2793","ayyuid":"672985574"}'>
 
-        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/f032cc76d83ebacc10533d676ce035eb7310f65a?imageview/4/0/w/338/h/190/blur/1" src="images/338x190.jpg" onerror="this.onerror=null; this.src='images/338x190.jpg';" alt="Style丶小海-90327的直播" title="Style丶小海-90327的直播">
+        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/f032cc76d83ebacc10533d676ce035eb7310f65a?imageview/4/0/w/338/h/190/blur/1" src="../images/338x190.jpg" onerror="this.onerror=null; this.src='../images/338x190.jpg';" alt="Style丶小海-90327的直播" title="Style丶小海-90327的直播">
 
         <em class="tag tag-recommend">大神推荐</em>        <div class="item-mask"></div>
 
@@ -4147,7 +4147,7 @@
 
         <span class="avatar fl">
 
-            <img data-original="//huyaimg.msstatic.com/avatar/1012/84/b525c936595d6595fc1faa681f081a_180_135.jpg" src="images/84x84.jpg" onerror="this.onerror=null; this.src='images/84x84.jpg';" alt="Style丶小海-90327" title="Style丶小海-90327">
+            <img data-original="//huyaimg.msstatic.com/avatar/1012/84/b525c936595d6595fc1faa681f081a_180_135.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; this.src='../images/84x84.jpg';" alt="Style丶小海-90327" title="Style丶小海-90327">
 
             <i class="nick" title="Style丶小海-90327">Style丶小海-90327</i>
 
@@ -4165,7 +4165,7 @@
 
         <a href="http://www.huya.com/sgjsheng" class="video-info new-clickstat" target="_blank" report='{"eid":"click/position","position":"index/column/100002/2","game_id":"1964","ayyuid":"10895178"}'>
 
-        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/2e98e28d29e0cfaf4d63d6dc1a7b8861191483a6?imageview/4/0/w/338/h/190/blur/1" src="images/338x190.jpg" onerror="this.onerror=null; this.src='images/338x190.jpg';" alt="Style丶贱圣-90327的直播" title="Style丶贱圣-90327的直播">
+        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/2e98e28d29e0cfaf4d63d6dc1a7b8861191483a6?imageview/4/0/w/338/h/190/blur/1" src="../images/338x190.jpg" onerror="this.onerror=null; this.src='../images/338x190.jpg';" alt="Style丶贱圣-90327的直播" title="Style丶贱圣-90327的直播">
 
         <em class="tag tag-recommend">超级明星</em>        <div class="item-mask"></div>
 
@@ -4179,7 +4179,7 @@
 
         <span class="avatar fl">
 
-            <img data-original="//huyaimg.msstatic.com/avatar/1094/b7/1429a763a419403e621a3472214759_180_135.jpg" src="images/84x84.jpg" onerror="this.onerror=null; this.src='images/84x84.jpg';" alt="Style丶贱圣-90327" title="Style丶贱圣-90327">
+            <img data-original="//huyaimg.msstatic.com/avatar/1094/b7/1429a763a419403e621a3472214759_180_135.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; this.src='../images/84x84.jpg';" alt="Style丶贱圣-90327" title="Style丶贱圣-90327">
 
             <i class="nick" title="Style丶贱圣-90327">Style丶贱圣-90327</i>
 
@@ -4197,7 +4197,7 @@
 
         <a href="http://www.huya.com/1471622651" class="video-info new-clickstat" target="_blank" report='{"eid":"click/position","position":"index/column/100002/3","game_id":"2793","ayyuid":"1334368570"}'>
 
-        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/33a09da441c081a4db8b3def15844510e44f8316?imageview/4/0/w/338/h/190/blur/1" src="images/338x190.jpg" onerror="this.onerror=null; this.src='images/338x190.jpg';" alt="Style丶权威-90327的直播" title="Style丶权威-90327的直播">
+        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/33a09da441c081a4db8b3def15844510e44f8316?imageview/4/0/w/338/h/190/blur/1" src="../images/338x190.jpg" onerror="this.onerror=null; this.src='../images/338x190.jpg';" alt="Style丶权威-90327的直播" title="Style丶权威-90327的直播">
 
         <em class="tag tag-recommend">魅力新星</em>        <div class="item-mask"></div>
 
@@ -4211,7 +4211,7 @@
 
         <span class="avatar fl">
 
-            <img data-original="//huyaimg.msstatic.com/avatar/1007/8a/19207c04b7dc8ffc1e767880a6685e_180_135.jpg" src="images/84x84.jpg" onerror="this.onerror=null; this.src='images/84x84.jpg';" alt="Style丶权威-90327" title="Style丶权威-90327">
+            <img data-original="//huyaimg.msstatic.com/avatar/1007/8a/19207c04b7dc8ffc1e767880a6685e_180_135.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; this.src='../images/84x84.jpg';" alt="Style丶权威-90327" title="Style丶权威-90327">
 
             <i class="nick" title="Style丶权威-90327">Style丶权威-90327</i>
 
@@ -4229,7 +4229,7 @@
 
         <a href="http://www.huya.com/2078617547" class="video-info new-clickstat" target="_blank" report='{"eid":"click/position","position":"index/column/100002/4","game_id":"2793","ayyuid":"1825977883"}'>
 
-        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/227b5b1089048c8e16118955e53b3a617ed2d661?imageview/4/0/w/338/h/190/blur/1" src="images/338x190.jpg" onerror="this.onerror=null; this.src='images/338x190.jpg';" alt="众娱-小熙哥哥-90808的直播" title="众娱-小熙哥哥-90808的直播">
+        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/227b5b1089048c8e16118955e53b3a617ed2d661?imageview/4/0/w/338/h/190/blur/1" src="../images/338x190.jpg" onerror="this.onerror=null; this.src='../images/338x190.jpg';" alt="众娱-小熙哥哥-90808的直播" title="众娱-小熙哥哥-90808的直播">
 
                 <div class="item-mask"></div>
 
@@ -4243,7 +4243,7 @@
 
         <span class="avatar fl">
 
-            <img data-original="//huyaimg.msstatic.com/avatar/1054/5c/fb42ad96e5ae405a193353ba0f9194_180_135.jpg" src="images/84x84.jpg" onerror="this.onerror=null; this.src='images/84x84.jpg';" alt="众娱-小熙哥哥-90808" title="众娱-小熙哥哥-90808">
+            <img data-original="//huyaimg.msstatic.com/avatar/1054/5c/fb42ad96e5ae405a193353ba0f9194_180_135.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; this.src='../images/84x84.jpg';" alt="众娱-小熙哥哥-90808" title="众娱-小熙哥哥-90808">
 
             <i class="nick" title="众娱-小熙哥哥-90808">众娱-小熙哥哥-90808</i>
 
@@ -4269,7 +4269,7 @@
 
             <h2 class="title">
 
-                        <img src="images/game_14920597869382_logo.png" alt="图标" class="hy-column-normal">
+                        <img src="../images/game_14920597869382_logo.png" alt="图标" class="hy-column-normal">
 
                         <a target="_blank" href="http://www.huya.com/g/100043">暴雪专区</a>
 
@@ -4353,7 +4353,7 @@
 
         <a href="http://www.huya.com/a16789" class="video-info new-clickstat" target="_blank" report='{"eid":"click/position","position":"index/column/100043/1","game_id":"393","ayyuid":"1271256459"}'>
 
-        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/782475c9026ee213fef49a38327b0219c6979af2?imageview/4/0/w/338/h/190/blur/1" src="images/338x190.jpg" onerror="this.onerror=null; this.src='images/338x190.jpg';" alt="安德罗妮丶的直播" title="安德罗妮丶的直播">
+        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/782475c9026ee213fef49a38327b0219c6979af2?imageview/4/0/w/338/h/190/blur/1" src="../images/338x190.jpg" onerror="this.onerror=null; this.src='../images/338x190.jpg';" alt="安德罗妮丶的直播" title="安德罗妮丶的直播">
 
         <em class="tag tag-recommend">超级明星</em>        <div class="item-mask"></div>
 
@@ -4367,7 +4367,7 @@
 
         <span class="avatar fl">
 
-            <img data-original="//huyaimg.msstatic.com/avatar/1047/bc/bc06fb8973906c9c1292df49a49a18_180_135.jpg" src="images/84x84.jpg" onerror="this.onerror=null; this.src='images/84x84.jpg';" alt="安德罗妮丶" title="安德罗妮丶">
+            <img data-original="//huyaimg.msstatic.com/avatar/1047/bc/bc06fb8973906c9c1292df49a49a18_180_135.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; this.src='../images/84x84.jpg';" alt="安德罗妮丶" title="安德罗妮丶">
 
             <i class="nick" title="安德罗妮丶">安德罗妮丶</i>
 
@@ -4385,7 +4385,7 @@
 
         <a href="http://www.huya.com/1260325865" class="video-info new-clickstat" target="_blank" report='{"eid":"click/position","position":"index/column/100043/2","game_id":"6","ayyuid":"1168289353"}'>
 
-        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/96596c41c4e426aae12f0f0ee20b7f684a5570f8?imageview/4/0/w/338/h/190/blur/1" src="images/338x190.jpg" onerror="this.onerror=null; this.src='images/338x190.jpg';" alt="90357  弑神    、的直播" title="90357  弑神    、的直播">
+        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/96596c41c4e426aae12f0f0ee20b7f684a5570f8?imageview/4/0/w/338/h/190/blur/1" src="../images/338x190.jpg" onerror="this.onerror=null; this.src='../images/338x190.jpg';" alt="90357  弑神    、的直播" title="90357  弑神    、的直播">
 
         <em class="tag tag-recommend">大神推荐</em>        <div class="item-mask"></div>
 
@@ -4399,7 +4399,7 @@
 
         <span class="avatar fl">
 
-            <img data-original="//huyaimg.msstatic.com/avatar/1037/04/ce54d448c02e957c718c10c34e8c57_180_135.jpg" src="images/84x84.jpg" onerror="this.onerror=null; this.src='images/84x84.jpg';" alt="90357  弑神    、" title="90357  弑神    、">
+            <img data-original="//huyaimg.msstatic.com/avatar/1037/04/ce54d448c02e957c718c10c34e8c57_180_135.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; this.src='../images/84x84.jpg';" alt="90357  弑神    、" title="90357  弑神    、">
 
             <i class="nick" title="90357  弑神    、">90357  弑神    、</i>
 
@@ -4417,7 +4417,7 @@
 
         <a href="http://www.huya.com/guai" class="video-info new-clickstat" target="_blank" report='{"eid":"click/position","position":"index/column/100043/3","game_id":"6","ayyuid":"19265845"}'>
 
-        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/922bcd2191da2c81dc74e29595e0ebd8ee9260a4?imageview/4/0/w/338/h/190/blur/1" src="images/338x190.jpg" onerror="this.onerror=null; this.src='images/338x190.jpg';" alt="乖的直播" title="乖的直播">
+        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/922bcd2191da2c81dc74e29595e0ebd8ee9260a4?imageview/4/0/w/338/h/190/blur/1" src="../images/338x190.jpg" onerror="this.onerror=null; this.src='../images/338x190.jpg';" alt="乖的直播" title="乖的直播">
 
         <em class="tag tag-recommend">超级明星</em>        <div class="item-mask"></div>
 
@@ -4431,7 +4431,7 @@
 
         <span class="avatar fl">
 
-            <img data-original="//huyaimg.msstatic.com/avatar/1057/15/75dc9bcf78abfa4c1e5e2537089a99_180_135.jpg" src="images/84x84.jpg" onerror="this.onerror=null; this.src='images/84x84.jpg';" alt="乖" title="乖">
+            <img data-original="//huyaimg.msstatic.com/avatar/1057/15/75dc9bcf78abfa4c1e5e2537089a99_180_135.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; this.src='../images/84x84.jpg';" alt="乖" title="乖">
 
             <i class="nick" title="乖">乖</i>
 
@@ -4449,7 +4449,7 @@
 
         <a href="http://www.huya.com/si420" class="video-info new-clickstat" target="_blank" report='{"eid":"click/position","position":"index/column/100043/4","game_id":"393","ayyuid":"444563237"}'>
 
-        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/cb88f377b4a2782e62cc900b46c2e32e8c735148?imageview/4/0/w/338/h/190/blur/1" src="images/338x190.jpg" onerror="this.onerror=null; this.src='images/338x190.jpg';" alt="斯佑天的直播" title="斯佑天的直播">
+        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/cb88f377b4a2782e62cc900b46c2e32e8c735148?imageview/4/0/w/338/h/190/blur/1" src="../images/338x190.jpg" onerror="this.onerror=null; this.src='../images/338x190.jpg';" alt="斯佑天的直播" title="斯佑天的直播">
 
         <em class="tag tag-recommend">大神推荐</em>        <div class="item-mask"></div>
 
@@ -4463,7 +4463,7 @@
 
         <span class="avatar fl">
 
-            <img data-original="//huyaimg.msstatic.com/avatar/1011/e4/d0aff09f9069caf458d4d66ff3df1e_180_135.jpg" src="images/84x84.jpg" onerror="this.onerror=null; this.src='images/84x84.jpg';" alt="斯佑天" title="斯佑天">
+            <img data-original="//huyaimg.msstatic.com/avatar/1011/e4/d0aff09f9069caf458d4d66ff3df1e_180_135.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; this.src='../images/84x84.jpg';" alt="斯佑天" title="斯佑天">
 
             <i class="nick" title="斯佑天">斯佑天</i>
 
@@ -4489,7 +4489,7 @@
 
             <h2 class="title">
 
-                        <img src="images/game_14919798272925_logo.png" alt="图标" class="hy-column-normal">
+                        <img src="../images/game_14919798272925_logo.png" alt="图标" class="hy-column-normal">
 
                         <a target="_blank" href="http://www.huya.com/g/100036">棋牌休闲</a>
 
@@ -4589,7 +4589,7 @@
 
         <a href="http://www.huya.com/xiangqidashi" class="video-info new-clickstat" target="_blank" report='{"eid":"click/position","position":"index/column/100036/1","game_id":"1671","ayyuid":"1604924289"}'>
 
-        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/3aac200e7bb0994cbbd41691a5f446de72624f21?imageview/4/0/w/338/h/190/blur/1" src="images/338x190.jpg" onerror="this.onerror=null; this.src='images/338x190.jpg';" alt="虎牙汉堡象棋的直播" title="虎牙汉堡象棋的直播">
+        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/3aac200e7bb0994cbbd41691a5f446de72624f21?imageview/4/0/w/338/h/190/blur/1" src="../images/338x190.jpg" onerror="this.onerror=null; this.src='../images/338x190.jpg';" alt="虎牙汉堡象棋的直播" title="虎牙汉堡象棋的直播">
 
                 <div class="item-mask"></div>
 
@@ -4603,7 +4603,7 @@
 
         <span class="avatar fl">
 
-            <img data-original="//huyaimg.msstatic.com/avatar/1013/cc/d599d33ef072f2e1c7b455e1edb616_180_135.jpg" src="images/84x84.jpg" onerror="this.onerror=null; this.src='images/84x84.jpg';" alt="虎牙汉堡象棋" title="虎牙汉堡象棋">
+            <img data-original="//huyaimg.msstatic.com/avatar/1013/cc/d599d33ef072f2e1c7b455e1edb616_180_135.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; this.src='../images/84x84.jpg';" alt="虎牙汉堡象棋" title="虎牙汉堡象棋">
 
             <i class="nick" title="虎牙汉堡象棋">虎牙汉堡象棋</i>
 
@@ -4621,7 +4621,7 @@
 
         <a href="http://www.huya.com/1912367241" class="video-info new-clickstat" target="_blank" report='{"eid":"click/position","position":"index/column/100036/2","game_id":"1671","ayyuid":"1679505926"}'>
 
-        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/57742746ab18244d807454b8b44ef936bed8868f?imageview/4/0/w/338/h/190/blur/1" src="images/338x190.jpg" onerror="this.onerror=null; this.src='images/338x190.jpg';" alt="千年人合的直播" title="千年人合的直播">
+        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/57742746ab18244d807454b8b44ef936bed8868f?imageview/4/0/w/338/h/190/blur/1" src="../images/338x190.jpg" onerror="this.onerror=null; this.src='../images/338x190.jpg';" alt="千年人合的直播" title="千年人合的直播">
 
                 <div class="item-mask"></div>
 
@@ -4635,7 +4635,7 @@
 
         <span class="avatar fl">
 
-            <img data-original="//huyaimg.msstatic.com/avatar/1073/ce/5d9b92ff4b56e5caa13787ee730913_180_135.jpg" src="images/84x84.jpg" onerror="this.onerror=null; this.src='images/84x84.jpg';" alt="千年人合" title="千年人合">
+            <img data-original="//huyaimg.msstatic.com/avatar/1073/ce/5d9b92ff4b56e5caa13787ee730913_180_135.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; this.src='../images/84x84.jpg';" alt="千年人合" title="千年人合">
 
             <i class="nick" title="千年人合">千年人合</i>
 
@@ -4653,7 +4653,7 @@
 
         <a href="http://www.huya.com/216119012" class="video-info new-clickstat" target="_blank" report='{"eid":"click/position","position":"index/column/100036/3","game_id":"1751","ayyuid":"228937859"}'>
 
-        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/b47194352255eb0542f0460d3f8b7a3c4cd39a3d?imageview/4/0/w/338/h/190/blur/1" src="images/338x190.jpg" onerror="this.onerror=null; this.src='images/338x190.jpg';" alt="啊啊啊啊啊a的直播" title="啊啊啊啊啊a的直播">
+        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/b47194352255eb0542f0460d3f8b7a3c4cd39a3d?imageview/4/0/w/338/h/190/blur/1" src="../images/338x190.jpg" onerror="this.onerror=null; this.src='../images/338x190.jpg';" alt="啊啊啊啊啊a的直播" title="啊啊啊啊啊a的直播">
 
                 <div class="item-mask"></div>
 
@@ -4667,7 +4667,7 @@
 
         <span class="avatar fl">
 
-            <img data-original="//huyaimg.msstatic.com/avatar/1040/0a/0e40cf9aeace7a2b27b9c85742b2fd_180_135.jpg" src="images/84x84.jpg" onerror="this.onerror=null; this.src='images/84x84.jpg';" alt="啊啊啊啊啊a" title="啊啊啊啊啊a">
+            <img data-original="//huyaimg.msstatic.com/avatar/1040/0a/0e40cf9aeace7a2b27b9c85742b2fd_180_135.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; this.src='../images/84x84.jpg';" alt="啊啊啊啊啊a" title="啊啊啊啊啊a">
 
             <i class="nick" title="啊啊啊啊啊a">啊啊啊啊啊a</i>
 
@@ -4685,7 +4685,7 @@
 
         <a href="http://www.huya.com/254678171" class="video-info new-clickstat" target="_blank" report='{"eid":"click/position","position":"index/column/100036/4","game_id":"1749","ayyuid":"342820958"}'>
 
-        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/e3cf370ce95657d51ec0876cd71ccf72cfb69eb0?imageview/4/0/w/338/h/190/blur/1" src="images/338x190.jpg" onerror="this.onerror=null; this.src='images/338x190.jpg';" alt="地主佬的直播" title="地主佬的直播">
+        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/e3cf370ce95657d51ec0876cd71ccf72cfb69eb0?imageview/4/0/w/338/h/190/blur/1" src="../images/338x190.jpg" onerror="this.onerror=null; this.src='../images/338x190.jpg';" alt="地主佬的直播" title="地主佬的直播">
 
                 <div class="item-mask"></div>
 
@@ -4699,7 +4699,7 @@
 
         <span class="avatar fl">
 
-            <img data-original="//huyaimg.msstatic.com/avatar/1040/18/6feb09c44a38e653917bddf64b51d3_180_135.jpg" src="images/84x84.jpg" onerror="this.onerror=null; this.src='images/84x84.jpg';" alt="地主佬" title="地主佬">
+            <img data-original="//huyaimg.msstatic.com/avatar/1040/18/6feb09c44a38e653917bddf64b51d3_180_135.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; this.src='../images/84x84.jpg';" alt="地主佬" title="地主佬">
 
             <i class="nick" title="地主佬">地主佬</i>
 
@@ -4725,7 +4725,7 @@
 
             <h2 class="title">
 
-                        <img src="images/game_15010638328048_logo.png" alt="图标" class="hy-column-normal">
+                        <img src="../images/game_15010638328048_logo.png" alt="图标" class="hy-column-normal">
 
                         <a target="_blank" href="http://www.huya.com/g/100049">狼人杀手游</a>
 
@@ -4825,7 +4825,7 @@
 
         <a href="http://www.huya.com/1249559940" class="video-info new-clickstat" target="_blank" report='{"eid":"click/position","position":"index/column/100049/1","game_id":"2774","ayyuid":"1159801892"}'>
 
-        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/b64f6b8c3eae11f906daa227c7b0af8dedb676ec?imageview/4/0/w/338/h/190/blur/1" src="images/338x190.jpg" onerror="this.onerror=null; this.src='images/338x190.jpg';" alt="小薇薇๑的直播" title="小薇薇๑的直播">
+        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/b64f6b8c3eae11f906daa227c7b0af8dedb676ec?imageview/4/0/w/338/h/190/blur/1" src="../images/338x190.jpg" onerror="this.onerror=null; this.src='../images/338x190.jpg';" alt="小薇薇๑的直播" title="小薇薇๑的直播">
 
                 <div class="item-mask"></div>
 
@@ -4839,7 +4839,7 @@
 
         <span class="avatar fl">
 
-            <img data-original="//huyaimg.msstatic.com/avatar/1062/93/1e7767757428217f7892074abff5aa_180_135.jpg" src="images/84x84.jpg" onerror="this.onerror=null; this.src='images/84x84.jpg';" alt="小薇薇๑" title="小薇薇๑">
+            <img data-original="//huyaimg.msstatic.com/avatar/1062/93/1e7767757428217f7892074abff5aa_180_135.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; this.src='../images/84x84.jpg';" alt="小薇薇๑" title="小薇薇๑">
 
             <i class="nick" title="小薇薇๑">小薇薇๑</i>
 
@@ -4857,7 +4857,7 @@
 
         <a href="http://www.huya.com/king8888" class="video-info new-clickstat" target="_blank" report='{"eid":"click/position","position":"index/column/100049/2","game_id":"2774","ayyuid":"1101272"}'>
 
-        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/e7a6963ad413acc0ac9ef532890d6b9e48fd6749?imageview/4/0/w/338/h/190/blur/1" src="images/338x190.jpg" onerror="this.onerror=null; this.src='images/338x190.jpg';" alt="King太子哥的直播" title="King太子哥的直播">
+        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/e7a6963ad413acc0ac9ef532890d6b9e48fd6749?imageview/4/0/w/338/h/190/blur/1" src="../images/338x190.jpg" onerror="this.onerror=null; this.src='../images/338x190.jpg';" alt="King太子哥的直播" title="King太子哥的直播">
 
                 <div class="item-mask"></div>
 
@@ -4871,7 +4871,7 @@
 
         <span class="avatar fl">
 
-            <img data-original="//huyaimg.msstatic.com/avatar/1043/3c/8a1b3e49042d11af62f60f4c29ba22_180_135.jpg" src="images/84x84.jpg" onerror="this.onerror=null; this.src='images/84x84.jpg';" alt="King太子哥" title="King太子哥">
+            <img data-original="//huyaimg.msstatic.com/avatar/1043/3c/8a1b3e49042d11af62f60f4c29ba22_180_135.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; this.src='../images/84x84.jpg';" alt="King太子哥" title="King太子哥">
 
             <i class="nick" title="King太子哥">King太子哥</i>
 
@@ -4889,7 +4889,7 @@
 
         <a href="http://www.huya.com/v587jiaoshou" class="video-info new-clickstat" target="_blank" report='{"eid":"click/position","position":"index/column/100049/3","game_id":"2785","ayyuid":"1547868259"}'>
 
-        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/64f1d0752d3b382e392b79e7db0110592a99af64?imageview/4/0/w/338/h/190/blur/1" src="images/338x190.jpg" onerror="this.onerror=null; this.src='images/338x190.jpg';" alt="吾等楷模姚叫兽的直播" title="吾等楷模姚叫兽的直播">
+        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/64f1d0752d3b382e392b79e7db0110592a99af64?imageview/4/0/w/338/h/190/blur/1" src="../images/338x190.jpg" onerror="this.onerror=null; this.src='../images/338x190.jpg';" alt="吾等楷模姚叫兽的直播" title="吾等楷模姚叫兽的直播">
 
                 <div class="item-mask"></div>
 
@@ -4903,7 +4903,7 @@
 
         <span class="avatar fl">
 
-            <img data-original="//huyaimg.msstatic.com/avatar/1072/e6/e80784281ca2b7f99956a6e6b0e7b3_180_135.jpg" src="images/84x84.jpg" onerror="this.onerror=null; this.src='images/84x84.jpg';" alt="吾等楷模姚叫兽" title="吾等楷模姚叫兽">
+            <img data-original="//huyaimg.msstatic.com/avatar/1072/e6/e80784281ca2b7f99956a6e6b0e7b3_180_135.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; this.src='../images/84x84.jpg';" alt="吾等楷模姚叫兽" title="吾等楷模姚叫兽">
 
             <i class="nick" title="吾等楷模姚叫兽">吾等楷模姚叫兽</i>
 
@@ -4921,7 +4921,7 @@
 
         <a href="http://www.huya.com/2010750833" class="video-info new-clickstat" target="_blank" report='{"eid":"click/position","position":"index/column/100049/4","game_id":"2785","ayyuid":"1758146922"}'>
 
-        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/a0b4af9e304d706482061973b0d5590ba4026fbf?imageview/4/0/w/338/h/190/blur/1" src="images/338x190.jpg" onerror="this.onerror=null; this.src='images/338x190.jpg';" alt="LiuSir的直播" title="LiuSir的直播">
+        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/a0b4af9e304d706482061973b0d5590ba4026fbf?imageview/4/0/w/338/h/190/blur/1" src="../images/338x190.jpg" onerror="this.onerror=null; this.src='../images/338x190.jpg';" alt="LiuSir的直播" title="LiuSir的直播">
 
                 <div class="item-mask"></div>
 
@@ -4935,7 +4935,7 @@
 
         <span class="avatar fl">
 
-            <img data-original="//huyaimg.msstatic.com/avatar/1027/f0/eedd346972316bb34f4966c2333e7c_180_135.jpg" src="images/84x84.jpg" onerror="this.onerror=null; this.src='images/84x84.jpg';" alt="LiuSir" title="LiuSir">
+            <img data-original="//huyaimg.msstatic.com/avatar/1027/f0/eedd346972316bb34f4966c2333e7c_180_135.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; this.src='../images/84x84.jpg';" alt="LiuSir" title="LiuSir">
 
             <i class="nick" title="LiuSir">LiuSir</i>
 
@@ -4961,7 +4961,7 @@
 
             <h2 class="title">
 
-                        <img src="images/game_14919798448191_logo.png" alt="图标" class="hy-column-normal">
+                        <img src="../images/game_14919798448191_logo.png" alt="图标" class="hy-column-normal">
 
                         <a target="_blank" href="http://www.huya.com/g/lol">英雄联盟</a>
 
@@ -5045,7 +5045,7 @@
 
         <a href="http://www.huya.com/kaerlol" class="video-info new-clickstat" target="_blank" report='{"eid":"click/position","position":"index/column/1/1","game_id":"1","ayyuid":"367138632"}'>
 
-        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/81efa30390342d8ab4ee862baa9188c176cd36c3?imageview/4/0/w/338/h/190/blur/1" src="images/338x190.jpg" onerror="this.onerror=null; this.src='images/338x190.jpg';" alt="卡尔的直播" title="卡尔的直播">
+        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/81efa30390342d8ab4ee862baa9188c176cd36c3?imageview/4/0/w/338/h/190/blur/1" src="../images/338x190.jpg" onerror="this.onerror=null; this.src='../images/338x190.jpg';" alt="卡尔的直播" title="卡尔的直播">
 
         <em class="tag tag-recommend">超级明星</em>        <div class="item-mask"></div>
 
@@ -5059,7 +5059,7 @@
 
         <span class="avatar fl">
 
-            <img data-original="//huyaimg.msstatic.com/avatar/1084/b7/896bc815db9560eabbcb4a227f62ba_180_135.jpg" src="images/84x84.jpg" onerror="this.onerror=null; this.src='images/84x84.jpg';" alt="卡尔" title="卡尔">
+            <img data-original="//huyaimg.msstatic.com/avatar/1084/b7/896bc815db9560eabbcb4a227f62ba_180_135.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; this.src='../images/84x84.jpg';" alt="卡尔" title="卡尔">
 
             <i class="nick" title="卡尔">卡尔</i>
 
@@ -5077,7 +5077,7 @@
 
         <a href="http://www.huya.com/baozha" class="video-info new-clickstat" target="_blank" report='{"eid":"click/position","position":"index/column/1/2","game_id":"1","ayyuid":"17363578"}'>
 
-        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/c1dda4963d25b55832f40e7d692296ee303ae7bd?imageview/4/0/w/338/h/190/blur/1" src="images/338x190.jpg" onerror="this.onerror=null; this.src='images/338x190.jpg';" alt="炸姐ADC的直播" title="炸姐ADC的直播">
+        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/c1dda4963d25b55832f40e7d692296ee303ae7bd?imageview/4/0/w/338/h/190/blur/1" src="../images/338x190.jpg" onerror="this.onerror=null; this.src='../images/338x190.jpg';" alt="炸姐ADC的直播" title="炸姐ADC的直播">
 
         <em class="tag tag-recommend">大神推荐</em>        <div class="item-mask"></div>
 
@@ -5091,7 +5091,7 @@
 
         <span class="avatar fl">
 
-            <img data-original="//huyaimg.msstatic.com/avatar/1095/83/2aa2f6905fe4382221d08b66d7cdcb_180_135.jpg" src="images/84x84.jpg" onerror="this.onerror=null; this.src='images/84x84.jpg';" alt="炸姐ADC" title="炸姐ADC">
+            <img data-original="//huyaimg.msstatic.com/avatar/1095/83/2aa2f6905fe4382221d08b66d7cdcb_180_135.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; this.src='../images/84x84.jpg';" alt="炸姐ADC" title="炸姐ADC">
 
             <i class="nick" title="炸姐ADC">炸姐ADC</i>
 
@@ -5109,7 +5109,7 @@
 
         <a href="http://www.huya.com/s7" class="video-info new-clickstat" target="_blank" report='{"eid":"click/position","position":"index/column/1/3","game_id":"1","ayyuid":"1346609715"}'>
 
-        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/b2a9cb9b82393bdce95fefa7ff2c169d7074c459?imageview/4/0/w/338/h/190/blur/1" src="images/338x190.jpg" onerror="this.onerror=null; this.src='images/338x190.jpg';" alt="S7英雄联盟全球总决赛的直播" title="S7英雄联盟全球总决赛的直播">
+        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/b2a9cb9b82393bdce95fefa7ff2c169d7074c459?imageview/4/0/w/338/h/190/blur/1" src="../images/338x190.jpg" onerror="this.onerror=null; this.src='../images/338x190.jpg';" alt="S7英雄联盟全球总决赛的直播" title="S7英雄联盟全球总决赛的直播">
 
                 <div class="item-mask"></div>
 
@@ -5123,7 +5123,7 @@
 
         <span class="avatar fl">
 
-            <img data-original="//huyaimg.msstatic.com/avatar/1042/6f/3626ef611e990cbbcefab8e1bbc561_180_135.jpg" src="images/84x84.jpg" onerror="this.onerror=null; this.src='images/84x84.jpg';" alt="S7英雄联盟全球总决赛" title="S7英雄联盟全球总决赛">
+            <img data-original="//huyaimg.msstatic.com/avatar/1042/6f/3626ef611e990cbbcefab8e1bbc561_180_135.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; this.src='../images/84x84.jpg';" alt="S7英雄联盟全球总决赛" title="S7英雄联盟全球总决赛">
 
             <i class="nick" title="S7英雄联盟全球总决赛">S7英雄联盟全球总决赛</i>
 
@@ -5141,7 +5141,7 @@
 
         <a href="http://www.huya.com/xuanlv" class="video-info new-clickstat" target="_blank" report='{"eid":"click/position","position":"index/column/1/4","game_id":"1","ayyuid":"171423073"}'>
 
-        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/f6c1316072e546cc127873bb90b95b422ab94c7e?imageview/4/0/w/338/h/190/blur/1" src="images/338x190.jpg" onerror="this.onerror=null; this.src='images/338x190.jpg';" alt="聆听-旋律的直播" title="聆听-旋律的直播">
+        <img class="pic" data-original="//screenshot.msstatic.com/yysnapshot/f6c1316072e546cc127873bb90b95b422ab94c7e?imageview/4/0/w/338/h/190/blur/1" src="../images/338x190.jpg" onerror="this.onerror=null; this.src='../images/338x190.jpg';" alt="聆听-旋律的直播" title="聆听-旋律的直播">
 
         <em class="tag tag-recommend">大神推荐</em>        <div class="item-mask"></div>
 
@@ -5155,7 +5155,7 @@
 
         <span class="avatar fl">
 
-            <img data-original="//huyaimg.msstatic.com/avatar/1001/87/9c235bb838b2e754559cf4840ef4fa_180_135.jpg" src="images/84x84.jpg" onerror="this.onerror=null; this.src='images/84x84.jpg';" alt="聆听-旋律" title="聆听-旋律">
+            <img data-original="//huyaimg.msstatic.com/avatar/1001/87/9c235bb838b2e754559cf4840ef4fa_180_135.jpg" src="../images/84x84.jpg" onerror="this.onerror=null; this.src='../images/84x84.jpg';" alt="聆听-旋律" title="聆听-旋律">
 
             <i class="nick" title="聆听-旋律">聆听-旋律</i>
 
@@ -5203,25 +5203,25 @@
 
 		            		            		            		            <li><a class="clickstat J_g_resource" data-pos="index/act/0" data-rsc="311" href="http://blog.huya.com/news/4564" target="_blank" title="KPL秋季赛" rel="nofollow" eid="click/home/event/event1" eid_desc="点击/首页/官方活动/官方活动1">
 
-		            	<img data-original="//huyaimg.msstatic.com/cdnimage/actprop/phpvADrAj1505963285.jpg" src="images/280x100.jpg" onerror="this.onerror=null; this.src='images/280x100.jpg';" alt="KPL秋季赛"/>
+		            	<img data-original="//huyaimg.msstatic.com/cdnimage/actprop/phpvADrAj1505963285.jpg" src="../images/280x100.jpg" onerror="this.onerror=null; this.src='../images/280x100.jpg';" alt="KPL秋季赛"/>
 
 		            	</a></li>
 
 		            		            		            <li><a class="clickstat J_g_resource" data-pos="index/act/1" data-rsc="303" href="http://www.huya.com/bpl" target="_blank" title="球球大作战BPL秋季赛" rel="nofollow" eid="click/home/event/event2" eid_desc="点击/首页/官方活动/官方活动2">
 
-		            	<img data-original="//huyaimg.msstatic.com/cdnimage/actprop/phpDuEZoI1504692295.jpg" src="images/280x100.jpg" onerror="this.onerror=null; this.src='images/280x100.jpg';" alt="球球大作战BPL秋季赛"/>
+		            	<img data-original="//huyaimg.msstatic.com/cdnimage/actprop/phpDuEZoI1504692295.jpg" src="../images/280x100.jpg" onerror="this.onerror=null; this.src='../images/280x100.jpg';" alt="球球大作战BPL秋季赛"/>
 
 		            	</a></li>
 
 		            		            		            <li><a class="clickstat J_g_resource" data-pos="index/act/2" data-rsc="312" href="http://blog.huya.com/news/4556" target="_blank" title="S7总决赛" rel="nofollow" eid="click/home/event/event3" eid_desc="点击/首页/官方活动/官方活动3">
 
-		            	<img data-original="//huyaimg.msstatic.com/cdnimage/actprop/phpTrLKQl1505966307.jpg" src="images/280x100.jpg" onerror="this.onerror=null; this.src='images/280x100.jpg';" alt="S7总决赛"/>
+		            	<img data-original="//huyaimg.msstatic.com/cdnimage/actprop/phpTrLKQl1505966307.jpg" src="../images/280x100.jpg" onerror="this.onerror=null; this.src='../images/280x100.jpg';" alt="S7总决赛"/>
 
 		            	</a></li>
 
 		            		            		            <li><a class="clickstat J_g_resource" data-pos="index/act/3" data-rsc="308" href="http://layer.huya.com/201709activity/index" target="_blank" title="虎牙有嘻哈" rel="nofollow" eid="click/home/event/event4" eid_desc="点击/首页/官方活动/官方活动4">
 
-		            	<img data-original="//huyaimg.msstatic.com/cdnimage/actprop/phpJ4dND71505443106.jpg" src="images/280x100.jpg" onerror="this.onerror=null; this.src='images/280x100.jpg';" alt="虎牙有嘻哈"/>
+		            	<img data-original="//huyaimg.msstatic.com/cdnimage/actprop/phpJ4dND71505443106.jpg" src="../images/280x100.jpg" onerror="this.onerror=null; this.src='../images/280x100.jpg';" alt="虎牙有嘻哈"/>
 
 		            	</a></li>
 
@@ -5569,7 +5569,7 @@
 
                 <a target="_blank" href="http://www.miitbeian.gov.cn">粤ICP备16120983号-1</a>|
 
-                <span><img src="images/j.gif" alt="">粤公网安备44011302000242号 </span>|
+                <span><img src="../images/j.gif" alt="">粤公网安备44011302000242号 </span>|
 
                 <a target="_blank" href="http://assets.dwstatic.com/common/docs/4401060100548.jpg">穗公网监备案证第4401060100548号</a>|
 
@@ -5605,13 +5605,13 @@
 
         <div class="huya-footer__hy-logo">
 
-            <img src="images/hy-logo.png" width="322" height="46"/>
+            <img src="../images/hy-logo.png" width="322" height="46"/>
 
-            <a target="_blank" id="_pingansec_bottomimagesmall_brand" href="http://si.trustutn.org/info?sn=950170109026610628628&certType=1"><img src="images/brand_bottom_small.jpg"/></a>
+            <a target="_blank" id="_pingansec_bottomimagesmall_brand" href="http://si.trustutn.org/info?sn=950170109026610628628&certType=1"><img src="../images/brand_bottom_small.jpg"/></a>
 
-            <a href="https://credit.szfw.org/CX20170721035218030329.html" target="_blank"><img src="images/sf.png" /></a>
+            <a href="https://credit.szfw.org/CX20170721035218030329.html" target="_blank"><img src="../images/sf.png" /></a>
 
-            <a href="https://credit.szfw.org/CX20170721035218020978.html" target="_blank"><img src="images/silver.jpg" /></a>
+            <a href="https://credit.szfw.org/CX20170721035218020978.html" target="_blank"><img src="../images/silver.jpg" /></a>
 
         </div>
 

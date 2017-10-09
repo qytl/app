@@ -20,7 +20,7 @@
     }
 </script>
 <div class="panel admin-panel margin-top">
-    <div class="panel-head" id="add"><strong><span class="icon-pencil-square-o"></span>添加内容</strong></div>
+    <div class="panel-head" id="add"><strong><span class="icon-pencil-square-o"></span>添加分类</strong></div>
     <div class="body-content">
         <form method="post" class="form-x" action="">
             <div class="form-group">
