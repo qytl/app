@@ -23,6 +23,12 @@
         .w-1000 .left-banner, .w-1000 .right-banner {
             background-image: url("//livewebbs2.msstatic.com/huya_1497000773_content.jpg");
         }
+
+        #sub-tab {
+            display: none;
+        }
+
+
     </style>
     <script data-fixed="true">
         var flashTime = new Date().getTime();
@@ -601,7 +607,7 @@
                                    eid_desc="点击/导航/注册">注册</a>
                             </div>
                         <?php } else { ?>
-                            <a class="clickstat" href="" eid_desc="点击/导航/登录">欢迎<?php echo session('user')['name'] ?></a>
+                            <a class="clickstat" href="?r=center/user_center" eid_desc="点击/导航/登录">欢迎<?php echo session('user')['name'] ?></a>
                             ,
                             <a href="?r=login/login_out">退出</a>
                         <?php } ?>
@@ -7725,10 +7731,43 @@
                                     </div>
                                 </div>
                             </div>
+
                         </div>
                         <div class="tab-unit" style="display: none;">
                             <div class="register-tab">
-                                <iframe scrolling="no" allowtransparency="true" height="370" frameborder="0"></iframe>
+                                <iframe scrolling="no" allowtransparency="true" height="370" frameborder="0">
+
+                                    <!--                            注册页面-->
+                                    <div id="sub-tab">
+                                        <form action="?r=login/submit" method="post" class="login-title">
+                                            <table>
+                                                <tr>帐号注册</tr>
+                                                <tr>
+                                                    <td>姓名：</td>
+                                                    <td><input type="text" name="name" id=""></td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td>&nbsp;</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>密码：</td>
+                                                    <td><input type="password" name="pwd" id=""></td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td>&nbsp;</td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td><input type="hidden" name="_token" value="<?= csrf_token() ?>"><input
+                                                                type="submit" value="确认注册"></td>
+                                                </tr>
+                                            </table>
+                                        </form>
+                                    </div>
+
+                                </iframe>
                                 <!-- <div><a class="reg-by-mail" href="#">使用邮箱注册&gt;</a></div> -->
                             </div>
                             <div class="register-tab">
@@ -7767,10 +7806,13 @@
 </body>
 <script src="js/jquery-1.7.2.min.js"></script>
 <script>
-    //登录页面默认隐藏,点击登录显示
-    $('#nav-login').click(function () {
-        $
+    //点击注册显示注册页面
+    $('.sub-tab').clcik(function () {
+        $('.login-title').hide();
+        $(this).show();
+
     })
+
     //关闭登录页面
     $('.login-close').click(function () {
         $('.huya-login-box').hide();
