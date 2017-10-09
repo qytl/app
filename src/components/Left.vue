@@ -35,7 +35,7 @@
             <li class="active">
               <a href="index.html">
                 <i class="icon-dashboard"></i>
-                <span class="menu-text"> 控制台 </span>
+                <span class="menu-text"> 登录 </span>
               </a>
             </li>
 <!-- 
@@ -135,6 +135,33 @@
              </ul>
            </li> -->
 
+            <!--//直播分类管理-->
+            <li>
+              <a href="#" class="dropdown-toggle">
+                <i class="icon-list"></i>
+                <span class="menu-text">分类管理 </span>
+
+                <b class="arrow icon-angle-down"></b>
+              </a>
+
+              <ul class="submenu">
+                <li>
+                  <a href="#/admin/type_list">
+                    <i class="icon-double-angle-right"></i>
+                    分类展示
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#/admin/type_add">
+                    <i class="icon-double-angle-right"></i>
+                    分类添加
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+
             <li>
               <a href="#" class="dropdown-toggle">
                 <i class="icon-list"></i>
@@ -169,16 +196,16 @@
 
               <ul class="submenu">
                 <li>
-                  <a href="#/admin/tables">
+                  <a href="#/admin/gifttable">
                     <i class="icon-double-angle-right"></i>
-                    礼品展示
+                    用户展示
                   </a>
                 </li>
 
                 <li>
-                  <a href="#/admin/giftadd">
+                  <a href="#/admin/formelements">
                     <i class="icon-double-angle-right"></i>
-                    礼品添加
+                    用户注册
                   </a>
                 </li>
               </ul>

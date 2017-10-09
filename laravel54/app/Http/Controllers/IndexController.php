@@ -9,14 +9,7 @@
 namespace App\Http\Controllers;
 
 class IndexController extends Controller{
-    //登录
-    public  function login(){
-        return view("/index/login");
-    }
-
-    //首页
-    public function index(){
-        return view("/index/index");
+    public function login(){        return view("/index/index");
     }
     //展示列表
     public function user(){

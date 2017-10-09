@@ -1,8 +1,7 @@
 <template>
 
 <div>
-	
-	
+
 
 <div class="main-content">
 					<div class="breadcrumbs" id="breadcrumbs">
@@ -23,7 +22,7 @@
 						<div class="nav-search" id="nav-search">
 							<form class="form-search">
 								<span class="input-icon">
-									<input type="text" placeholder="Search ..." class="nav-search-input" id="nav-search-input" autocomplete="off" @blur="modalshow()" v-model="search" />
+									<input type="text" placeholder="Search ..." class="nav-search-input" id="nav-search-input" autocomplete="off" />
 									<i class="icon-search nav-search-icon"></i>
 								</span>
 							</form>
@@ -85,7 +84,7 @@
 
 														<td>
 															<div class="visible-md visible-lg hidden-sm hidden-xs btn-group">
-																<button class="btn btn-xs btn-success" v-on:click="xiangqing(respon)">
+																<button class="btn btn-xs btn-success">
 																	<i class="icon-ok bigger-120"></i>
 																</button>
 
@@ -171,20 +170,13 @@
 
 <script>
 export default {
- 	
- 	data () {
-    return {
-      	search:'',
-    }
 
- 	},
   		
   
 
 	methods: {
 	upd: function (message) {
-  		//alert(message.id)
-  		window.location.href='#/admin/useredit/'+message.id
+  		alert(message.id)
   	},
   	cpage:function(message){
   		if (message==='prev') {
@@ -226,19 +218,6 @@ export default {
 	    	
 	        console.log(response)
 	        this.result = response.body
-	    });
-    },
-    xiangqing: function(message){
-    	alert('去做详情')
-    },
-    modalshow: function(){
-
-    	 	this.$http.jsonp(url+'?r=type/search&search='+this.search, {}, {
-	        emulateJSON: true
-	    }).then(function(response) {
-	    	 this.result=response.body
-	    }, function(response) {
-	    	 alert('错误')
 	    });
     },
    	},

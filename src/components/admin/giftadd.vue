@@ -46,18 +46,19 @@
 										<label class="col-sm-3 control-label no-padding-right" for="form-field-1" > 礼物名称 </label>
 
 										<div class="col-sm-9">
-											<input type="text" id="form-field-1" placeholder="请书写礼物的名称" class="col-xs-10 col-sm-5" v-model="username" />
+											<input type="text" id="form-field-1" placeholder="请书写礼物的名称" class="col-xs-10 col-sm-5" v-model="present_name" />
 										</div>
 
 									</div>
 
 									<div class="space-4"></div>
+								
 
 									<div class="form-group">
 										<label class="col-sm-3 control-label no-padding-right" for="form-field-2"> 礼物价格 </label>
 
 										<div class="col-sm-9">
-											<input type="password" id="form-field-2" placeholder="请书写礼物的价格" v-model="pwd" class="col-xs-10 col-sm-5" />
+											<input type="text" id="form-field-2" placeholder="请书写礼物的价格" v-model="present_price" class="col-xs-10 col-sm-5" />
 											<span class="help-inline col-xs-12 col-sm-7">
 												
 											</span>
@@ -65,12 +66,23 @@
 									</div>
 
 									<div class="space-4"></div>
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-2"> 礼物类型 </label>
+
+										<div class="col-sm-9">
+											<input type="text" id="form-field-2" placeholder="请书写礼物的类型" v-model="present_type" class="col-xs-10 col-sm-5" />
+											<span class="help-inline col-xs-12 col-sm-7">
+												
+											</span>
+										</div>
+									</div>
+									<div class="space-4"></div>
 									
 									<div class="form-group">
 										<label class="col-sm-3 control-label no-padding-right" for="form-field-2"> 礼物介绍 </label>
 
 										<div class="col-sm-9">
-											<input type="password" id="form-field-2" placeholder="请书写礼物的介绍" v-model="pwd" class="col-xs-10 col-sm-5" />
+											<input type="text" id="form-field-2" placeholder="请书写礼物的介绍" v-model="present_conte" class="col-xs-10 col-sm-5" />
 											<span class="help-inline col-xs-12 col-sm-7">
 												
 											</span>
@@ -114,7 +126,7 @@ export default {
   name: 'ifooter',
   data () {
     return {
-      username: '',
+      giftname: '',
       pwd:''
     }
 
@@ -122,21 +134,22 @@ export default {
 
   methods: {
     say: function (message) {
-      	
-		this.$http.jsonp(url+'?r=log&type=add&user_name='+this.username+'&user_pwd='+this.pwd, {}, {
+    	//alert(present_name) 
+    	//return;
+		this.$http.jsonp(url+'?r=gift/add&present_name='+this.present_name+'&present_price='+this.present_price+'&present_conte='+this.present_conte+'&present_type='+this.present_type, {}, {
 	        emulateJSON: true
 	    }).then(function(response) {
+	    
+	    	
 
 	    	//console.log(response)
 	 	    //this.result = response.body
 	 	   // alert('1253')
-	 	  window.location.href='#/admin/tables'
+	 	  window.location.href='#/admin/gifttable'
 
 	    }, function(response) {
-	   
-	        console.log(response)
-	        this.result = response.body
-	        window.location.href='#/admin/tables'
+	   		alert('接口有误');
+	     
 	    });
     
 
@@ -145,6 +158,7 @@ export default {
 
     }
   },
+
 
 
 
