@@ -21,7 +21,21 @@ class CenterController extends Controller{
     }
 
     public function pwd(){
-        return view('/user/user_pwd');
+        $user = DB::table('user')->select('id','user_name','user_pwd')->first();
+        $user = json_decode(json_encode($user),true);
+        return view('/user/user_pwd',['user'=>$user]);
+    }
+
+    public function aa(){
+        $post = $_POST;
+//        print_r($post);die;
+        $id = array('user_pwd'=>$post['user_pwd']);
+        $re = DB::table('user')->where('id',$post['id'])->update($id);
+        if ($re){
+            echo '<script>alert("修改成功");location.href="/user/user_center"</script>';
+        }else{
+            echo '<script>alert("修改失败");location.href="/user/user_pwd"</script>';
+        }
     }
 
     public function upd(){
