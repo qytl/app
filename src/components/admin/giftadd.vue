@@ -67,10 +67,10 @@
 
 									<div class="space-4"></div>
 									<div class="form-group">
-										<label class="col-sm-3 control-label no-padding-right" for="form-field-2"> 礼物数量 </label>
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-2"> 礼物类型 </label>
 
 										<div class="col-sm-9">
-											<input type="text" id="form-field-2" placeholder="请书写礼物的数量" v-model="present_count" class="col-xs-10 col-sm-5" />
+											<input type="text" id="form-field-2" placeholder="请书写礼物的类型" v-model="present_type" class="col-xs-10 col-sm-5" />
 											<span class="help-inline col-xs-12 col-sm-7">
 												
 											</span>
@@ -136,7 +136,7 @@ export default {
     say: function (message) {
     	//alert(present_name) 
     	//return;
-		this.$http.jsonp(url+'?r=gift/add&present_name='+this.present_name+'&present_price='+this.present_price+'&present_conte='+this.present_conte+'&present_count='+this.present_count, {}, {
+		this.$http.jsonp(url+'?r=gift/add&present_name='+this.present_name+'&present_price='+this.present_price+'&present_conte='+this.present_conte+'&present_type='+this.present_type, {}, {
 	        emulateJSON: true
 	    }).then(function(response) {
 	    
@@ -145,7 +145,7 @@ export default {
 	    	//console.log(response)
 	 	    //this.result = response.body
 	 	   // alert('1253')
-	 	 // window.location.href='#/admin/tables'
+	 	  window.location.href='#/admin/gifttable'
 
 	    }, function(response) {
 	   		alert('接口有误');
@@ -158,6 +158,7 @@ export default {
 
     }
   },
+
 
 
 

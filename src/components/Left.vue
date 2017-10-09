@@ -35,7 +35,7 @@
             <li class="active">
               <a href="index.html">
                 <i class="icon-dashboard"></i>
-                <span class="menu-text"> 控制台 </span>
+                <span class="menu-text"> 登录 </span>
               </a>
             </li>
 <!-- 
@@ -169,7 +169,7 @@
 
               <ul class="submenu">
                 <li>
-                  <a href="#/admin/tables">
+                  <a href="#/admin/gifttable">
                     <i class="icon-double-angle-right"></i>
                     礼品展示
                   </a>

@@ -24,6 +24,7 @@ import type from './components/admin/type';
 import Add from './components/admin/Add';
 import useredit from './components/admin/useredit';
 import giftadd from './components/admin/giftadd';
+import gifttable from './components/admin/gifttable';
 
 
 Vue.config.productionTip = false
@@ -32,6 +33,11 @@ Vue.config.productionTip = false
 
 var router = new VueRouter({
 	routes: [
+		{
+			path:'/',
+			component:Login,
+		},
+
 	   {
 	    path: '/article/add',
 	    component: Artadd,
@@ -40,7 +46,10 @@ var router = new VueRouter({
 	    path: '/admin/giftadd',
 	    component: giftadd,
 	  },
-	  
+	  {
+	    path: '/admin/gifttable',
+	    component: gifttable,
+	  },
 	  {
 	  	path: '/admin/formelements',
 	  	component:formelements,

@@ -28,14 +28,14 @@
 					<fieldset>
 						<label class="block clearfix">
 							<span class="block input-icon input-icon-right">
-								<input type="text" class="form-control" placeholder="Username" />
+								<input type="text" class="form-control" placeholder="Username" v-model='username' />
 								<i class="icon-user"></i>
 							</span>
 						</label>
 
 						<label class="block clearfix">
 							<span class="block input-icon input-icon-right">
-								<input type="password" class="form-control" placeholder="Password" />
+								<input type="password" class="form-control" placeholder="Password" v-model='password' />
 								<i class="icon-lock"></i>
 							</span>
 						</label>
@@ -48,7 +48,7 @@
 								<span class="lbl"> 记住我哦</span>
 							</label>
 
-							<button type="button" class="width-35 pull-right login btn btn-sm btn-primary">
+							<button type="button" class="width-35 pull-right login btn btn-sm btn-primary"  v-on:click="say()">
 								<i class="icon-key"></i>
 								登录
 							</button>
@@ -104,18 +104,34 @@
 		name: 'ilogin',
 		data () {
 			return {
-			message: ''
+			
 			}    
+		},
+
+		methods:{
+			 say:function(){
+			 	 			this.$http.jsonp(url+'?r=log&type=show&user_name='+this.username+'&user_pwd='+this.password, {}, {
+	       				 	emulateJSON: true
+	   			 			}).then(function(response) {
+	    						this.response = response.body
+	    						alert(this.response.msg)
+	    						if(this.response.status===1){
+	    					
+	    							window.location.href='index.html#/admin/tables'
+	    						}
+	   			 					
+	    					}, function(response) {
+	   								alert('接口有误');
+	     
+	    					});
+
+			 }
 		}
+
+
 	}
 
-	$('#login').click(function(){
-		$.ajax({
-			  type: "POST",
-			  url: "http://www.app.com/index.php?r=log",
-			  dataType: "script"
-			});
-	})
+	 
 
 
 
@@ -125,6 +141,6 @@
 
 <style type="text/css">
 	#navbar,#sidebar{
-		display:none;
+	
 	}
 </style>
