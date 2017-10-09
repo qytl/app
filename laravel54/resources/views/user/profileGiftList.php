@@ -689,28 +689,22 @@
                                         </form>
                                     </div>
                                     <table>
-                                        <tbody><tr class="tit-head">
-                                            <th>获得时间</th>
-                                            <th>礼物种类</th>
-                                            <th>礼物数量</th>
-                                            <th>送礼物的YY</th>
-                                            <th>礼物价值</th>
-                                            <!-- <th>来源</th> -->
-                                        </tr>
+                                        <tbody>
+                                            <tr class="tit-head">
+                                                <th>获得时间</th>
+                                                <th>礼物种类</th>
+                                                <th>礼物数量</th>
+                                                <th>送礼物的YY</th>
+                                                <th>礼物单价/元</th>
+                                            </tr>
 
-                                        <tr>
-                                            <td>总计</td>
-                                            <td class="num">
-                                            </td>
-                                            <td>
-                                            </td>
-                                            <td>
-                                            </td>
-                                            <td>
-                                                0                                         </td>
-                                            <td>
-                                            </td>
-                                        </tr>
+                                            <tr>
+                                                <td><?php echo $res[0]['o_time']?></td>
+                                                <td><?php echo $res[0]['gt_id']?></td>
+                                                <td><?php echo $res[0]['g_num']?></td>
+                                                <td><?php echo $res[0]['g_name']?></td>
+                                                <td><?php echo $res[0]['g_price']?></td>
+                                            </tr>
                                         </tbody>
                                     </table>
                                     <script type="text/javascript">
