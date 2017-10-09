@@ -653,7 +653,7 @@
                     <p class="msg_1">维护中...</p>
                     <p class="msg_2">当前功能不开放,请查看其它功能</p>
                 </div>
-                <a class="result" href="#"></a>
+                <a class="result" href="<?=url('center/maintain')?>"></a>
             </div>
         </div>
     </div>
