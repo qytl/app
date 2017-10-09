@@ -25,7 +25,7 @@ else
         Route::any('/'.$uri[4].'/'.$uri[5], ucfirst($uri[4]).'Controller@'.$uri[5]);
     }else{
         //Route::any('/'.$uri[2], ucfirst($uri[2]).'Controller@index');
-        Route::any('/', 'IndexController@index');
+        Route::any('/', 'LoginController@homepage');
     }
 
     /*Route::get('/', function () {
