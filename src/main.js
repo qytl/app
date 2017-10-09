@@ -7,7 +7,7 @@ import VueRouter from 'vue-router';
 import Resource from 'vue-resource';
 Vue.use(VueRouter);
 Vue.use(Resource);
-vue.user
+//vue.user
 
 import Artadd from './components/article/Add';
 import Artedit from './components/article/edit';
