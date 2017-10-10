@@ -11,7 +11,7 @@ use DB;
 class IndexController extends Controller{
     
 //    public function Login(){
-//        return view("/index/log");
+//        return view("/login/log");
 //    }
     //展示列表
     public function user(){

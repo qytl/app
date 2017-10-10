@@ -699,10 +699,8 @@
                                         </tr>
                                        <?php foreach ($res as $k=>$v){ ?>
                                         <tr>
-
-
                                             <td><?php echo date('Y-m-d H:i:s',$v['o_time']) ?></td>
-                                            <td><?php echo $v['gt_id']?></td>
+                                            <td><?php echo $v['gt_name']?></td>
                                             <td><?php echo $v['g_num']?></td>
                                             <td><?php echo $v['g_name']?></td>
                                             <td><?php echo $v['g_price']?></td>
