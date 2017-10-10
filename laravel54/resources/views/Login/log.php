@@ -503,13 +503,16 @@
                 </div>
                 <!-- <span class="hy-nav-link"><a href="http://v.huya.com" class="hy-nav-title hiido_stat clickstat" hiido_code="10004227" target="_blank" eid="click/navi/video" eid_desc="点击/导航/视频">视频</a></span> -->
             </div>
-            <div class="duya-header-search clearfix" id="J_duyaHdSearch">
-                <form method="get" id="searchForm_id" name="navSearchForm" action="http://www.huya.com/search.php"
-                      target="_blank">
-                    <input name="hsk" value="主播、频道、游戏" autocomplete="off" type="text">
-                    <button type="submit" class="btn-search clickstat" eid="click/search/searchbutton"
-                            eid_desc="点击/搜索/搜索按钮"></button>
+            <div class="duya-header-search clearfix">
+                <form method="get" id="searchForm_id" name="navSearchForm" action="http://www.huya.com/search.php" target="_blank">
+                    <input value="主播、频道、游戏" id="search_find" type="text">
+                    <button type="button" id="search_game" class="btn-search clickstat" eid="click/search/searchbutton" eid_desc="点击/搜索/搜索按钮"></button>
                 </form>
+                <script>
+                    $('#search_game').click(function() {
+                        window.open('/?r=search/search&search='+$('#search_find').val())
+                    })
+                </script>
             </div>
             <div class="duya-header-gg clickstat" id="J_duyaHdGg" eid="click/push/navipic"
                  eid_desc="点击/推荐/顶部导航图片"></div>
