@@ -45,7 +45,7 @@ class LoginController extends Controller
 
             if($log['pwd']==$user->user_pwd)
             {
-                echo "登录成功！";
+                echo"<script>alert('欢迎来到BOBO!')</script>";
                 // 存储数据到session...
                 session(['user' => $log]);
                 // var_dump(session('user') );
