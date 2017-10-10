@@ -40,11 +40,12 @@ $('#box').delegate('input','blur',function () {
     //获取当前input的值
     var val = $(this).val();
     var id = $('#id').val();
-    var id = $(this).parent().parent().parent().attr("id")
+//    var id = $(this).parent().parent().parent().attr("id")
     var param = $(this).parent().attr("ass");
 
     //将值放入input的父节点.span
     $(this).parent().html(val);
+//    alert(id);
     $.ajax({
         type:"GET",
         url:"http://www.api.com/app/laravel54/public/index.php?r=center/upd",
