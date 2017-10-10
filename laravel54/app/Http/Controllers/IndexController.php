@@ -57,14 +57,14 @@ class IndexController extends Controller{
         return view('/index/fenlei');
     }
 
-    //树状图
-    public function szt(){
-
-        $user = DB::table('img')->select('i_id','img_one','img_two','img_three','img_four','img_five','img_six')->first();
-        $user = json_decode(json_encode($user),true);
-//        print_r($txt);
-        return view('/user/user_szt',['user'=>$user]);
-    }
+//    //树状图
+//    public function szt(){
+//
+//        $user = DB::table('img')->select('i_id','img_one','img_two','img_three','img_four','img_five','img_six')->first();
+//        $user = json_decode(json_encode($user),true);
+////        print_r($txt);
+//        return view('/user/user_szt',['user'=>$user]);
+//    }
 
 
 
