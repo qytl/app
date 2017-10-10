@@ -1,4 +1,5 @@
-<html><head>
+<html>
+<head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -296,7 +297,7 @@
                         <h3 class="header">&nbsp;个人中心</h3>
                         <ul class="icon-filter">
                             <li>
-                                <a menu="home" href="http://i.huya.com/" class="selected">
+                                <a menu="home" href="?r=index/user" class="selected">
                                     <span class="icon icon-home"></span>
                                     <span class="title">
                                     我的信息
@@ -304,10 +305,10 @@
                                 </a>
                             </li>
                             <li>
-                                <a menu="userlevel" href="http://i.huya.com/index.php?m=UserLevel">
+                                <a menu="userlevel" href="?r=center/szt">
                                     <span class="icon icon-userlevel"></span>
                                     <span class="title">
-                                    等级成长
+                                    粉丝列表
                                 </span>
                                 </a>
                             </li>
@@ -337,16 +338,9 @@
                     <div class="nav-section" style="padding-bottom:0">
                         <h3 class="header">&nbsp;我是主播</h3>
                         <ul class="anchor-info">
+
                             <li>
-                                <a menu="profiler" href="<?=url('index/ProfileInfo')?>">
-                                    <span class="icon icon-anchor"></span>
-                                    <span class="title">
-                                    主播信息
-                                </span>
-                                </a>
-                            </li>
-                            <li>
-                                <a menu="profileFreezeAppeal" href="<?=url('index/ProfileFreezeAppeal')?>">
+                                <a menu="profileFreezeAppeal" href="http://i.huya.com/index.php?m=ProfileFreezeAppeal">
                                     <span class="icon icon-violation"></span>
                                     <span class="title">
                                     违规查询
@@ -362,7 +356,7 @@
                                 </a>
                                 <i class="new">new</i></li>
                             <li>
-                                <a menu="profileIncome" href="<?=url('index/MyAccount')?>">
+                                <a menu="profileIncome" href="http://i.huya.com/index.php?m=MyAccount&amp;do=profileGiftIncome&amp;from=profileIncome">
                                     <span class="icon icon-income"></span>
                                     <span class="title">
                                     主播收入
@@ -370,22 +364,21 @@
                                 </a>
                             </li>
                             <li>
-                                <a menu="profilefans" href="<?=url('index/ProfileFans')?>">
+                                <a menu="profileRoom" href="http://i.huya.com/index.php?m=ProfileRoomAuditor">
+                                    <span class="icon icon-room"></span>
+                                    <span class="title">
+                                    我的房管
+                                </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a menu="profilefans" href="http://i.huya.com/index.php?m=ProfileFans">
                                     <span class="icon icon-fans"></span>
                                     <span class="title">
                                     我的粉丝
                                 </span>
                                 </a>
                             </li>
-                            <!--                            <li>-->
-                            <!--                                <a menu="profileRoom" href="http://i.huya.com/index.php?m=ProfileRoomAuditor">-->
-                            <!--                                    <span class="icon icon-room"></span>-->
-                            <!--                                    <span class="title">-->
-                            <!--                                    我的房管-->
-                            <!--                                </span>-->
-                            <!--                                </a>-->
-                            <!--                            </li>-->
-
                             <!-- <li>
                                 <a menu="profileRecommendTag" href="http://i.huya.com/index.php?m=ProfileRecommendTag">
                                     <span class="icon icon-recommendtag"></span>
@@ -394,38 +387,38 @@
                                     </span>
                                 </a>
                             </li> -->
-                            <!--                            <li style="display:none;">-->
-                            <!--                                <a menu="myvideo" href="http://i.huya.com/index.php?m=MyVideo" class="hiido_stat" hiido_code="10004005">-->
-                            <!--                                    <span class="icon icon-admin-shot"></span>-->
-                            <!--                                    <span class="title">-->
-                            <!--                                    我的精彩镜头-->
-                            <!--                                </span>-->
-                            <!--                                </a>-->
-                            <!--                            </li>-->
-                            <!--                            <li>-->
-                            <!--                                <a menu="adminsetting" href="http://i.huya.com/index.php?m=ProfileSetting">-->
-                            <!--                                    <span class="icon icon-admin-setting"></span>-->
-                            <!--                                    <span class="title">-->
-                            <!--                                    主播设置-->
-                            <!--                                </span>-->
-                            <!--                                </a>-->
-                            <!--                            </li>-->
-                            <!--                            <li>-->
-                            <!--                                <a menu="sign" href="http://i.huya.com/index.php?m=ProfileSign">-->
-                            <!--                                    <span class="icon icon-sign"></span>-->
-                            <!--                                    <span class="title">-->
-                            <!--                                    公会签约-->
-                            <!--                                </span>-->
-                            <!--                                </a>-->
-                            <!--                            </li>-->
-                            <!--                            <li>-->
-                            <!--                                <a menu="match" href="http://i.huya.com/index.php?m=Match">-->
-                            <!--                                    <span class="icon icon-match"></span>-->
-                            <!--                                    <span class="title">-->
-                            <!--                                    赛事中心-->
-                            <!--                                </span>-->
-                            <!--                                </a>-->
-                            <!--                            </li>-->
+                            <li style="display:none;">
+                                <a menu="myvideo" href="http://i.huya.com/index.php?m=MyVideo" class="hiido_stat" hiido_code="10004005">
+                                    <span class="icon icon-admin-shot"></span>
+                                    <span class="title">
+                                    我的精彩镜头
+                                </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a menu="adminsetting" href="http://i.huya.com/index.php?m=ProfileSetting">
+                                    <span class="icon icon-admin-setting"></span>
+                                    <span class="title">
+                                    主播设置
+                                </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a menu="sign" href="http://i.huya.com/index.php?m=ProfileSign">
+                                    <span class="icon icon-sign"></span>
+                                    <span class="title">
+                                    公会签约
+                                </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a menu="match" href="http://i.huya.com/index.php?m=Match">
+                                    <span class="icon icon-match"></span>
+                                    <span class="title">
+                                    赛事中心
+                                </span>
+                                </a>
+                            </li>
                             <!--  <li>
                                  <a menu="ad" href="http://i.huya.com/index.php?m=Ad&do=adList">
                                      <span class="icon icon-ad"></span>
@@ -447,9 +440,6 @@
                                                     -->
                         </ul>
                     </div>
-
-
-
                     <div class="nav-section nav-ow">
                         <h3 class="header">&nbsp;我是OW</h3>
                         <ul class="ow">

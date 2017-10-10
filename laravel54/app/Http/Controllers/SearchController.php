@@ -23,7 +23,7 @@ class SearchController
     public $enableCsrfValidation = false; //关闭原有的表单验证类
     public function search()
     {   // echo "11";die;
-        $search=$_POST['hsk'];
+        $search=$_GET['search'];
 
        // dd($search);die;
 
@@ -33,41 +33,33 @@ class SearchController
         $sou=DB::select("select * from bo_search where search=:search",['search'=>$search]);
        //var_dump($sou);die;
       // $so=json_decode($sou,true);
+        //如果数据库没有搜索记录则添加一条
         if(empty($sou))
         {
             $res=DB::insert('insert into bo_search(search) values(?)',[$search]);
             if($res)
             {
-                echo "1";
+
                // 查询符合的数据
                $data= DB::table('theme')
                     ->where('theme', 'like','%'. $search.'%')
                     ->get();
                // $data=DB::select("select * from bo_theme where theme like:search",['search'=>$search]);
                 //dd($data);
-                return view('Search.search', ['users' => $data]);
+                return view('Type.type', ['users' => $data]);
             }
             else{
-                echo "搜孫失敗";
+                echo "<script>alert('小BO没有找到主人想看的呢,试试其他关键字☺..')</script>";
             }
 
         }
         else{
-            $times=$sou[0]->search_times;
-           $res=DB::update('update bo_search set search_times = ? where search = ?',[$times+1,$search]);
-            if($res)
-            {
-                echo "2";
-                $data= DB::table('theme')
+
+              $data= DB::table('theme')
                     ->where('theme', 'like','%'. $search.'%')
                     ->get();
               //  dd($data);
-                return view('Search.search', ['users' => $data]);
-            }
-            else
-            {
-                echo "添加失敗";
-            }
+                return view('Type.type', ['users' => $data]);
 
         }
 

@@ -11,6 +11,8 @@
 namespace App\Http\Controllers;
 use DB;
 class CenterController extends Controller{
+
+    //个人中心
     public function user_center(){
 
         $user = DB::table('user_center')->select('u_id','u_name','u_age','u_adress','u_sign')->first();
@@ -20,6 +22,7 @@ class CenterController extends Controller{
       //var_dump($user);
     }
 
+    //
     public function pwd(){
         $user = DB::table('user')->select('id','user_name','user_pwd')->first();
         $user = json_decode(json_encode($user),true);
@@ -38,6 +41,7 @@ class CenterController extends Controller{
         }
     }
 
+    //修改用户密码
     public function upd(){
         $param = $_GET;
         //print_r($param);die;
@@ -50,17 +54,22 @@ class CenterController extends Controller{
         }
     }
 
+    //维护
     public function maintain(){
         return view('/user/user_maintain');
     }
 
-    public function subscr(){
-        return view('/user/user_subscr');
+    //树状图 粉丝
+    public function szt(){
+
+        $user = DB::table('img')->select('i_id','img_one','img_two','img_three','img_four','img_five','img_six')->first();
+        $user = json_decode(json_encode($user),true);
+//        print_r($txt);
+        return view('/user/user_szt',['user'=>$user]);
     }
 
 
 }
-
 
 
 
