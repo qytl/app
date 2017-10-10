@@ -110,11 +110,19 @@
                 <div class="hy-nav-right un-login" style="display: block;">
                     <div class="hy-nav-title">
                         <i class="hy-nav-icon hy-nav-login-icon"></i>
-                        <div class="un-login-btn">
-                            <a class="clickstat" id="nav-login" href="#" eid="click/navi/sign" eid_desc="点击/导航/登录">登录</a>
-                            <i>|</i>
-                            <a class="clickstat" id="nav-regiest" href="#" eid="click/navi/login" eid_desc="点击/导航/注册">注册</a>
-                        </div>
+                        <!--                        判断session是否有用户信息,有显示,无登录-->
+                        <?php if (empty(session('user'))) { ?>
+                            <div class="un-login-btn">
+                                <a class="clickstat" id="nav-login" href="#" eid="click/navi/sign" eid_desc="点击/导航/登录">登录</a>
+                                <i>|</i>
+                                <a class="clickstat" id="nav-regiest" href="#" eid="click/navi/login"
+                                   eid_desc="点击/导航/注册">注册</a>
+                            </div>
+                        <?php } else { ?>
+                            <a class="clickstat" href="?r=index/user"
+                               eid_desc="点击/导航/登录">欢迎<?php echo session('user')['name'] ?></a>                            ,
+                            <a href="?r=login/login_out">退出</a>
+                        <?php } ?>
                     </div>
                 </div>
                 <div class="hy-nav-right nav-user success-login">
