@@ -54,6 +54,10 @@ class CenterController extends Controller{
         return view('/user/user_maintain');
     }
 
+    public function subscr(){
+        return view('/user/user_subscr');
+    }
+
 
 }
 

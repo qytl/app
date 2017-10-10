@@ -8,9 +8,11 @@
 
 namespace App\Http\Controllers;
 use DB;
-use Illuminate\Support\Facades\Session;
 class IndexController extends Controller{
-
+    
+//    public function Login(){
+//        return view("/login/log");
+//    }
     //展示列表
     public function user(){
         $user = DB::table('user_center')->select('u_name','u_age','u_adress','u_sign')->first();
@@ -46,37 +48,6 @@ class IndexController extends Controller{
     }
 
 
-    //主播信息
-    public  function ProfileInfo(){
-//        $session_name = Session::get('name');
-//        print_r($session_name);die;
-        return view("/gift/ProfileInfo");
-    }
-
-    //违规查询
-    public  function ProfileFreezeAppeal(){
-        return view("/gift/ProfileFreezeAppeal");
-    }
-
-    //主播收入
-    public  function MyAccount(){
-        return view("/gift/MyAccount");
-    }
-
-    //礼物清单
-    public  function profileGiftList(){
-        return view("/gift/profileGiftList");
-    }
-
-    //签约申请
-    public  function ProfileSign(){
-        return view("/gift/ProfileSign");
-    }
-
-    //我的粉丝
-    public  function ProfileFans(){
-        return view("/gift/ProfileFans");
-    }
 
 
 }
