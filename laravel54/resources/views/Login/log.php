@@ -5000,10 +5000,11 @@
         <h2 class="news-title ellipsis"><a target="_blank" class="J_g_resource clickstat" data-pos="index/news/tit" data-rsc="322" eid="click/push/indexnews/topnews" eid_desc="点击/活动/首页新闻/头条" href="http://www.huya.com/s7" title="英雄联盟全球总决赛 火热开战">英雄联盟全球总决赛 火热开战</a></h2>
         <div class="news-main">
                 <ul class="news-list">
+            <?php foreach($news as $v) {?>
                       <li class="news-item"><em class="news-type"><a class="news-type-link" target="_blank" href="http://blog.huya.com/news">新闻</a></em>
-                    <a target="_blank" href="http://blog.huya.com/news/4632" class="J_g_resource news-link clickstat ellipsis" data-pos="index/news/list/0" data-rsc="4632" eid="click/push/indexnews/words1" eid_desc="点击/推荐/首页新闻/文字新闻1" title="虎牙10.02-10.08一周赛事推荐">虎牙10.02-10.08一周赛事推荐  </a><span class="news-time">10/03</span>
+                    <a target="_blank" href="?r=news/meg&id=<?php echo $v['id']?>" class="J_g_resource news-link clickstat ellipsis" data-pos="index/news/list/0" data-rsc="4632" eid="click/push/indexnews/words1" eid_desc="点击/推荐/首页新闻/文字新闻1" title="<?php echo $v['title']?>"><?php echo $v['title']?></a><span class="news-time"><?php echo date('m-d',$v['creat_time'])?></span>
                      </li>
-
+<?php }?>
                         </ul>
             </div>
         <div class="hotTag">
