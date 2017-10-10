@@ -465,8 +465,8 @@
                         <div id="tab-click" class="mod-tab">
                             <div class="mod-tab-hd">
                                 <ul class="mod-tab-trigger J_nav">
-                                    <li class="selected"><a href="http://i.huya.com/index.php?m=MyAccount&do=profileGiftIncome&from=profileIncome">主播礼物收入</a></li>
-                                    <li><a href="<?=url('index/profileGiftList')?>">主播礼物清单</a></li>
+                                    <li class="selected"><a href="<?=url('gift/profileGiftIncome')?>">主播礼物收入</a></li>
+                                    <li><a href="<?=url('gift/profileGiftList')?>">主播礼物清单</a></li>
                                     <li><a href="http://i.huya.com/index.php?m=MyAccount&do=profileGuardDetail&from=profileIncome">主播守护明细</a></li>
                                     <li><a href="http://i.huya.com/index.php?m=MyAccount&do=goldbeanUserDetail&from=profileIncome">账号金元宝流水</a></li>
                                     <li><a href="http://i.huya.com/index.php?m=MyAccount&do=allCommissionDetail&from=profileIncome">账号直播佣金流水</a></li>

@@ -609,13 +609,13 @@
                                 </a>
                             </li>
                             <!-- <li>
-<a menu="texasHall" href="http://i.huya.com/index.php?m=PokerAdmin">
-<span class="icon icon-icon icon-teaxsHall"></span>
-<span class='title'>
-德州牌厅管理
-</span>
-</a>
-</li> -->
+                                    <a menu="texasHall" href="http://i.huya.com/index.php?m=PokerAdmin">
+                                    <span class="icon icon-icon icon-teaxsHall"></span>
+                                    <span class='title'>
+                                    德州牌厅管理
+                                    </span>
+                                    </a>
+                            </li> -->
                             <!--<li>
                                 <a menu="owstar" href="http://i.huya.com/index.php?m=Owscout">
                                     <span class="icon icon-star"></span>
@@ -655,10 +655,10 @@
                         <div id="tab-click" class="mod-tab">
                             <div class="mod-tab-hd">
                                 <ul class="mod-tab-trigger J_nav">
-                                    <li><a href="http://i.huya.com/index.php?m=MyAccount&amp;do=profileGiftIncome&amp;from=profileIncome">主播礼物收入</a></li>
+                                    <li><a href="<?=url('gift/profileGiftIncome')?>">主播礼物收入</a></li>
                                     <li class="selected"><a href="http://i.huya.com/index.php?m=MyAccount&amp;do=profileGiftList&amp;from=profileIncome">主播礼物清单</a></li>
                                     <li><a href="http://i.huya.com/index.php?m=MyAccount&amp;do=profileGuardDetail&amp;from=profileIncome">主播守护明细</a></li>
-                                    <!-- <li><a href="http://i.huya.com/index.php?m=MyAccount&do=goldbeanUserDetail&from=profileIncome">账号金元宝流水</a></li>
+                                     <li><a href="http://i.huya.com/index.php?m=MyAccount&do=goldbeanUserDetail&from=profileIncome">账号金元宝流水</a></li>
                                     <li><a href="http://i.huya.com/index.php?m=MyAccount&do=allCommissionDetail&from=profileIncome">账号直播佣金流水</a></li>
                                     <li><a href="http://i.huya.com/index.php?m=MyAccount&do=profileGoldbeanInteractiveDetail&from=profileIncome">互动游戏佣金</a></li>  -->
                                     <li><a href="http://i.huya.com/index.php?m=MyAccount&amp;do=nobleIncomeDetail&amp;from=profileIncome">贵族分成明细</a></li>
@@ -694,24 +694,22 @@
                                             <th>礼物种类</th>
                                             <th>礼物数量</th>
                                             <th>送礼物的YY</th>
-                                            <th>礼物价值</th>
+                                            <th>礼物单价/元</th>
                                             <!-- <th>来源</th> -->
                                         </tr>
-
+                                       <?php foreach ($res as $k=>$v){ ?>
                                         <tr>
-                                            <td>总计</td>
-                                            <td class="num">
-                                            </td>
-                                            <td>
-                                            </td>
-                                            <td>
-                                            </td>
-                                            <td>
-                                                0                                         </td>
-                                            <td>
-                                            </td>
+
+
+                                            <td><?php echo date('Y-m-d H:i:s',$v['o_time']) ?></td>
+                                            <td><?php echo $v['gt_id']?></td>
+                                            <td><?php echo $v['g_num']?></td>
+                                            <td><?php echo $v['g_name']?></td>
+                                            <td><?php echo $v['g_price']?></td>
                                         </tr>
+                                        <?php  } ?>
                                         </tbody>
+
                                     </table>
                                     <script type="text/javascript">
                                         $(document).ready(function(){
