@@ -13,6 +13,7 @@ class GiftController extends Controller{
 
     //主播礼物收入
     public  function  profileGiftIncome(){
+
         return view('/gift/profileGiftIncome');
     }
 
@@ -25,6 +26,24 @@ class GiftController extends Controller{
         //print_r($res);die;
         return view('gift/profileGiftList',['res'=>$res]);
 
+    }
+
+    //守护明细
+    public  function profileGuardDetail(){
+        $data = DB::select("select * from bo_income");
+        $data = json_decode(json_encode($data),true);
+        $res = [];
+        $time = [];
+        foreach($data as $k=>$v){
+            if($k==10)break;
+            $res[]=$v['in_money'];
+            $time[]=date('d',$v['in_time']);
+        }
+        $res = implode(',',$res);
+        $time = implode('","',$time);
+        $time = '"'.$time.'"';
+//       print_r($time);die;
+        return view('/gift/profileGuardDetail',['data'=>$res,'time'=>$time]);
     }
 
 }
