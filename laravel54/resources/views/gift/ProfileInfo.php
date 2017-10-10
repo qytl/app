@@ -135,7 +135,7 @@
                 <div class="hy-nav-right nav-user success-login" style="display: block;">
                     <a class="nav-user-title" href="http://i.huya.com/" target="_blank">
                         <img id="login-userAvatar" src="//huyaimg.msstatic.com/avatar/1036/c9/81b3c8628d849cef72a0a91e26acbf_180_135.jpg?0" alt="头像">
-                        <span id="login-username" title="吃嘛嘛香">吃嘛嘛香</span>
+                        <span id="login-username"><?php echo session('user')['name'] ?></span>
                         <i></i>
                         <b class="m-reddot" style="display: none;"></b></a>
                     <div class="nav-expand-list">
@@ -146,7 +146,7 @@
                                 <a class="avatar" id="J_huyaNavUserCardAvatar" href="http://i.huya.com/" target="_blank">
                                     <img src="//huyaimg.msstatic.com/avatar/1036/c9/81b3c8628d849cef72a0a91e26acbf_180_135.jpg?0" id="J_huyaNavUserCardAvatarImg">
                                 </a>
-                                <p class="nick" id="J_huyaNavUserCardNick"><span>吃嘛嘛香</span><i class="gender gender1"></i><i class="level-icon level-icon1"></i></p>
+                                <p class="nick" id="J_huyaNavUserCardNick"><span><?php echo session('user')['name'] ?></span><i class="gender gender1"></i><i class="level-icon level-icon1"></i></p>
                                 <p class="user-sign" id="J_huyaNavUserCardSign"><a href="http://i.huya.com/?m=UserInfo" target="_blank" class="edit_sign">点击编辑个性签名</a></p>
                                 <div class="exp clearfix">
                                     <div class="between">
@@ -715,7 +715,7 @@
                         </span>
                 </div>
                 <div class="user-data">
-                    <h3 id="nick" style="margin-right: 5px;">吃嘛嘛香</h3>
+                    <h3 id="nick" style="margin-right: 5px;"><?php echo session('user')['name'] ?></h3>
                     <!-- 修改昵称 -->
                     <!-- <span style="float:left;margin-right:10px;"><a id="changeNickA" class="clickstat" eid="click/grzx/zbxx/xgnc" eid_desc="点击/个人中心/主播信息/修改昵称" href="javascript:void(0);">修改昵称</a></span> -->
                     <div id="changeNick" style="float:left;margin-left:40px;display:none;">
