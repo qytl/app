@@ -47,6 +47,37 @@ class IndexController extends Controller{
         return view('/user/user_pwd',['user'=>$user]);
     }
 
+    //主播信息
+    public  function ProfileInfo(){
+        return view("/gift/ProfileInfo");
+    }
+
+    //违规查询
+    public  function ProfileFreezeAppeal(){
+        return view("/gift/ProfileFreezeAppeal");
+    }
+
+    //主播收入
+    public  function MyAccount(){
+        return view("/gift/MyAccount");
+    }
+
+    //礼物清单
+    public  function profileGiftList(){
+        return view("/gift/profileGiftList");
+    }
+
+    //签约申请
+    public  function ProfileSign(){
+        return view("/gift/ProfileSign");
+    }
+
+    //我的粉丝
+    public  function ProfileFans(){
+        return view("/gift/ProfileFans");
+    }
+
+
 
 
 
