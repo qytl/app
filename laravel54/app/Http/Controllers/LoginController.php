@@ -49,7 +49,11 @@ class LoginController extends Controller
                 // 存储数据到session...
                 session(['user' => $log]);
                 // var_dump(session('user') );
-                return view('Login.log');
+                //查询数据库里的新闻信息
+                $news=DB::table('news')->limit(5)->orderBy('creat_time','desc')->get();
+                $news=json_decode($news,true);
+                //var_dump($news);die;
+                return view('Login.log',compact('news'));
                 //return redirect('路由')->send();
             }
             else
