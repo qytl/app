@@ -467,78 +467,17 @@
                                 <ul class="mod-tab-trigger J_nav">
                                     <li class="selected"><a href="<?=url('gift/profileGiftIncome')?>">主播礼物收入</a></li>
                                     <li><a href="<?=url('gift/profileGiftList')?>">主播礼物清单</a></li>
-                                    <li><a href="http://i.huya.com/index.php?m=MyAccount&do=profileGuardDetail&from=profileIncome">主播守护明细</a></li>
-                                    <li><a href="http://i.huya.com/index.php?m=MyAccount&do=goldbeanUserDetail&from=profileIncome">账号金元宝流水</a></li>
-                                    <li><a href="http://i.huya.com/index.php?m=MyAccount&do=allCommissionDetail&from=profileIncome">账号直播佣金流水</a></li>
-                                    <li><a href="http://i.huya.com/index.php?m=MyAccount&do=profileGoldbeanInteractiveDetail&from=profileIncome">互动游戏佣金</a></li> -->
-                                    <li><a href="http://i.huya.com/index.php?m=MyAccount&do=nobleIncomeDetail&from=profileIncome">贵族收入明细</a></li>
-                                    <li><a href="http://i.huya.com/index.php?m=MyAccount&do=gameIncomeDetail&from=profileIncome">游戏收入明细</a></li>
-                                    <li><a href="http://i.huya.com/index.php?m=MyAccount&do=sailIncomeDetail&from=profileIncome">寻宝收入明细</a></li>
+                                    <li><a href="<?=url('gift/profileGuardDetail')?>">主播守护明细</a></li>
+<!--                                    <li><a href="http://i.huya.com/index.php?m=MyAccount&do=goldbeanUserDetail&from=profileIncome">账号金元宝流水</a></li>-->
+<!--                                    <li><a href="http://i.huya.com/index.php?m=MyAccount&do=allCommissionDetail&from=profileIncome">账号直播佣金流水</a></li>-->
+<!--                                    <li><a href="http://i.huya.com/index.php?m=MyAccount&do=profileGoldbeanInteractiveDetail&from=profileIncome">互动游戏佣金</a></li> -->-->
+<!--                                    <li><a href="http://i.huya.com/index.php?m=MyAccount&do=nobleIncomeDetail&from=profileIncome">贵族收入明细</a></li>-->
+<!--                                    <li><a href="http://i.huya.com/index.php?m=MyAccount&do=gameIncomeDetail&from=profileIncome">游戏收入明细</a></li>-->
+<!--                                    <li><a href="http://i.huya.com/index.php?m=MyAccount&do=sailIncomeDetail&from=profileIncome">寻宝收入明细</a></li>-->
                                 </ul>
                             </div>
                             <div class="mod-tab-bd J_content">
-                                <!--
-                                                <div class="mod-tab-content">
-                                                   <div class="calendar">
-                                                                                                    <form id="timeSelect" action="http://i.huya.com/index.php?m=MyAccount&do=profileGiftIncome&from=profileIncome" method="post">
 
-                                                           <label>
-                                                               <i>时间</i>
-                                                               <input type="hidden" name="type" value="customize" />
-                                                               <input  class="Wdate" type="text" id="datetime" name="datetime" onfocus="WdatePicker({dateFmt:'yyyy年MM月',vel:'realdateTime', maxDate: '%y-{%M-1}',onpicked:function(){$('#timeSelect').submit();}})" value="2017年09月"/>
-                                                               <input type="hidden" id="realdateTime" name="realdateTime" value="2017-09-01">
-                                                           </label>
-
-                                                           <span class="btn btn-check" onclick="$('#timeSelect').submit();">查看</span>
-                                                           <div class="contribute__total" style="float:right;margin-right:20px;">
-                                                            <div class="year__contribute">每月4号显示上月礼物收入明细</div>
-                                                            </div>
-                                                        </form>
-                                                       </div>
-                                                      <table>
-                                                       <tbody><tr class="tit-head">
-                                                            <th>获得时间</th>
-                                                            <th>礼物价值<i>（金元宝)</i></th>
-                                                            <!--<th>守护收入<i>（金元宝)</i></th>-->
-                                <!--                            <th>分成等级</th>
-                                                            <th>OW提成</th>
-                                                            <th>来源</th>
-                                                            <th>入账时间</th>
-                                                            <th>最终获得<i>（金元宝)</i></th>
-                                                        </tr>
-
-                                                                                      <!-- 总计 每页都有总计-->
-                                <!--                        <tr>
-                                                            <th>总计</th>
-                                                            <td class="num">0</td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td class="num">0</td>
-                                                        </tr>
-
-
-                                                        </tbody>
-                                                    </table>
-                                                    <script type="text/javascript">
-                    $(document).ready(function(){
-                        var indexUrl = '';
-                        var tmp=window.location.href;
-
-                        page_util = {
-                            gotopage: function (currentPage) {
-                                var form = document.getElementById('pageForm');
-                                form.action=indexUrl;
-                                document.getElementById('pageForm_page').value=currentPage;
-                                form.submit();
-                            }
-                        }
-                    });
-                </script>
-
-                                                </div>
-                                -->
                                 <div class="mod-tab-content">
                                     <div class="calendar">
                                         <form id="timeSelect">
@@ -605,45 +544,7 @@
     </div>
 </div>
 <!-- 详细信息 -->
-<div class="gift-level-detail" id="detail_dialog">
-    <table>
-        <tbody>
-        <tr class="tit-head">
-            <th>当月获得金元宝数量</th>
-            <th>月结兑换等级</th>
-            <th>结算比例</th>
-        </tr>
-        <tr>
-            <td>超过2500万</td>
-            <td>A</td>
-            <td>95%</td>
-        </tr>
-        <tr>
-            <td>500万≤数量<2500万</td>
-            <td>B</td>
-            <td>91%</td>
-        </tr>
-        <tr>
-            <td>50万≤数量<500万</td>
-            <td>C</td>
-            <td>87%</td>
-        </tr>
-        <tr>
-            <td>1万≤数量<50万</td>
-            <td>D</td>
-            <td>85%</td>
-        </tr>
-        <tr>
-            <td>1≤数量<1万</td>
-            <td>E</td>
-            <td>转成金豆</td>
-        </tr>
-        <tr class="active">
-            <td colspan=3>10月累计获得金元宝(未分成)：0</td>
-        </tr>
-        </tbody>
-    </table>
-</div>
+
 <script type="text/javascript" src="main/statics/js/account_profile_gift_list.js"></script>
 <script type="text/javascript" src="http://a.msstatic.com/huya/icenter/2.14/js/jquery.page.js"></script>
 <script type="text/javascript" src="http://a.msstatic.com/huya/icenter/2.17/js/account_income_profile.js?t=1507517544"></script>
