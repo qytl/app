@@ -441,7 +441,7 @@
                             src="//a.msstatic.com/huya/main/img/logo.png" alt="虎牙直播" width="120" height="36"></a>
             </h1>
             <div class="duya-header-nav">
-                <span class="hy-nav-link duya-header-on"><a href="http://www.huya.com/" class="hy-nav-title clickstat"
+                <span class="hy-nav-link duya-header-on"><a href="?r=login/homepage" class="hy-nav-title clickstat"
                                                             eid="click/navi/home" eid_desc="点击/导航/首页">首页</a></span>
                 <span class="hy-nav-link"><a href="http://www.huya.com/l" class="hy-nav-title hiido_stat clickstat"
                                              hiido_code="10004221" eid="click/navi/zhibo"
