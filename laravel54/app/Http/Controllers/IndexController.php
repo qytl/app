@@ -8,7 +8,9 @@
 
 namespace App\Http\Controllers;
 use DB;
+use Illuminate\Support\Facades\Session;
 class IndexController extends Controller{
+
 
     //展示列表
     public function user(){
@@ -44,6 +46,7 @@ class IndexController extends Controller{
         return view('/user/user_pwd',['user'=>$user]);
     }
 
+
     //主播信息
     public  function ProfileInfo(){
         return view("/gift/ProfileInfo");
@@ -73,9 +76,6 @@ class IndexController extends Controller{
     public  function ProfileFans(){
         return view("/gift/ProfileFans");
     }
-
-
-
 
 
 }
