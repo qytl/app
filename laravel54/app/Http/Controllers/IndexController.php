@@ -9,10 +9,7 @@
 namespace App\Http\Controllers;
 use DB;
 class IndexController extends Controller{
-    
-//    public function Login(){
-//        return view("/login/log");
-//    }
+
     //展示列表
     public function user(){
         $user = DB::table('user_center')->select('u_name','u_age','u_adress','u_sign')->first();
