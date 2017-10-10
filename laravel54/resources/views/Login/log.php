@@ -607,7 +607,7 @@
                                    eid_desc="点击/导航/注册">注册</a>
                             </div>
                         <?php } else { ?>
-                           <a class="clickstat" href="?r=center/user_center" eid_desc="点击/导航/登录">欢迎<?php echo session('user')['name'] ?></a>                            ,
+                           <a class="clickstat" href="?r=index/user" eid_desc="点击/导航/登录">欢迎<?php echo session('user')['name'] ?></a>                            ,
                             <a href="?r=login/login_out">退出</a>
                         <?php } ?>
                     </div>
