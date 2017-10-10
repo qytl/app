@@ -54,13 +54,17 @@ class CenterController extends Controller{
         return view('/user/user_maintain');
     }
 
-    public function subscr(){
-        return view('/user/user_subscr');
+    //树状图
+    public function szt(){
+
+        $user = DB::table('img')->select('i_id','img_one','img_two','img_three','img_four','img_five','img_six')->first();
+        $user = json_decode(json_encode($user),true);
+//        print_r($txt);
+        return view('/user/user_szt',['user'=>$user]);
     }
 
 
 }
-
 
 
 

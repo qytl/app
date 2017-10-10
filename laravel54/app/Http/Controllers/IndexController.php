@@ -9,7 +9,10 @@
 namespace App\Http\Controllers;
 use DB;
 class IndexController extends Controller{
-
+    
+//    public function Login(){
+//        return view("/login/log");
+//    }
     //展示列表
     public function user(){
         $user = DB::table('user_center')->select('u_name','u_age','u_adress','u_sign')->first();
@@ -44,36 +47,24 @@ class IndexController extends Controller{
         return view('/user/user_pwd',['user'=>$user]);
     }
 
-    //主播信息
-    public  function ProfileInfo(){
-        return view("/gift/ProfileInfo");
+    //直播
+    public function zb(){
+        return view('/index/index_zb');
     }
 
-    //违规查询
-    public  function ProfileFreezeAppeal(){
-        return view("/gift/ProfileFreezeAppeal");
+    //分类
+    public function fl(){
+        return view('/index/fenlei');
     }
 
-    //主播收入
-    public  function MyAccount(){
-        return view("/gift/MyAccount");
-    }
+    //树状图
+    public function szt(){
 
-    //礼物清单
-    public  function profileGiftList(){
-        return view("/gift/profileGiftList");
+        $user = DB::table('img')->select('i_id','img_one','img_two','img_three','img_four','img_five','img_six')->first();
+        $user = json_decode(json_encode($user),true);
+//        print_r($txt);
+        return view('/user/user_szt',['user'=>$user]);
     }
-
-    //签约申请
-    public  function ProfileSign(){
-        return view("/gift/ProfileSign");
-    }
-
-    //我的粉丝
-    public  function ProfileFans(){
-        return view("/gift/ProfileFans");
-    }
-
 
 
 
