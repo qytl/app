@@ -23,7 +23,10 @@ class LoginController extends Controller
     //public $enableCsrfValidation = false; //关闭原有的表单验证类
     public function homepage()
     {
-        return view('Login.log');
+        //查询数据库里的新闻信息
+        $news=DB::table('news')->limit(5)->orderBy('creat_time','desc')->get();
+        $news=json_decode($news,true);
+        return view('Login.log',compact('news'));
     }
     //退出登录
     public function login_out(Request $request)
@@ -49,7 +52,6 @@ class LoginController extends Controller
                 // 存储数据到session...
                 session(['user' => $log]);
                 // var_dump(session('user') );
-                //查询数据库里的新闻信息
                 $news=DB::table('news')->limit(5)->orderBy('creat_time','desc')->get();
                 $news=json_decode($news,true);
                 //var_dump($news);die;
