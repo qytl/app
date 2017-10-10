@@ -15,7 +15,6 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Support\Facades\DB;
-use yii\web\Request;
 use App\Http\Requests;
 
 class LoginController extends Controller
@@ -23,7 +22,16 @@ class LoginController extends Controller
     //public $enableCsrfValidation = false; //关闭原有的表单验证类
     public function homepage()
     {
-        return view('Login.login');
+        return view('Login.log');
+    }
+    //退出登录
+    public function login_out(Request $request)
+    {
+        //获取
+        //$data = $request->session()->all();
+        //删除
+        $request->session()->flush();
+        echo "<script>alert('退出成功');location.href='?r=login/homepage'</script>";
     }
     public function login()
     {
@@ -31,29 +39,36 @@ class LoginController extends Controller
       // var_dump($log);die;
         $user=DB::table('user')->where(['user_name'=>$log['name']])->first();
       //  print_r($user->user_name);die;
-        if(empty(json_encode($user,true)))
+        if($user)
         {
-            return view('Login.login');
-        }
-        else{
+
             if($log['pwd']==$user->user_pwd)
             {
                 echo "登录成功！";
-    // 存储数据到session...
+                // 存储数据到session...
                 session(['user' => $log]);
-               // var_dump(session('user') );
-                return view('Login.log');                //return redirect('路由')->send();
+                // var_dump(session('user') );
+                return view('Login.log');
+                //return redirect('路由')->send();
             }
             else
             {
-                return view('Login.login');
+                echo"<script>alert('密码不正确,请重新登录!')</script>";
+                return view('Login.log');
             }
+
         }
+        else
+        {
+            echo"<script>alert('用户名不存在,请重新登录!')</script>";
+            return view('Login.log');die;
+        }
+
     }
     public function submit()
     {
         $user_msg=$_POST;
-        $user=DB::table('user')->where(['user_name'=>$log['name']])->first();
+        $user=DB::table('user')->where(['user_name'=>$user_msg['name']])->first();
         if($user)
         {
             echo"<script>alert('Sorry,该用户名已存在!')</script>";
