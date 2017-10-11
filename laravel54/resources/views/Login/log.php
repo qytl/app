@@ -441,7 +441,7 @@
                             src="//a.msstatic.com/huya/main/img/logo.png" alt="虎牙直播" width="120" height="36"></a>
             </h1>
             <div class="duya-header-nav">
-                <span class="hy-nav-link duya-header-on"><a href="http://www.huya.com/" class="hy-nav-title clickstat"
+                <span class="hy-nav-link duya-header-on"><a href="?r=login/homepage" class="hy-nav-title clickstat"
                                                             eid="click/navi/home" eid_desc="点击/导航/首页">首页</a></span>
                 <span class="hy-nav-link"><a href="http://www.huya.com/l" class="hy-nav-title hiido_stat clickstat"
                                              hiido_code="10004221" eid="click/navi/zhibo"
@@ -503,20 +503,17 @@
                 </div>
                 <!-- <span class="hy-nav-link"><a href="http://v.huya.com" class="hy-nav-title hiido_stat clickstat" hiido_code="10004227" target="_blank" eid="click/navi/video" eid_desc="点击/导航/视频">视频</a></span> -->
             </div>
-            <div class="duya-header-search clearfix" id="J_duyaHdSearch">
-                <form method="get" id="searchForm_id" name="navSearchForm" action=""
-                      target="_blank">
-                    <input id="search" name="hsk" value="主播、频道、游戏" autocomplete="off" type="text">
-                    <button type="button" id="sou" class="btn-search clickstat" eid="click/search/searchbutton"
-                            eid_desc="点击/搜索/搜索按钮"></button>
+            <div class="duya-header-search clearfix">
+                <form method="get" id="searchForm_id" name="navSearchForm" action="http://www.huya.com/search.php" target="_blank">
+                    <input value="主播、频道、游戏" id="search_find" type="text">
+                    <button type="button" id="search_game" class="btn-search clickstat" eid="click/search/searchbutton" eid_desc="点击/搜索/搜索按钮"></button>
                 </form>
+                <script>
+                    $('#search_game').click(function() {
+                        location.href='/?r=search/search&search='+$('#search_find').val()
+                    })
+                </script>
             </div>
-            <script>
-                $('#sou').click(function(){
-                    var search=$('#search').val();
-                    window.open("?r=search/search&search="+search);
-                })
-            </script>
             <div class="duya-header-gg clickstat" id="J_duyaHdGg" eid="click/push/navipic"
                  eid_desc="点击/推荐/顶部导航图片"></div>
             <div class="duya-header-control clearfix">
@@ -613,8 +610,8 @@
                                    eid_desc="点击/导航/注册">注册</a>
                             </div>
                         <?php } else { ?>
-                            <a class="clickstat" href="?r=index/user" eid_desc="点击/导航/登录">欢迎<?php echo session('user')['name'] ?></a>
-                            ,
+                            <a class="clickstat" href="?r=index/user"
+                               eid_desc="点击/导航/登录">欢迎<?php echo session('user')['name'] ?></a>                            ,
                             <a href="?r=login/login_out">退出</a>
                         <?php } ?>
                     </div>
@@ -2142,11 +2139,12 @@
             <!--E 推广 -->
 
             <!--S 新闻 -->
-            <div class="news-box">
-                <h2 class="news-title ellipsis"><a target="_blank" class="J_g_resource clickstat"
-                                                   data-pos="index/news/tit" data-rsc="322"
-                                                   eid="click/push/indexnews/topnews" eid_desc="点击/活动/首页新闻/头条"
-                                                   href="http://www.huya.com/s7" title="英雄联盟全球总决赛 火热开战">英雄联盟全球总决赛
+            <div class="news-box"><h2 class="news-title ellipsis"><a target="_blank" class="J_g_resource clickstat"
+                                                                     data-pos="index/news/tit" data-rsc="322"
+                                                                     eid="click/push/indexnews/topnews"
+                                                                     eid_desc="点击/活动/首页新闻/头条"
+                                                                     href="http://www.huya.com/s7"
+                                                                     title="英雄联盟全球总决赛 火热开战">英雄联盟全球总决赛
                         火热开战</a></h2>
                 <div class="news-main">
                     <ul class="news-list">
@@ -2157,48 +2155,6 @@
                                data-rsc="4632" eid="click/push/indexnews/words1" eid_desc="点击/推荐/首页新闻/文字新闻1"
                                title="虎牙10.02-10.08一周赛事推荐">
                                 虎牙10.02-10.08一周赛事推荐 </a><span class="news-time">10/03</span></li>
-                        <li class="news-item"><em class="news-type"><a class="news-type-link" target="_blank"
-                                                                       href="http://blog.huya.com/news">新闻</a></em>
-                            <a target="_blank" href="http://blog.huya.com/news/4577"
-                               class="J_g_resource news-link clickstat ellipsis" data-pos="index/news/list/1"
-                               data-rsc="4577" eid="click/push/indexnews/words2" eid_desc="点击/推荐/首页新闻/文字新闻2"
-                               title="观看S7全球总决赛 赢惠普大奖">
-                                观看S7全球总决赛 赢惠普大奖 </a><span class="news-time">09/23</span></li>
-                        <li class="news-item"><em class="news-type"><a class="news-type-link" target="_blank"
-                                                                       href="http://blog.huya.com/news">新闻</a></em>
-                            <a target="_blank" href="http://blog.huya.com/news/4634"
-                               class="J_g_resource news-link clickstat ellipsis" data-pos="index/news/list/2"
-                               data-rsc="4634" eid="click/push/indexnews/words3" eid_desc="点击/推荐/首页新闻/文字新闻3"
-                               title="《God Lie》第二期预告片抢“鲜”观看">
-                                《God Lie》第二期预告片抢“鲜”观看 </a><span class="news-time">10/03</span></li>
-                        <li class="news-item"><em class="news-type"><a class="news-type-link" target="_blank"
-                                                                       href="http://blog.huya.com/news">新闻</a></em>
-                            <a target="_blank" href="http://blog.huya.com/news/4631"
-                               class="J_g_resource news-link clickstat ellipsis" data-pos="index/news/list/3"
-                               data-rsc="4631" eid="click/push/indexnews/words4" eid_desc="点击/推荐/首页新闻/文字新闻4"
-                               title="虎牙直播携手网易云音乐寻找少年歌者 60强直通区投票一触即发">
-                                虎牙直播携手网易云音乐寻找少年歌者 60强直通区投票一触即发 </a><span class="news-time">10/03</span></li>
-                        <li class="news-item"><em class="news-type"><a class="news-type-link" target="_blank"
-                                                                       href="http://blog.huya.com/news">新闻</a></em>
-                            <a target="_blank" href="http://blog.huya.com/news/4630"
-                               class="J_g_resource news-link clickstat ellipsis" data-pos="index/news/list/4"
-                               data-rsc="4630" eid="click/push/indexnews/words5" eid_desc="点击/推荐/首页新闻/文字新闻5"
-                               title="【单机国庆特别活动】：主播独立游戏大作战">
-                                【单机国庆特别活动】：主播独立游戏大作战 </a><span class="news-time">10/01</span></li>
-                        <li class="news-item"><em class="news-type"><a class="news-type-link" target="_blank"
-                                                                       href="http://blog.huya.com/news">新闻</a></em>
-                            <a target="_blank" href="http://blog.huya.com/news/4627"
-                               class="J_g_resource news-link clickstat ellipsis" data-pos="index/news/list/5"
-                               data-rsc="4627" eid="click/push/indexnews/words6" eid_desc="点击/推荐/首页新闻/文字新闻6"
-                               title="户外丨渔乐达人——花落谁家已知晓！">
-                                户外丨渔乐达人——花落谁家已知晓！ </a><span class="news-time">09/30</span></li>
-                        <li class="news-item"><em class="news-type"><a class="news-type-link" target="_blank"
-                                                                       href="http://blog.huya.com/policy">政策</a></em>
-                            <a target="_blank" href="http://blog.huya.com/policy/477"
-                               class="J_g_resource news-link clickstat ellipsis" data-pos="index/news/list/6"
-                               data-rsc="477" eid="click/push/indexnews/words7" eid_desc="点击/推荐/首页新闻/文字新闻7"
-                               title="9.18-9.24球球大作战公会的奖励名单">
-                                9.18-9.24球球大作战公会的奖励名单 </a><span class="news-time">09/30</span></li>
                     </ul>
                 </div>
                 <div class="hotTag">
@@ -5047,27 +5003,11 @@
         <h2 class="news-title ellipsis"><a target="_blank" class="J_g_resource clickstat" data-pos="index/news/tit" data-rsc="322" eid="click/push/indexnews/topnews" eid_desc="点击/活动/首页新闻/头条" href="http://www.huya.com/s7" title="英雄联盟全球总决赛 火热开战">英雄联盟全球总决赛 火热开战</a></h2>
         <div class="news-main">
                 <ul class="news-list">
-                                                                <li class="news-item"><em class="news-type"><a class="news-type-link" target="_blank" href="http://blog.huya.com/news">新闻</a></em>
-                    <a target="_blank" href="http://blog.huya.com/news/4632" class="J_g_resource news-link clickstat ellipsis" data-pos="index/news/list/0" data-rsc="4632" eid="click/push/indexnews/words1" eid_desc="点击/推荐/首页新闻/文字新闻1" title="虎牙10.02-10.08一周赛事推荐">
-                        虎牙10.02-10.08一周赛事推荐                    </a><span class="news-time">10/03</span></li>
-                                                        <li class="news-item"><em class="news-type"><a class="news-type-link" target="_blank" href="http://blog.huya.com/news">新闻</a></em>
-                    <a target="_blank" href="http://blog.huya.com/news/4577" class="J_g_resource news-link clickstat ellipsis" data-pos="index/news/list/1" data-rsc="4577" eid="click/push/indexnews/words2" eid_desc="点击/推荐/首页新闻/文字新闻2" title="观看S7全球总决赛 赢惠普大奖">
-                        观看S7全球总决赛 赢惠普大奖                    </a><span class="news-time">09/23</span></li>
-                                                        <li class="news-item"><em class="news-type"><a class="news-type-link" target="_blank" href="http://blog.huya.com/news">新闻</a></em>
-                    <a target="_blank" href="http://blog.huya.com/news/4634" class="J_g_resource news-link clickstat ellipsis" data-pos="index/news/list/2" data-rsc="4634" eid="click/push/indexnews/words3" eid_desc="点击/推荐/首页新闻/文字新闻3" title="《God Lie》第二期预告片抢“鲜”观看">
-                        《God Lie》第二期预告片抢“鲜”观看                    </a><span class="news-time">10/03</span></li>
-                                                        <li class="news-item"><em class="news-type"><a class="news-type-link" target="_blank" href="http://blog.huya.com/news">新闻</a></em>
-                    <a target="_blank" href="http://blog.huya.com/news/4631" class="J_g_resource news-link clickstat ellipsis" data-pos="index/news/list/3" data-rsc="4631" eid="click/push/indexnews/words4" eid_desc="点击/推荐/首页新闻/文字新闻4" title="虎牙直播携手网易云音乐寻找少年歌者 60强直通区投票一触即发">
-                        虎牙直播携手网易云音乐寻找少年歌者 60强直通区投票一触即发                    </a><span class="news-time">10/03</span></li>
-                                                        <li class="news-item"><em class="news-type"><a class="news-type-link" target="_blank" href="http://blog.huya.com/news">新闻</a></em>
-                    <a target="_blank" href="http://blog.huya.com/news/4630" class="J_g_resource news-link clickstat ellipsis" data-pos="index/news/list/4" data-rsc="4630" eid="click/push/indexnews/words5" eid_desc="点击/推荐/首页新闻/文字新闻5" title="【单机国庆特别活动】：主播独立游戏大作战">
-                        【单机国庆特别活动】：主播独立游戏大作战                    </a><span class="news-time">10/01</span></li>
-                                                        <li class="news-item"><em class="news-type"><a class="news-type-link" target="_blank" href="http://blog.huya.com/news">新闻</a></em>
-                    <a target="_blank" href="http://blog.huya.com/news/4627" class="J_g_resource news-link clickstat ellipsis" data-pos="index/news/list/5" data-rsc="4627" eid="click/push/indexnews/words6" eid_desc="点击/推荐/首页新闻/文字新闻6" title="户外丨渔乐达人——花落谁家已知晓！">
-                        户外丨渔乐达人——花落谁家已知晓！                    </a><span class="news-time">09/30</span></li>
-                                                        <li class="news-item"><em class="news-type"><a class="news-type-link" target="_blank" href="http://blog.huya.com/policy">政策</a></em>
-                    <a target="_blank" href="http://blog.huya.com/policy/477" class="J_g_resource news-link clickstat ellipsis" data-pos="index/news/list/6" data-rsc="477" eid="click/push/indexnews/words7" eid_desc="点击/推荐/首页新闻/文字新闻7" title="9.18-9.24球球大作战公会的奖励名单">
-                        9.18-9.24球球大作战公会的奖励名单                    </a><span class="news-time">09/30</span></li>
+            <?php foreach($news as $v) {?>
+                      <li class="news-item"><em class="news-type"><a class="news-type-link" target="_blank" href="http://blog.huya.com/news">新闻</a></em>
+                    <a target="_blank" href="?r=news/meg&id=<?php echo $v['id']?>" class="J_g_resource news-link clickstat ellipsis" data-pos="index/news/list/0" data-rsc="4632" eid="click/push/indexnews/words1" eid_desc="点击/推荐/首页新闻/文字新闻1" title="<?php echo $v['title']?>"><?php echo $v['title']?></a><span class="news-time"><?php echo date('m-d',$v['creat_time'])?></span>
+                     </li>
+<?php }?>
                         </ul>
             </div>
         <div class="hotTag">
@@ -7041,6 +6981,7 @@
 </div>
             <!-- E 活动列表 -->
 
+
     </script>
 </div>
 
@@ -7766,7 +7707,8 @@
                                                 </tr>
                                                 <tr>
                                                     <td></td>
-                                                    <td><input type="hidden" name="_token" value="<?= csrf_token() ?>"><input
+                                                    <td><input type="hidden" name="_token"
+                                                               value="<?= csrf_token() ?>"><input
                                                                 type="submit" value="确认注册"></td>
                                                 </tr>
                                             </table>
