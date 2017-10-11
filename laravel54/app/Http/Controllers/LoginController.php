@@ -20,6 +20,14 @@ use Illuminate\Http\Request;
 
 class LoginController extends Controller
 {
+    //public $enableCsrfValidation = false; //关闭原有的表单验证类
+    public function homepage()
+    {
+        //查询数据库里的新闻信息
+        $news=DB::table('news')->limit(5)->orderBy('creat_time','desc')->get();
+        $news=json_decode($news,true);
+        return view('Login.log',compact('news'));
+    }
     //退出登录
     public function login_out(Request $request)
     {
@@ -29,28 +37,23 @@ class LoginController extends Controller
         $request->session()->flush();
         echo "<script>alert('退出成功');location.href='?r=login/homepage'</script>";
     }
-
-    //public $enableCsrfValidation = false; //关闭原有的表单验证类
-    public function homepage()
-    {
-        return view('Login.log');
-    }
     public function login()
     {
        $log=$_POST;
-      //var_dump($log);die;
-       // $user = DB::table('user')->select('user_name',$log['name'])->get();
+      // var_dump($log);die;
         $user=DB::table('user')->where(['user_name'=>$log['name']])->first();
-       //var_dump($user);die;
+      //  print_r($user->user_name);die;
         if($user)
         {
 
             if($log['pwd']==$user->user_pwd)
             {
-                echo "登录成功！";
+                echo"<script>alert('欢迎来到BOBO!')</script>";
                 // 存储数据到session...
                 session(['user' => $log]);
-               // var_dump(session('user') );
+                // var_dump(session('user') );
+
+                //var_dump($news);die;
                 return view('Login.log');
                 //return redirect('路由')->send();
             }
@@ -63,9 +66,10 @@ class LoginController extends Controller
         }
         else
         {
-            echo "<script>alert('用户名不存在,请重新登录!')</script>";
+            echo"<script>alert('用户名不存在,请重新登录!')</script>";
             return view('Login.log');die;
         }
+
     }
     public function submit()
     {
